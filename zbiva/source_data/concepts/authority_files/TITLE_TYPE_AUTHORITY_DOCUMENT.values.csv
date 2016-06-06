@@ -1,0 +1,5 @@
+conceptid,Value,ValueType,Provider 
+TITLE_TYPE:1,Primarni,label:sl,GCI
+TITLE_TYPE:2,Alternativni,label:sl,GCI
+TITLE_TYPE:1,Primär,label:de,GCI
+TITLE_TYPE:2,Alternative,label:de,GCI

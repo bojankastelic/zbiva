@@ -1,0 +1,49 @@
+conceptid,Value,ValueType,Provider
+FND:0,"",label:sl,GCI
+FND:0,"",label:de,GCI
+FND:1,"cerkev",label:sl,GCI
+FND:1,"Kirche",label:de,GCI
+FND:2,"cesta",label:sl,GCI
+FND:2,"Weg, Strasse",label:de,GCI
+FND:3,"delavnica ",label:sl,GCI
+FND:3,"Werkstatt",label:de,GCI
+FND:4,"grad",label:sl,GCI
+FND:4,"Schloss, Burg",label:de,GCI
+FND:5,"grobišče",label:sl,GCI
+FND:5,"Friedhof",label:de,GCI
+FND:6,"jama",label:sl,GCI
+FND:6,"Grube",label:de,GCI
+FND:7,"ljudska pripoved",label:sl,GCI
+FND:7,"Erzählung",label:de,GCI
+FND:8,"naselbina",label:sl,GCI
+FND:8,"Siedlung",label:de,GCI
+FND:9,"naselbina, cerkev",label:sl,GCI
+FND:9,"Siedlung, Kirche",label:de,GCI
+FND:10,"naselbina, cerkev, grobišče",label:sl,GCI
+FND:10,"Siedlung, Kirche, Friedhof",label:de,GCI
+FND:11,"naselbina, grobišče",label:sl,GCI
+FND:11,"Siedlung, Friedhof",label:de,GCI
+FND:12,"neopredeljeno",label:sl,GCI
+FND:12,"unbestimmt",label:de,GCI
+FND:13,"okop",label:sl,GCI
+FND:13,"Graben",label:de,GCI
+FND:14,"posamična najdba",label:sl,GCI
+FND:14,"Funde",label:de,GCI
+FND:15,"samostan",label:sl,GCI
+FND:15,"Kloster",label:de,GCI
+FND:16,"svetišče",label:sl,GCI
+FND:16,"Heiligtum",label:de,GCI
+FND:17,"utrdba",label:sl,GCI
+FND:17,"Festigung",label:de,GCI
+FND:18,"zaklad",label:sl,GCI
+FND:18,"Depot",label:de,GCI
+FND:19,"cerkev, grobišče",label:sl,GCI
+FND:19,"Kirche, Friedhof",label:de,GCI
+FND:20,"cerkev, samostan",label:sl,GCI
+FND:20,"Kirche, Kloster",label:de,GCI
+FND:21,"cerkev, grobišče, samostan",label:sl,GCI
+FND:21,"Kirche, Friedhof, Kloster",label:de,GCI
+FND:23,"utrdba, grobišče",label:sl,GCI
+FND:23,"Festigung, Friedhof",label:de,GCI
+FND:24,"cerkev, utrdba",label:sl,GCI
+FND:24,"Festigung, Kirche",label:de,GCI

@@ -1,0 +1,25 @@
+{% load i18n %}
+{% if 'DECEDENT_E21' in report_info.source.graph %}	
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="">
+				<dl class="report-item-list">
+				    {% for DECEDENT_E21 in report_info.source.graph.DECEDENT_E21 %}
+		                {% if 'GENDER_E55' in DECEDENT_E21 %}
+		                    <dt>
+				                <h5 id="" class="arches-report-subsection-title">{% trans "Decendent gender" %}</h5>
+				            </dt>
+
+				            {% for GENDER_E55 in DECEDENT_E21.GENDER_E55 %}
+                                <dd class="arches-report-subsection-item">
+                                    {{GENDER_E55.GENDER_E55__value}} 
+                                </dd>
+                            {% endfor %}
+                        {% endif %}
+		            {% endfor %}     
+				</dl>
+			</div>
+		</div>
+	</div>
+{% endif %}
+

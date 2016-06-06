@@ -1,0 +1,21 @@
+{% load i18n %}
+{% if 'PROPERTY_E55' in report_info.source.graph %}	
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="">
+				<dl class="report-item-list">
+				    {% for PROPERTY_E55 in report_info.source.graph.PROPERTY_E55 %}
+	                    <dt>
+			                <h5 id="" class="arches-report-subsection-title">{% trans "Property" %}</h5>
+			            </dt>
+
+                        <dd class="arches-report-subsection-item">
+                            {{PROPERTY_E55.PROPERTY_E55__value}} 
+                        </dd>
+    	            {% endfor %}     
+				</dl>
+			</div>
+		</div>
+	</div>
+{% endif %}
+

@@ -1,0 +1,469 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+OFT:J,"bead",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:JDO01,"secondary used as a pendant",,OFT:J,Index,EH
+OFT:JBA,"bead colour",,OFT:J,Index,EH
+OFT:JBA01,"white, grey",,OFT:JBA,Index,EH
+OFT:JBA02,"black",,OFT:JBA,Index,EH
+OFT:JBA03,"red, brown",,OFT:JBA,Index,EH
+OFT:JBA04,"yellow",,OFT:JBA,Index,EH
+OFT:JBA05,"green",,OFT:JBA,Index,EH
+OFT:JBA06,"blue",,OFT:JBA,Index,EH
+OFT:JBA07,"orange",,OFT:JBA,Index,EH
+OFT:JBA08,"colourless",,OFT:JBA,Index,EH
+OFT:JBA09,"greenish transparent",,OFT:JBA,Index,EH
+OFT:JBA10,"yellowish-brownish transparent",,OFT:JBA,Index,EH
+OFT:JBA11,"bluish transparent",,OFT:JBA,Index,EH
+OFT:JBA12,"other colour",,OFT:JBA,Index,EH
+OFT:JBA13,"bluish green",,OFT:JBA,Index,EH
+OFT:JOK,"decoration",,OFT:J,Index,EH
+OFT:JOK01,"indeterminable decoration",,OFT:JOK,Index,EH
+OFT:JOK02,"extruded decoration",,OFT:JOK,Index,EH
+OFT:JOK03,"flat decoration",,OFT:JOK,Index,EH
+OFT:JOK04,"wavy line",,OFT:JOK,Index,EH
+OFT:JOK05,"wavy lines",,OFT:JOK,Index,EH
+OFT:JOK06,"loop decoration",,OFT:JOK,Index,EH
+OFT:JOK07,"dots etc.",,OFT:JOK,Index,EH
+OFT:JOK08,"unsorted dots",,OFT:JOK,Index,EH
+OFT:JOK09,"sorted dots",,OFT:JOK,Index,EH
+OFT:JOK10,"concentric eyes",,OFT:JOK,Index,EH
+OFT:JOK11,"millefiori pattern",,OFT:JOK,Index,EH
+OFT:JOK12,"veil",,OFT:JOK,Index,EH
+OFT:JOK13,"cover",,OFT:JOK,Index,EH
+OFT:JOK14,"silver foil",,OFT:JOK,Index,EH
+OFT:JOK15,"golden foil",,OFT:JOK,Index,EH
+OFT:JOK16,"stripe, straight",,OFT:JOK,Index,EH
+OFT:JOK17,"stripe, spiral",,OFT:JOK,Index,EH
+OFT:JOK18,"stripe, wavy",,OFT:JOK,Index,EH
+OFT:JOK19,"other decoration",,OFT:JOK,Index,EH
+OFT:JOK20,"multicolour decoration",,OFT:JOK,Index,EH
+OFT:JOK21,"white monochrome decoration",,OFT:JOK,Index,EH
+OFT:JOK22,"green monochrome decoration",,OFT:JOK,Index,EH
+OFT:JOK23,"red monochrome decoration",,OFT:JOK,Index,EH
+OFT:JOK24,"blue monochrome decoration",,OFT:JOK,Index,EH
+OFT:JOK25,"yellow monochrome decoration",,OFT:JOK,Index,EH
+OFT:JOK26,"black monochrome decoration",,OFT:JOK,Index,EH
+OFT:JOK27,"no decoration",,OFT:JOK,Index,EH
+OFT:JSS,"glass",,OFT:J,Index,EH
+OFT:JSS01,"non-translucent glass",,OFT:JSS,Index,EH
+OFT:JSS02,"translucent glass",,OFT:JSS,Index,EH
+OFT:JSS03,"transparent glass",,OFT:JSS,Index,EH
+OFT:JSS04,"glass with small bubbles",,OFT:JSS,Index,EH
+OFT:JSS05,"glass with threads",,OFT:JSS,Index,EH
+OFT:JSS06,"other glass",,OFT:JSS,Index,EH
+OFT:JOP,"cross section",,OFT:J,Index,EH
+OFT:JOP01,"cross section: round",,OFT:JOP,Index,EH
+OFT:JOP02,"cross section: hollow",,OFT:JOP,Index,EH
+OFT:JOP03,"cross section: multipart",,OFT:JOP,Index,EH
+OFT:JOP04,"cross section: flat",,OFT:JOP,Index,EH
+OFT:JOP05,"cross section: rhombic",,OFT:JOP,Index,EH
+OFT:JOP06,"cross section: quadrangle",,OFT:JOP,Index,EH
+OFT:JOP07,"cross section: hexagonal",,OFT:JOP,Index,EH
+OFT:JOP08,"cross section: ribbed",,OFT:JOP,Index,EH
+OFT:JOP09,"other profile",,OFT:JOP,Index,EH
+OFT:JOS,"shape",,OFT:J,Index,EH
+OFT:JOS01,"coil-shaped",,OFT:JOS,Index,EH
+OFT:JOS02,"roll-shaped",,OFT:JOS,Index,EH
+OFT:JOS03,"globular-shaped",,OFT:JOS,Index,EH
+OFT:JOS04,"prong-shaped",,OFT:JOS,Index,EH
+OFT:JOS05,"biconical",,OFT:JOS,Index,EH
+OFT:JOS06,"polyedric-shaped",,OFT:JOS,Index,EH
+OFT:JOS07,"prism-shaped",,OFT:JOS,Index,EH
+OFT:JOS08,"poppy-seed-shaped",,OFT:JOS,Index,EH
+OFT:JOS09,"cylinder-shaped",,OFT:JOS,Index,EH
+OFT:JOS10,"spiral-shaped",,OFT:JOS,Index,EH
+OFT:JOS11,"almond-shaped",,OFT:JOS,Index,EH
+OFT:JOS12,"oblong-cylinder-shaped",,OFT:JOS,Index,EH
+OFT:JOS13,"other shape",,OFT:JOS,Index,EH
+OFT:JOS14,"spindle-shaped",,OFT:JOS,Index,EH
+OFT:LG,"position in the grave",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:LG001,"centre-back of the head",,OFT:LG,Index,EH
+OFT:LG002,"centre-front of the feet",,OFT:LG,Index,EH
+OFT:LG003,"left-back of the head",,OFT:LG,Index,EH
+OFT:LG004,"right-back of the head",,OFT:LG,Index,EH
+OFT:LG005,"right-center of the feet",,OFT:LG,Index,EH
+OFT:LG006,"left-center of the feet",,OFT:LG,Index,EH
+OFT:LG007,"right side of the head",,OFT:LG,Index,EH
+OFT:LG008,"left side of the head",,OFT:LG,Index,EH
+OFT:LG009,"head",,OFT:LG,Index,EH
+OFT:LG010,"right side of the neck",,OFT:LG,Index,EH
+OFT:LG011,"left side of the neck",,OFT:LG,Index,EH
+OFT:LG012,"neck",,OFT:LG,Index,EH
+OFT:LG013,"right shoulder",,OFT:LG,Index,EH
+OFT:LG014,"left shoulder",,OFT:LG,Index,EH
+OFT:LG015,"right side of the right shoulder",,OFT:LG,Index,EH
+OFT:LG016,"left side of the left shoulder",,OFT:LG,Index,EH
+OFT:LG017,"right side of the right upper arm",,OFT:LG,Index,EH
+OFT:LG018,"left side of the left upper arm",,OFT:LG,Index,EH
+OFT:LG019,"right upper arm",,OFT:LG,Index,EH
+OFT:LG020,"left upper arm",,OFT:LG,Index,EH
+OFT:LG021,"chest",,OFT:LG,Index,EH
+OFT:LG022,"right side of the right elbow",,OFT:LG,Index,EH
+OFT:LG023,"left side of the left elbow",,OFT:LG,Index,EH
+OFT:LG024,"right elbow",,OFT:LG,Index,EH
+OFT:LG025,"left elbow",,OFT:LG,Index,EH
+OFT:LG026,"right side of the right forearm",,OFT:LG,Index,EH
+OFT:LG027,"left side of the left forearm",,OFT:LG,Index,EH
+OFT:LG028,"right forearm",,OFT:LG,Index,EH
+OFT:LG029,"left forearm",,OFT:LG,Index,EH
+OFT:LG030,"abdominal area",,OFT:LG,Index,EH
+OFT:LG031,"right side of the right palm",,OFT:LG,Index,EH
+OFT:LG032,"left side of the left palm",,OFT:LG,Index,EH
+OFT:LG033,"right palm",,OFT:LG,Index,EH
+OFT:LG034,"left palm",,OFT:LG,Index,EH
+OFT:LG035,"pelvis",,OFT:LG,Index,EH
+OFT:LG036,"right side of the right upper leg",,OFT:LG,Index,EH
+OFT:LG037,"right side of the right upper leg",,OFT:LG,Index,EH
+OFT:LG038,"right upper leg",,OFT:LG,Index,EH
+OFT:LG039,"left upper leg",,OFT:LG,Index,EH
+OFT:LG040,"astride",,OFT:LG,Index,EH
+OFT:LG041,"right side of the right knee",,OFT:LG,Index,EH
+OFT:LG042,"left side of the left knee",,OFT:LG,Index,EH
+OFT:LG043,"right knee",,OFT:LG,Index,EH
+OFT:LG044,"left knee",,OFT:LG,Index,EH
+OFT:LG045,"between the knees",,OFT:LG,Index,EH
+OFT:LG046,"right side of the right lower leg",,OFT:LG,Index,EH
+OFT:LG047,"left side of the left upper leg",,OFT:LG,Index,EH
+OFT:LG048,"right lower leg",,OFT:LG,Index,EH
+OFT:LG049,"left upper leg",,OFT:LG,Index,EH
+OFT:LG050,"between the lower legs",,OFT:LG,Index,EH
+OFT:LG051,"right side of the right foot",,OFT:LG,Index,EH
+OFT:LG052,"left side of the left foot",,OFT:LG,Index,EH
+OFT:LG053,"right foot",,OFT:LG,Index,EH
+OFT:LG054,"left foot",,OFT:LG,Index,EH
+OFT:LG055,"between the feet",,OFT:LG,Index,EH
+OFT:LG056,"right",,OFT:LG,Index,EH
+OFT:LG057,"left",,OFT:LG,Index,EH
+OFT:LG058,"at the head",,OFT:LG,Index,EH
+OFT:LG059,"at the torso",,OFT:LG,Index,EH
+OFT:LG060,"st the legs",,OFT:LG,Index,EH
+OFT:LG061,"grave filling",,OFT:LG,Index,EH
+OFT:ME,"knife",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:MEO01,"blade curving into tip",,OFT:ME,Index,EH
+OFT:MEO02,"straight blade",,OFT:ME,Index,EH
+OFT:MEO03,"other form blade",,OFT:ME,Index,EH
+OFT:MED,"handle",,OFT:ME,Index,EH
+OFT:MED01,"wooden handle",,OFT:MED,Index,EH
+OFT:MED02,"bone or antler handle",,OFT:MED,Index,EH
+OFT:MED03,"metal handle",,OFT:MED,Index,EH
+OFT:MED04,"decorated handle",,OFT:MED,Index,EH
+OFT:MEH,"blade back",,OFT:ME,Index,EH
+OFT:MEH01,"straight blade back",,OFT:MEH,Index,EH
+OFT:MEH02,"blade back sloping",,OFT:MEH,Index,EH
+OFT:MEH03,"blade back curving into tip",,OFT:MEH,Index,EH
+OFT:MEH04,"blade back curving concave",,OFT:MEH,Index,EH
+OFT:MEH05,"other shape of blade back",,OFT:MEH,Index,EH
+OFT:MEL,"groove",,OFT:ME,Index,EH
+OFT:MEL01,"one-sided blood grove",,OFT:MEL,Index,EH
+OFT:MEL02,"two-sided blood grove",,OFT:MEL,Index,EH
+OFT:MEL03,"at least one-sided blood grove",,OFT:MEL,Index,EH
+OFT:MEN,"sheath",,OFT:ME,Index,EH
+OFT:MEN01,"sheath wood",,OFT:MEN,Index,EH
+OFT:MEN02,"sheath leather",,OFT:MEN,Index,EH
+OFT:MEN03,"sheath metal",,OFT:MEN,Index,EH
+OFT:MEN04,"sheath shackle",,OFT:MEN,Index,EH
+OFT:MEPH,"transition into blade back",,OFT:ME,Index,EH
+OFT:MEPH4,"sloping into blade back",,OFT:MEPH,Index,EH
+OFT:MEPH5,"curving into blade back",,OFT:MEPH,Index,EH
+OFT:MEPH6,"transition into blade back in tiers",,OFT:MEPH,Index,EH
+OFT:MEPH7,"other transition into blade back",,OFT:MEPH,Index,EH
+OFT:MEPO,"transition into cutting edge",,OFT:ME,Index,EH
+OFT:MEPO1,"sloping into cutting edge",,OFT:MEPO,Index,EH
+OFT:MEPO2,"curving into cutting edge",,OFT:MEPO,Index,EH
+OFT:MEPO3,"transition into cutting edge in tiers",,OFT:MEPO,Index,EH
+OFT:MEPO8,"other transition into cutting edge",,OFT:MEPO,Index,EH
+OFT:MER,"blade",,OFT:ME,Index,EH
+OFT:MER01,"blade with one cutting edge",,OFT:MER,Index,EH
+OFT:MER02,"blade with two cutting edges",,OFT:MER,Index,EH
+OFT:MER03,"blade with grooves inlaid with other metal",,OFT:MER,Index,EH
+OFT:MEK,"blade tip",,OFT:ME,Index,EH
+OFT:MEK01,"tip at the blade back",,OFT:MEK,Index,EH
+OFT:MEK02,"tip closer to blade back",,OFT:MEK,Index,EH
+OFT:MEK03,"tip in the centre of blade back",,OFT:MEK,Index,EH
+OFT:MEK04,"tip closer to the cutting edge",,OFT:MEK,Index,EH
+OFT:MEK05,"tip at the cutting edge",,OFT:MEK,Index,EH
+OFT:MET,"whitle tang",,OFT:ME,Index,EH
+OFT:METO1,"whittle tang",,OFT:MET,Index,EH
+OFT:METO2,"flat whittle tang",,OFT:MET,Index,EH
+OFT:METO3,"other tang",,OFT:MET,Index,EH
+OFT:METO4,"scale tang ",,OFT:MET,Index,EH
+OFT:OH,"state of preservation",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:OH001,"good",,OFT:OH,Index,EH
+OFT:OH002,"medium",,OFT:OH,Index,EH
+OFT:OH003,"bad",,OFT:OH,Index,EH
+OFT:OH004,"fragment",,OFT:OH,Index,EH
+OFT:OH005,"unpreserved",,OFT:OH,Index,EH
+OFT:OK,"find ",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:OK001,"settlement",,OFT:OK,Index,EH
+OFT:OK002,"cemetery",,OFT:OK,Index,EH
+OFT:OK003,"hoard",,OFT:OK,Index,EH
+OFT:OK004,"isolated find",,OFT:OK,Index,EH
+OFT:PO,"kitchenware",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:POB,"colour",,OFT:PO,Index,EH
+OFT:POB01,"inconsistent colour outside",,OFT:POB,Index,EH
+OFT:POB02,"light colour outside",,OFT:POB,Index,EH
+OFT:POB03,"dark colour outside",,OFT:POB,Index,EH
+OFT:POB04,"inconsistent colour inside",,OFT:POB,Index,EH
+OFT:POB05,"light colour inside",,OFT:POB,Index,EH
+OFT:POB06,"dark colour inside",,OFT:POB,Index,EH
+OFT:POB07,"light monochrome fabric",,OFT:POB,Index,EH
+OFT:POB08,"dark monochrome fabric",,OFT:POB,Index,EH
+OFT:POB09,"inconsistent fabric",,OFT:POB,Index,EH
+OFT:POD,"base",,OFT:PO,Index,EH
+OFT:POD01,"no imprints",,OFT:POD,Index,EH
+OFT:POD02,"wheel's axis",,OFT:POD,Index,EH
+OFT:POD03,"base disk without marking",,OFT:POD,Index,EH
+OFT:POD04,"base disk with marking",,OFT:POD,Index,EH
+OFT:POD05,"marking only",,OFT:POD,Index,EH
+OFT:POD06,"circular marking made while removing (the pot) from the base",,OFT:POD,Index,EH
+OFT:POD07,"base disk, possibly with marking",,OFT:POD,Index,EH
+OFT:POH,"state of preservation",,OFT:PO,Index,EH
+OFT:POH01,"whole",,OFT:POH,Index,EH
+OFT:POH02,"rim (and body)",,OFT:POH,Index,EH
+OFT:POH03,"neck (and body)",,OFT:POH,Index,EH
+OFT:POH04,"body",,OFT:POH,Index,EH
+OFT:POH05,"base",,OFT:POH,Index,EH
+OFT:POH06,"handle or stem",,OFT:POH,Index,EH
+OFT:POH07,"foot",,OFT:POH,Index,EH
+OFT:POI,"manufacturing technique",,OFT:PO,Index,EH
+OFT:POI01,"fully hand made",,OFT:POI,Index,EH
+OFT:POI02,"wheel thrown",,OFT:POI,Index,EH
+OFT:POI03,"rim smoothened",,OFT:POI,Index,EH
+OFT:POI04,"smoothened from rim to including shoulder",,OFT:POI,Index,EH
+OFT:POI05,"smoothened bellow the shoulder",,OFT:POI,Index,EH
+OFT:POI06,"smoothened entirely",,OFT:POI,Index,EH
+OFT:POI07,"still base",,OFT:POI,Index,EH
+OFT:POI08,"shard smoothened",,OFT:POI,Index,EH
+OFT:POI09,"shard unsmoothened",,OFT:POI,Index,EH
+OFT:POI10,"slow potters wheel",,OFT:POI,Index,EH
+OFT:POI16,"POI16",,OFT:POI,Index,EH
+OFT:POO,"decoration",,OFT:PO,Index,EH
+OFT:POO01,"one horizontal line",,OFT:POO,Index,EH
+OFT:POO02,"singular stab (one or repeated)",,OFT:POO,Index,EH
+OFT:POO03,"short cut (one or more)",,OFT:POO,Index,EH
+OFT:POO04,"one wavy line",,OFT:POO,Index,EH
+OFT:POO05,"one horizontal band of lines",,OFT:POO,Index,EH
+OFT:POO06,"askew band of lines (one or more)",,OFT:POO,Index,EH
+OFT:POO07,"one wavy line",,OFT:POO,Index,EH
+OFT:POO08,"stab or stabs with comb",,OFT:POO,Index,EH
+OFT:POO09,"decorated with comb",,OFT:POO,Index,EH
+OFT:POO10,"stamped",,OFT:POO,Index,EH
+OFT:POO11,"extruded linear decoration",,OFT:POO,Index,EH
+OFT:POO12,"painted",,OFT:POO,Index,EH
+OFT:POO13,"engobes",,OFT:POO,Index,EH
+OFT:POO14,"decorative polishing",,OFT:POO,Index,EH
+OFT:POO15,"addition of graphite",,OFT:POO,Index,EH
+OFT:POO16,"hollows",,OFT:POO,Index,EH
+OFT:POO17,"fingerprints",,OFT:POO,Index,EH
+OFT:POO18,"decorated outside",,OFT:POO,Index,EH
+OFT:POO19,"decorated inside",,OFT:POO,Index,EH
+OFT:POO20,"several horizontal lines",,OFT:POO,Index,EH
+OFT:POO21,"several wavy lines",,OFT:POO,Index,EH
+OFT:POO22,"several horizontal bands",,OFT:POO,Index,EH
+OFT:POO23,"several wavy bands",,OFT:POO,Index,EH
+OFT:POO24,"decorated with comb in perpendicular pattern",,OFT:POO,Index,EH
+OFT:POO25,"undecorated",,OFT:POO,Index,EH
+OFT:POO26,"grooves",,OFT:POO,Index,EH
+OFT:POO27,"unidirectional use of broom",,OFT:POO,Index,EH
+OFT:POO28,"perpendicular use of broom",,OFT:POO,Index,EH
+OFT:POO29,"corrugation",,OFT:POO,Index,EH
+OFT:POO30,"band",,OFT:POO,Index,EH
+OFT:POO31,"shiny surface",,OFT:POO,Index,EH
+OFT:POP,"addition",,OFT:PO,Index,EH
+OFT:POP01,"organic additives",,OFT:POP,Index,EH
+OFT:POP02,"no additives",,OFT:POP,Index,EH
+OFT:POP03,"silica (additive)",,OFT:POP,Index,EH
+OFT:POP04,"limestone (additive)",,OFT:POP,Index,EH
+OFT:POP05,"silver mica (additive)",,OFT:POP,Index,EH
+OFT:POP06,"golden mica (additive)",,OFT:POP,Index,EH
+OFT:POP07,"graphite (additive)",,OFT:POP,Index,EH
+OFT:POP08,"evenly sized additives",,OFT:POP,Index,EH
+OFT:POP09,"unevenly sized additives",,OFT:POP,Index,EH
+OFT:POP10,"few additives",,OFT:POP,Index,EH
+OFT:POP11,"medium amount of additives",,OFT:POP,Index,EH
+OFT:POP12,"many additives",,OFT:POP,Index,EH
+OFT:POP13,"other additives",,OFT:POP,Index,EH
+OFT:POP14,"tile particles (additive)",,OFT:POP,Index,EH
+OFT:POS,"burnt remains",,OFT:PO,Index,EH
+OFT:POSOH,"burnt remains",,OFT:POS,Index,EH
+OFT:POV,"type",,OFT:PO,Index,EH
+OFT:POV01,"serving, baking tray",,OFT:POV,Index,EH
+OFT:POV02,"bowl, mug",,OFT:POV,Index,EH
+OFT:POV03,"small bowl, cup",,OFT:POV,Index,EH
+OFT:POV04,"pot",,OFT:POV,Index,EH
+OFT:POV05,"jar, bottle",,OFT:POV,Index,EH
+OFT:POV06,"roasting platter",,OFT:POV,Index,EH
+OFT:POV07,"lid",,OFT:POV,Index,EH
+OFT:POV08,"stove tile",,OFT:POV,Index,EH
+OFT:POV09,"bucket, cauldron",,OFT:POV,Index,EH
+OFT:POV10,"baking dish",,OFT:POV,Index,EH
+OFT:POU,"rim type",,OFT:PO,Index,EH
+OFT:PO0A0,"PO0A0",,OFT:POU,Index,EH
+OFT:PO0A1,"PO0A1",,OFT:POU,Index,EH
+OFT:PO0A2,"PO0A2",,OFT:POU,Index,EH
+OFT:PO0A3,"PO0A3",,OFT:POU,Index,EH
+OFT:PO0A4,"PO0A4",,OFT:POU,Index,EH
+OFT:PO0A5,"PO0A5",,OFT:POU,Index,EH
+OFT:PO0A6,"PO0A6",,OFT:POU,Index,EH
+OFT:PO0A7,"PO0A7",,OFT:POU,Index,EH
+OFT:PO0A8,"PO0A8",,OFT:POU,Index,EH
+OFT:PO0A9,"PO0A9",,OFT:POU,Index,EH
+OFT:PO0B0,"PO0B0",,OFT:POU,Index,EH
+OFT:PO0B1,"PO0B1",,OFT:POU,Index,EH
+OFT:PO0B2,"PO0B2",,OFT:POU,Index,EH
+OFT:PO0B3,"PO0B3",,OFT:POU,Index,EH
+OFT:PO0B4,"PO0B4",,OFT:POU,Index,EH
+OFT:PO0B5,"PO0B5",,OFT:POU,Index,EH
+OFT:PO0B6,"PO0B6",,OFT:POU,Index,EH
+OFT:PO0B7,"PO0B7",,OFT:POU,Index,EH
+OFT:PO0B8,"PO0B8",,OFT:POU,Index,EH
+OFT:PO0B9,"PO0B9",,OFT:POU,Index,EH
+OFT:PO0C0,"PO0C0",,OFT:POU,Index,EH
+OFT:PO0C1,"PO0C1",,OFT:POU,Index,EH
+OFT:PO0C2,"PO0C2",,OFT:POU,Index,EH
+OFT:PO0C3,"PO0C3",,OFT:POU,Index,EH
+OFT:PO0C4,"PO0C4",,OFT:POU,Index,EH
+OFT:PO0C5,"PO0C5",,OFT:POU,Index,EH
+OFT:PO0C6,"PO0C6",,OFT:POU,Index,EH
+OFT:PO0C7,"PO0C7",,OFT:POU,Index,EH
+OFT:PO0C8,"PO0C8",,OFT:POU,Index,EH
+OFT:PO0C9,"PO0C9",,OFT:POU,Index,EH
+OFT:PO0D0,"PO0D0",,OFT:POU,Index,EH
+OFT:PO0D1,"PO0D1",,OFT:POU,Index,EH
+OFT:PO0D2,"PO0D2",,OFT:POU,Index,EH
+OFT:PO0D3,"PO0D3",,OFT:POU,Index,EH
+OFT:PO0D4,"PO0D4",,OFT:POU,Index,EH
+OFT:PO0D5,"PO0D5",,OFT:POU,Index,EH
+OFT:PO0D6,"PO0D6",,OFT:POU,Index,EH
+OFT:PO0D7,"PO0D7",,OFT:POU,Index,EH
+OFT:PO0D8,"PO0D8",,OFT:POU,Index,EH
+OFT:PO0D9,"PO0D9",,OFT:POU,Index,EH
+OFT:PO0E0,"PO0E0",,OFT:POU,Index,EH
+OFT:PO0E1,"PO0E1",,OFT:POU,Index,EH
+OFT:PO0E2,"PO0E2",,OFT:POU,Index,EH
+OFT:PO0E3,"PO0E3",,OFT:POU,Index,EH
+OFT:PO0E4,"PO0E4",,OFT:POU,Index,EH
+OFT:PO0E5,"PO0E5",,OFT:POU,Index,EH
+OFT:PO0E6,"PO0E6",,OFT:POU,Index,EH
+OFT:PO0E7,"PO0E7",,OFT:POU,Index,EH
+OFT:PO0E8,"PO0E8",,OFT:POU,Index,EH
+OFT:PO0E9,"PO0E9",,OFT:POU,Index,EH
+OFT:PO0F1,"PO0F1",,OFT:POU,Index,EH
+OFT:PO0F2,"PO0F2",,OFT:POU,Index,EH
+OFT:PO0F3,"PO0F3",,OFT:POU,Index,EH
+OFT:PO0F4,"PO0F4",,OFT:POU,Index,EH
+OFT:PO0F5,"PO0F5",,OFT:POU,Index,EH
+OFT:PO0F6,"PO0F6",,OFT:POU,Index,EH
+OFT:PO0F7,"PO0F7",,OFT:POU,Index,EH
+OFT:PO1A1,"PO1A1",,OFT:POU,Index,EH
+OFT:PO1B1,"PO1B1",,OFT:POU,Index,EH
+OFT:PO1C1,"PO1C1",,OFT:POU,Index,EH
+OFT:PO1D1,"PO1D1",,OFT:POU,Index,EH
+OFT:PO1E1,"PO1E1",,OFT:POU,Index,EH
+OFT:PO1F1,"PO1F1",,OFT:POU,Index,EH
+OFT:PO2A1,"PO2A1",,OFT:POU,Index,EH
+OFT:PO2A2,"PO2A2",,OFT:POU,Index,EH
+OFT:PO2A3,"PO2A3",,OFT:POU,Index,EH
+OFT:PO2A4,"PO2A4",,OFT:POU,Index,EH
+OFT:PO2A5,"PO2A5",,OFT:POU,Index,EH
+OFT:PO2A6,"PO2A6",,OFT:POU,Index,EH
+OFT:PO2A7,"PO2A7",,OFT:POU,Index,EH
+OFT:PO2A8,"PO2A8",,OFT:POU,Index,EH
+OFT:PO2A9,"PO2A9",,OFT:POU,Index,EH
+OFT:PO2B1,"PO2B1",,OFT:POU,Index,EH
+OFT:PO2B2,"PO2B2",,OFT:POU,Index,EH
+OFT:PO2B3,"PO2B3",,OFT:POU,Index,EH
+OFT:PO2B4,"PO2B4",,OFT:POU,Index,EH
+OFT:PO2B5,"PO2B5",,OFT:POU,Index,EH
+OFT:PO2B6,"PO2B6",,OFT:POU,Index,EH
+OFT:PO2B7,"PO2B7",,OFT:POU,Index,EH
+OFT:PO2B8,"PO2B8",,OFT:POU,Index,EH
+OFT:PO2B9,"PO2B9",,OFT:POU,Index,EH
+OFT:PO2C1,"PO2C1",,OFT:POU,Index,EH
+OFT:PO2C2,"PO2C2",,OFT:POU,Index,EH
+OFT:PO2C3,"PO2C3",,OFT:POU,Index,EH
+OFT:PO2C4,"PO2C4",,OFT:POU,Index,EH
+OFT:PO2C5,"PO2C5",,OFT:POU,Index,EH
+OFT:PO2C6,"PO2C6",,OFT:POU,Index,EH
+OFT:PO2C7,"PO2C7",,OFT:POU,Index,EH
+OFT:PO2C8,"PO2C8",,OFT:POU,Index,EH
+OFT:PO2C9,"PO2C9",,OFT:POU,Index,EH
+OFT:PO2D1,"PO2D1",,OFT:POU,Index,EH
+OFT:PO2D2,"PO2D2",,OFT:POU,Index,EH
+OFT:PO2D3,"PO2D3",,OFT:POU,Index,EH
+OFT:PO2D4,"PO2D4",,OFT:POU,Index,EH
+OFT:PO2D5,"PO2D5",,OFT:POU,Index,EH
+OFT:PO2D6,"PO2D6",,OFT:POU,Index,EH
+OFT:PO2D7,"PO2D7",,OFT:POU,Index,EH
+OFT:PO2E1,"PO2E1",,OFT:POU,Index,EH
+OFT:PO2F1,"PO2F1",,OFT:POU,Index,EH
+OFT:PO3A1,"PO3A1",,OFT:POU,Index,EH
+OFT:PO3B1,"PO3B1",,OFT:POU,Index,EH
+OFT:PO3C1,"PO3C1",,OFT:POU,Index,EH
+OFT:PO3D1,"PO3D1",,OFT:POU,Index,EH
+OFT:PO3E1,"PO3E1",,OFT:POU,Index,EH
+OFT:PO3F1,"PO3F1",,OFT:POU,Index,EH
+OFT:PO4A1,"PO4A1",,OFT:POU,Index,EH
+OFT:PO4B1,"PO4B1",,OFT:POU,Index,EH
+OFT:PO4C1,"PO4C1",,OFT:POU,Index,EH
+OFT:PO4D1,"PO4D1",,OFT:POU,Index,EH
+OFT:PO4E1,"PO4E1",,OFT:POU,Index,EH
+OFT:PO4F1,"PO4F1",,OFT:POU,Index,EH
+OFT:PO5A1,"PO5A1",,OFT:POU,Index,EH
+OFT:PO5B1,"PO5B1",,OFT:POU,Index,EH
+OFT:PO5C1,"PO5C1",,OFT:POU,Index,EH
+OFT:PO5D1,"PO5D1",,OFT:POU,Index,EH
+OFT:PO5E1,"PO5E1",,OFT:POU,Index,EH
+OFT:PO5F1,"PO5F1",,OFT:POU,Index,EH
+OFT:PO5G1,"PO5G1",,OFT:POU,Index,EH
+OFT:PO6A1,"PO6A1",,OFT:POU,Index,EH
+OFT:PO6B1,"PO6B1",,OFT:POU,Index,EH
+OFT:PO6C1,"PO6C1",,OFT:POU,Index,EH
+OFT:PO6D1,"PO6D1",,OFT:POU,Index,EH
+OFT:PO6E1,"PO6E1",,OFT:POU,Index,EH
+OFT:PO6F1,"PO6F1",,OFT:POU,Index,EH
+OFT:PO6G1,"PO6G1",,OFT:POU,Index,EH
+OFT:PO7A1,"PO7A1",,OFT:POU,Index,EH
+OFT:PO7B1,"PO7B1",,OFT:POU,Index,EH
+OFT:PO7C1,"PO7C1",,OFT:POU,Index,EH
+OFT:PO7D1,"PO7D1",,OFT:POU,Index,EH
+OFT:PO7E1,"PO7E1",,OFT:POU,Index,EH
+OFT:PO7F1,"PO7F1",,OFT:POU,Index,EH
+OFT:PO8A1,"PO8A1",,OFT:POU,Index,EH
+OFT:PO8B1,"PO8B1",,OFT:POU,Index,EH
+OFT:PO9A1,"PO9A1",,OFT:POU,Index,EH
+OFT:PO9B1,"PO9B1",,OFT:POU,Index,EH
+OFT:PO9C1,"PO9C1",,OFT:POU,Index,EH
+OFT:PO9D1,"PO9D1",,OFT:POU,Index,EH
+OFT:POTNT,"rim type undetermined",,OFT:POU,Index,EH
+OFT:POTXTU,"other rim type",,OFT:POU,Index,EH
+OFT:NO,"head circlet",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:NO0100_0201,"loop and hook",,OFT:NO,Index,EH
+OFT:NO0100_0501,"forged s-shaped loop",,OFT:NO,Index,EH
+OFT:NO0100_0606,"straight ends",,OFT:NO,Index,EH
+OFT:NO0100_0608,"one thickening at one end",,OFT:NO,Index,EH
+OFT:NO0100_0709,"several thickenings at one end",,OFT:NO,Index,EH
+OFT:NO0100_0808,"one thickening at both ends",,OFT:NO,Index,EH
+OFT:NO0100_0909,"several thickenings at both ends",,OFT:NO,Index,EH
+OFT:NO0205_0201,"hoop with short loops",,OFT:NO,Index,EH
+OFT:NO0300_0201,"hoop with long loop",,OFT:NO,Index,EH
+OFT:NO0500_0610,"forged crescent",,OFT:NO,Index,EH
+OFT:NO0600_0610,"cast crescent",,OFT:NO,Index,EH
+OFT:NO0700_0810,"astragal-shaped thickenings",,OFT:NO,Index,EH
+OFT:UH000,"other form of earring or circular pendant",,OFT:NO,Index,EH
+OFT:UH001,"UHO01",,OFT:NO,Index,EH
+OFT:UH002,"UHO02",,OFT:NO,Index,EH
+OFT:UH003,"UH003",,OFT:NO,Index,EH
+OFT:UH006,"UHO06",,OFT:NO,Index,EH
+OFT:UH007,"UHO07",,OFT:NO,Index,EH
+OFT:UH008,"UH008",,OFT:NO,Index,EH
+OFT:UH010,"UHO10",,OFT:NO,Index,EH
+OFT:UH013,"UHO13",,OFT:NO,Index,EH
+OFT:UH015,"UH015",,OFT:NO,Index,EH
+OFT:UH020,"UHO20",,OFT:NO,Index,EH
+OFT:UH034,"UHO34",,OFT:NO,Index,EH
+OFT:UH035,"UHO35",,OFT:NO,Index,EH
+OFT:ZA,"broche",,OBJECT_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+OFT:ZA001,"other form of broche",,OFT:ZA,Index,EH
+OFT:ZA002,"ZA002",,OFT:ZA,Index,EH
+OFT:ZA003,"ZA003",,OFT:ZA,Index,EH
+OFT:ZA004,"ZA004",,OFT:ZA,Index,EH

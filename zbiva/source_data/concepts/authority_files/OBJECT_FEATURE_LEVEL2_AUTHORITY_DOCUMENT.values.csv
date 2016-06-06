@@ -1,0 +1,63 @@
+conceptid,Value,ValueType,Provider
+OF2:J,"jagoda",label:sl,GCI
+OF2:J,"Perle",label:de,GCI
+OF2:JBA,"barva",label:sl,GCI
+OF2:JBA,"Perlenfarbe",label:de,GCI
+OF2:JOK,"okras",label:sl,GCI
+OF2:JOK,"Verzierung",label:de,GCI
+OF2:JSS,"steklo",label:sl,GCI
+OF2:JSS,"Glas",label:de,GCI
+OF2:JOP,"prerez",label:sl,GCI
+OF2:JOP,"Schnitt",label:de,GCI
+OF2:JOS,"oblika",label:sl,GCI
+OF2:JOS,"Form",label:de,GCI
+OF2:LG,"lega v grobu",label:sl,GCI
+OF2:LG,"Lage im Grab",label:de,GCI
+OF2:ME,"nož",label:sl,GCI
+OF2:ME,"Messer",label:de,GCI
+OF2:MED,"držaj",label:sl,GCI
+OF2:MED,"Griff",label:de,GCI
+OF2:MEH,"hrbet",label:sl,GCI
+OF2:MEH,"Rücken",label:de,GCI
+OF2:MEL,"kanal",label:sl,GCI
+OF2:MEL,"Hohlschliff",label:de,GCI
+OF2:MEN,"nožnica",label:sl,GCI
+OF2:MEN,"Scheide",label:de,GCI
+OF2:MEPH,"prehod v hrbet",label:sl,GCI
+OF2:MEPH,"Dorn-Rücken Absetzung",label:de,GCI
+OF2:MEPO,"prehod v ostrino",label:sl,GCI
+OF2:MEPO,"Dorn-Schneide Absetzung",label:de,GCI
+OF2:MER,"rezilo",label:sl,GCI
+OF2:MER,"Klinge",label:de,GCI
+OF2:MEK,"konica",label:sl,GCI
+OF2:MEK,"Spitze",label:de,GCI
+OF2:MET,"trn",label:sl,GCI
+OF2:MET,"Dorn",label:de,GCI
+OF2:OH,"ohranjenost",label:sl,GCI
+OF2:OH,"Erhaltungszustand",label:de,GCI
+OF2:OK,"najdba",label:sl,GCI
+OF2:OK,"Befund",label:de,GCI
+OF2:PO,"posoda",label:sl,GCI
+OF2:PO,"Gefäß",label:de,GCI
+OF2:POB,"barva",label:sl,GCI
+OF2:POB,"Gefäßfarbe",label:de,GCI
+OF2:POD,"dno",label:sl,GCI
+OF2:POD,"Boden",label:de,GCI
+OF2:POH,"ohranjenost",label:sl,GCI
+OF2:POH,"beschriebener Teil",label:de,GCI
+OF2:POI,"izdelava",label:sl,GCI
+OF2:POI,"Beschafenheit",label:de,GCI
+OF2:POO,"okras",label:sl,GCI
+OF2:POO,"Verzierung",label:de,GCI
+OF2:POP,"pustilo",label:sl,GCI
+OF2:POP,"Magerung",label:de,GCI
+OF2:POS,"prismojeni ostanki",label:sl,GCI
+OF2:POS,"anhaftende Ablagerung",label:de,GCI
+OF2:POV,"vrsta",label:sl,GCI
+OF2:POV,"Gefäßart",label:de,GCI
+OF2:POU,"tip ustja",label:sl,GCI
+OF2:POU,"Randform",label:de,GCI
+OF2:NO,"naglavni obroček",label:sl,GCI
+OF2:NO,"Kopfschmuckring",label:de,GCI
+OF2:ZA,"zaponka",label:sl,GCI
+OF2:ZA,"Fibel",label:de,GCI

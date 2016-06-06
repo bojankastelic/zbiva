@@ -1,0 +1,10 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+BF2:6,"position of body as regards to another body",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:7,"position of head",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:8,"position of legs",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:9,"position of arms",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:10,"position of body ",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:11,"state of preservation",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:12,"peculiarities of skeleton",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:13,"grave goods",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+BF2:14,"gender",,BODY_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH

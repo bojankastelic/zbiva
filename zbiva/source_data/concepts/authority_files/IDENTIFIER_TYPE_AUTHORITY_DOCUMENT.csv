@@ -1,0 +1,4 @@
+conceptid,Preflabel,Altlabels,ParentConceptid,ConceptType,Provider 
+IDENTIFIER:1,URI,Uniform Resource Identifier,IDENTIFIER_TYPE_AUTHORITY_DOCUMENT.csv,Index,DC
+IDENTIFIER:2,URL,Uniform Resource Locator,IDENTIFIER_TYPE_AUTHORITY_DOCUMENT.csv,Index,DC
+

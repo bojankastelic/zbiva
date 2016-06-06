@@ -1,0 +1,33 @@
+{% load i18n %}
+{% if 'BEGINNING_OF_EXISTENCE_E63' in report_info.source.graph or 'END_OF_EXISTENCE_E64' in report_info.source.graph%}	
+    <div class="row">
+        <div class="col-xs-12">
+		    <dl class="report-item-list">
+        		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		            <dt>
+		                <h5 id="" class="arches-report-subsection-title">{% trans "Range of Years" %}:</h5>
+		            </dt>
+			    </div>
+        		<div class="col-xs-10">
+                    <dd class="arches-report-subsection-item report-list-item">
+                        {% for BEGINNING_OF_EXISTENCE_E63 in report_info.source.graph.BEGINNING_OF_EXISTENCE_E63 %}
+                            {% for BEGINNING_OF_EXISTENCE_TIME___SPAN_E52 in BEGINNING_OF_EXISTENCE_E63.BEGINNING_OF_EXISTENCE_TIME___SPAN_E52 %}
+                                {% for START_DATE_OF_EXISTENCE_E49 in BEGINNING_OF_EXISTENCE_TIME___SPAN_E52.START_DATE_OF_EXISTENCE_E49 %}
+                                    {{START_DATE_OF_EXISTENCE_E49.START_DATE_OF_EXISTENCE_E49__value}}
+                                {% endfor %}  
+                            {% endfor %}  
+                        {% endfor %}
+                        -
+                        {% for END_OF_EXISTENCE_E64 in report_info.source.graph.END_OF_EXISTENCE_E64 %}
+                            {% for END_OF_EXISTENCE_TIME___SPAN_E52 in END_OF_EXISTENCE_E64.END_OF_EXISTENCE_TIME___SPAN_E52 %}
+                                {% for END_DATE_OF_EXISTENCE_E49 in END_OF_EXISTENCE_TIME___SPAN_E52.END_DATE_OF_EXISTENCE_E49 %}
+                                    {{END_DATE_OF_EXISTENCE_E49.END_DATE_OF_EXISTENCE_E49__value}}
+                                {% endfor %}  
+                            {% endfor %}  
+                        {% endfor %}  
+                    </dd>
+			    </div>
+		    </dl>
+	    </div>
+    </div>
+{% endif %}

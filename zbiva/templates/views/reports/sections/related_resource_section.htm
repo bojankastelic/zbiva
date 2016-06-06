@@ -1,0 +1,496 @@
+{% load i18n %}
+<!-- Related Resources -->
+{% if related_resource_dict.SITE|length > 0 or related_resource_dict.GRAVE|length > 0 or related_resource_dict.OBJECT|length > 0 or related_resource_dict.HERITAGE_RESOURCE|length > 0 or related_resource_dict.HERITAGE_RESOURCE_GROUP|length > 0 or related_resource_dict.ACTIVITY|length > 0 or related_resource_dict.HISTORICAL_EVENT|length > 0 or related_resource_dict.ACTOR|length > 0 or related_resource_dict.INFORMATION_RESOURCE_IMAGE|length > 0 or related_resource_dict.INFORMATION_RESOURCE_DOCUMENT|length > 0 %}
+<div class="block-level-v2 block-description" style="background: #f9f9f9; border-top: 1px solid #dcdcdc; padding-bottom: 80px;">
+    <div class="container">
+
+        <div>
+
+            <!-- Anchor for in=page navigation from "report options" menu -->
+            <a href="evaluation" id="evaluation" style=""></a>
+
+            <!-- Content -->
+            <div class="row">
+                
+                <!-- Spacer -->
+                <div class="hidden-sm hidden-md hidden-lg margin-bottom-20"></div>
+
+                <!-- Related Resources -->
+                <div class="col-xs-12">
+                    <div class="right-inner arches-box-grey-border margin-bottom-40">
+                        
+                        <!-- Related Historic Resources Section -->
+                        {% if related_resource_dict.SITE|length > 0 %}
+                            <div class="row">
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <!-- related heritage resources -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+		                                    <dl class="report-item-list">
+                                        		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		                                            <dt>
+		                                                <h5 id="" class="arches-report-subsection-title">{% trans "Related sites" %}:</h5>
+		                                            </dt>
+                                    			</div>
+                                        		<div class="col-xs-10">
+                                                    <dd class="arches-report-subsection-item report-list-item">
+	                                                    {% for related_resource in related_resource_dict.SITE %}
+	                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                                {{related_resource.primaryname}}
+                                                            </a>
+                                                            {% if not forloop.last %}, {% endif %}
+                                                        {% endfor %}            
+                                                    </dd>
+                                    			</div>
+		                                    </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Historic Resources Section -->
+                        {% endif %}
+
+                        <!-- Related Historic Resources Section -->
+                        {% if related_resource_dict.GRAVE|length > 0 %}
+                            <div class="row">
+
+                                <!-- Section Content -->
+                                <div class="col-sm-12 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <div class="row">
+	                                    <div class="col-xs-12">
+		                                    <dl class="report-item-list">
+                                        		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		                                            <dt>
+		                                                <h5 id="" class="arches-report-subsection-title">{% trans "Related graves" %}:</h5>
+		                                            </dt>
+                                    			</div>
+                                        		<div class="col-xs-10">
+                                                    <dd class="arches-report-subsection-item report-list-item">
+	                                                    {% for related_resource in related_resource_dict.GRAVE %}
+	                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                                {{related_resource.primaryname}}
+                                                            </a>
+                                                            {% if not forloop.last %}, {% endif %}
+                                                        {% endfor %}            
+                                                    </dd>
+                                    			</div>
+		                                    </dl>
+	                                    </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Historic Resources Section -->
+                        {% endif %}
+                        
+                        <!-- Related Historic Resources Section -->
+                        {% if related_resource_dict.OBJECT|length > 0 %}
+                            <div class="row">
+
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <!-- related heritage resources -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <dl class="report-item-list">
+                                        		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		                                            <dt>
+		                                                <h5 id="" class="arches-report-subsection-title">{% trans "Related objects" %}:</h5>
+		                                            </dt>
+                                    			</div>
+                                        		<div class="col-xs-10">
+                                                    <dd class="arches-report-subsection-item report-list-item">
+	                                                    {% for related_resource in related_resource_dict.OBJECT %}
+	                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                                {{related_resource.primaryname}}
+                                                            </a>
+                                                            {% if not forloop.last %}, {% endif %}
+                                                        {% endfor %}            
+                                                    </dd>
+                                    			</div>
+		                                    </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Historic Resources Section -->
+                        {% endif %}
+
+<!-- Related Historic Resources Section -->
+                        {% if related_resource_dict.HERITAGE_RESOURCE|length > 0 %}
+                            <div class="row">
+
+                                <!-- Section Header -->
+                                <div class="col-sm-4">
+                                    <h3 class="arches-report-subsection">
+                                        {% trans "Related Historic Resources" %}
+                                    </h3>
+                                </div>
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <!-- related heritage resources -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <dl>
+                                                {% for related_resource in related_resource_dict.HERITAGE_RESOURCE %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                            {{related_resource.primaryname}}
+                                                        </a>
+                                                        <span class="arches-report-subsection-item-type">
+                                                            {% if related_resource.relationship|length > 0 %}
+                                                                ({{related_resource.relationship|join:", "}})
+                                                            {% endif %}
+                                                        </span>
+                                                    </dd>
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %} 
+                                            </dl>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Historic Resources Section -->
+                        {% endif %}
+                        
+                        <!-- Related Historic Groups -->
+                        {% if related_resource_dict.HERITAGE_RESOURCE_GROUP|length > 0 %}
+                            {% if related_resource_dict.HERITAGE_RESOURCE|length > 0 %}
+			                    <hr class="devider margin-top-10" style="margin-bottom: 5px;">
+                            {% endif %}
+                            <div class="row">
+
+                                <!-- Section Header -->
+                                <div class="col-sm-4">
+                                    <h3 class="arches-report-subsection">
+                                        {% trans "Related Historic Districts" %}
+                                    </h3>
+                                </div>
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+                                
+                                    <!-- resource groups -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <dl>                               
+                                                
+                                                {% for related_resource in related_resource_dict.HERITAGE_RESOURCE_GROUP %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                            {{related_resource.primaryname}}
+                                                        </a>
+                                                        <span class="arches-report-subsection-item-type">
+                                                            {% if related_resource.relationship|length > 0 %}
+                                                                ({{related_resource.relationship|join:", "}})
+                                                            {% endif %}
+                                                        </span>
+                                                    </dd> 
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %} 
+                                            </dl>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related HistoricGroups Section -->
+                        {% endif %}
+
+                        
+
+                        <!-- Related Activities -->
+                        {% if related_resource_dict.ACTIVITY|length > 0 %}
+						    {% if related_resource_dict.HERITAGE_RESOURCE|length > 0 or related_resource_dict.HERITAGE_RESOURCE_GROUP|length > 0 %}
+			                    <hr class="devider margin-top-10" style="margin-bottom: 5px;">
+                            {% endif %}
+                            <div class="row">
+
+                                <!-- Section Header -->
+                                <div class="col-sm-4">
+                                    <h3 class="arches-report-subsection">
+                                        {% trans "Related Activities" %}
+                                    </h3>
+                                </div>
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <!-- related activities -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <dl>
+
+                                                {% for related_resource in related_resource_dict.ACTIVITY %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                            {{related_resource.primaryname}}
+                                                        </a>
+                                                        <span class="arches-report-subsection-item-type">
+                                                            {% if related_resource.relationship|length > 0 %}
+                                                                ({{related_resource.relationship|join:", "}})
+                                                            {% endif %}
+                                                        </span>
+                                                    </dd> 
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %} 
+                                            </dl>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Activities -->
+                        {% endif %}
+
+                        <!-- Related Historic Events -->
+						{% if related_resource_dict.HISTORICAL_EVENT|length > 0 %}
+						    {% if related_resource_dict.HERITAGE_RESOURCE|length > 0 or related_resource_dict.HERITAGE_RESOURCE_GROUP|length > 0 or related_resource_dict.ACTIVITY|length > 0 %}
+						        <hr class="devider margin-top-10" style="margin-bottom: 5px;">
+                            {% endif %}                        
+                            <div class="row">
+
+                                <!-- Section Header -->
+                                <div class="col-sm-4">
+                                    <h3 class="arches-report-subsection">
+                                        {% trans "Related Historic Events" %}
+                                    </h3>
+                                </div>
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <!-- related historic events -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <dl>
+                                                {% for related_resource in related_resource_dict.HISTORICAL_EVENT %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                            {{related_resource.primaryname}}
+                                                        </a>
+                                                        <span class="arches-report-subsection-item-type">
+                                                            {% if related_resource.relationship|length > 0 %}
+                                                                ({{related_resource.relationship|join:", "}})
+                                                            {% endif %}
+                                                        </span>
+                                                    </dd> 
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %} 
+                                            </dl>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Historic Events Section -->
+                       {% endif %}
+
+
+                        <!-- Related Actors -->
+                  	    {% if related_resource_dict.ACTOR|length > 0 %}
+
+						    {% if related_resource_dict.HERITAGE_RESOURCE|length > 0 or related_resource_dict.HERITAGE_RESOURCE_GROUP|length > 0 or related_resource_dict.ACTIVITY|length > 0 or related_resource_dict.HISTORICAL_EVENT|length > 0 %}
+						        <hr class="devider margin-top-10" style="margin-bottom: 5px;">
+                            {% endif %}
+                            <div class="row">
+                            
+                                <!-- Section Header -->
+                                <div class="col-sm-4">
+                                    <h3 class="arches-report-subsection">{% trans "Related People/Organizations" %}</h3>
+                                </div>
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <!-- related actors -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <dl> 
+                                                {% for related_resource in related_resource_dict.ACTOR %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" class="" title="{% trans "View Report" %}">
+                                                            {{related_resource.primaryname}}
+                                                        </a>
+                                                        <span class="arches-report-subsection-item-type">
+                                                            {% if related_resource.relationship|length > 0 %}
+                                                                ({{related_resource.relationship|join:", "}})
+                                                            {% endif %}
+                                                        </span> 
+                                                    </dd>
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %} 
+                                            </dl>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Actors Section -->
+                        {% endif %}
+
+                        <!-- Related Information Objects -->
+                        {% if related_resource_dict.INFORMATION_RESOURCE_IMAGE|length > 0 or related_resource_dict.INFORMATION_RESOURCE_DOCUMENT %}
+
+						    {% if related_resource_dict.HERITAGE_RESOURCE|length > 0 or related_resource_dict.HERITAGE_RESOURCE_GROUP|length > 0 or related_resource_dict.ACTIVITY|length > 0 or related_resource_dict.HISTORICAL_EVENT|length > 0 or related_resource_dict.ACTOR|length > 0 %}
+						        <hr class="devider margin-top-10" style="margin-bottom: 5px;">
+                            {% endif %}
+                            <div class="row">
+
+                                <!-- Section Header -->
+                                <div class="col-sm-4">
+                                    <h3 class="arches-report-subsection">{% trans "Related Information Resources" %}</h3>
+                                </div>
+                                <!-- End Section Header -->
+
+                                <!-- Section Content -->
+                                <div class="col-sm-8 arches-report-group-spacer" style="padding-left: 22px;">
+
+                                    <!-- Spacer -->
+                                    <div class="arches-report-spacer hidden-xs"></div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <dl>
+                                                <dt>
+                                                    <h5 class="arches-report-subsection-title arches-report-spacer">
+                                                        {% trans "Images" %}
+                                                    </h5>
+                                                </dt>
+
+                                                <!-- Links for Image Gallery Supply Image in the href, thumbnails in the img tags -->
+                                                {% for related_resource in related_resource_dict.INFORMATION_RESOURCE_IMAGE %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" title="{% trans "View Report" %}">
+                                                            <img src="{{related_resource.thumbnail}}" alt="" class="arches-report-image-thumbnail" style="width: 25%; margin-bottom: 20px; border: solid 1px #999;" onerror="this.src='{{STATIC_URL}}img/photo_missing.png';">
+                                                        </a>
+                                                    </dd>
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %}
+                                                
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                   
+                                        <div class="col-xs-12">
+                                            <dl>
+                                                <dt>
+                                                    <h5 class="arches-report-subsection-title">
+                                                        {% trans "Documents" %}
+                                                    </h5>
+                                                </dt>
+
+                                                {% for related_resource in related_resource_dict.INFORMATION_RESOURCE_DOCUMENT %}
+                                                    <dd class="arches-report-subsection-item">
+                                                        <a href="{% url 'report' related_resource.entityid %}" title="{% trans "View Report" %}">
+                                                            {{related_resource.primaryname}}
+                                                        </a>
+
+                                                        <span class="arches-report-subsection-item-type">
+                                                            {% if related_resource.relationship|length > 0 %}
+                                                                ({{related_resource.relationship|join:", "}})
+                                                            {% endif %}
+                                                        </span>
+                                                    </dd>
+
+                                                    {% empty %}
+                                                        <dd class="arches-report-subsection-item">
+                                                            {% trans "None" %}
+                                                        </dd>                                                        
+                                                {% endfor %} 
+                              
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <!-- End List of Related Resources (Documents)-->
+                                </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Information Objects Section -->
+                       {% endif %}
+                    </div>
+                </div>
+                <!-- End Related Historic Resources -->
+            </div>   
+        </div>
+    </div> 
+</div>    
+{% endif %}
+<!-- End Related Resource Container -->

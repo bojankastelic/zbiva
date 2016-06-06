@@ -1,0 +1,9 @@
+###############
+Frotgeschritten
+###############
+
+Zbiva Graphen
+=============
+ * :download:`Gezippte Graphen in PDF Format<graphs/zbiva_graphen_pdf.zip>`
+ * :download:`Gezippte Graphen in GEPHI Format<graphs/zbiva_graphen_gephi.zip>`
+

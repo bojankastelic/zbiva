@@ -1,0 +1,32 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+OF2:J,"bead",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:JBA,"bead colour",,OF2:J,Index,EH
+OF2:JOK,"decoration",,OF2:J,Index,EH
+OF2:JSS,"glass",,OF2:J,Index,EH
+OF2:JOP,"cross section",,OF2:J,Index,EH
+OF2:JOS,"shape",,OF2:J,Index,EH
+OF2:LG,"position in the grave",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:ME,"knife",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:MED,"handle",,OF2:ME,Index,EH
+OF2:MEH,"blade back",,OF2:ME,Index,EH
+OF2:MEL,"groove",,OF2:ME,Index,EH
+OF2:MEN,"sheath",,OF2:ME,Index,EH
+OF2:MEPH,"transition into blade back",,OF2:ME,Index,EH
+OF2:MEPO,"transition into cutting edge",,OF2:ME,Index,EH
+OF2:MER,"blade",,OF2:ME,Index,EH
+OF2:MEK,"blade tip",,OF2:ME,Index,EH
+OF2:MET,"whitle tang",,OF2:ME,Index,EH
+OF2:OH,"state of preservation",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:OK,"find ",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:PO,"kitchenware",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:POB,"colour",,OF2:PO,Index,EH
+OF2:POD,"base",,OF2:PO,Index,EH
+OF2:POH,"state of preservation",,OF2:PO,Index,EH
+OF2:POI,"manufacturing technique",,OF2:PO,Index,EH
+OF2:POO,"decoration",,OF2:PO,Index,EH
+OF2:POP,"addition",,OF2:PO,Index,EH
+OF2:POS,"burnt remains",,OF2:PO,Index,EH
+OF2:POV,"type",,OF2:PO,Index,EH
+OF2:POU,"rim type",,OF2:PO,Index,EH
+OF2:NO,"head circlet",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+OF2:ZA,"broche",,OBJECT_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH

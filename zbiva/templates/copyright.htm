@@ -1,0 +1,19 @@
+{% load staticfiles %}
+{% load i18n %}
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">                     
+                <a target="_blank" href="http://www.archesproject.org">
+                    <img class="arhces-logo" style="margin-top: -3px;height: 40px;" id="logo-footer" src="{{ STATIC_URL }}img/ArchesLOGO_wwhtag.png" alt=""></img>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-9 col-md-10 col-lg-10">                     
+                <p style="margin-bottom:0px">
+                   {% trans 'Zbiva (v1.0) is powered by Arches (v3.1.2), an open-source, web-based, geospatial information system for cultural heritage inventory and management.' %}<br/>
+                    <img style="height: 20px;width:30px" src="{{ STATIC_URL }}img/logo_EU.jpg" alt=""></img> {% trans 'Spletna Zbiva je sofinancirana iz 7. okvirnega programa Evropske komisije' %}
+                </p>
+            </div>
+        </div>
+    </div> 
+</div>

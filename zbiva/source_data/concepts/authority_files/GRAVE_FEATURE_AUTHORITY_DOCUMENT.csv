@@ -1,0 +1,52 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+GFT:GD,"stratigraphic relationship",,GRAVE_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+GFT:GDG01,"under",,GFT:GD,Index,EH
+GFT:GDG02,"above",,GFT:GD,Index,EH
+GFT:GDG03,"cuts",,GFT:GD,Index,EH
+GFT:GDG04,"is cut by",,GFT:GD,Index,EH
+GFT:GG,"grave structure",,GRAVE_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+GFT:GG001,"urn",,GFT:GG,Index,EH
+GFT:GG002,"sarcophagus",,GFT:GG,Index,EH
+GFT:GG003,"wooden casket",,GFT:GG,Index,EH
+GFT:GG004,"board",,GFT:GG,Index,EH
+GFT:GG005,"wooden casket or board",,GFT:GG,Index,EH
+GFT:GG006,"pit lined with stones",,GFT:GG,Index,EH
+GFT:GG007,"stone or stone-plate under the head",,GFT:GG,Index,EH
+GFT:GG008,"stone behind the head",,GFT:GG,Index,EH
+GFT:GG009,"sides lined with stone-plates",,GFT:GG,Index,EH
+GFT:GG010,"stone-plates lid",,GFT:GG,Index,EH
+GFT:GG011,"stone-plates bottom",,GFT:GG,Index,EH
+GFT:GG012,"stones cover the body",,GFT:GG,Index,EH
+GFT:GG013,"built-structure-grave",,GFT:GG,Index,EH
+GFT:GG014,"pit only",,GFT:GG,Index,EH
+GFT:GG015,"niche",,GFT:GG,Index,EH
+GFT:GG016,"other wooden structure",,GFT:GG,Index,EH
+GFT:GG017,"burnt remains in the grave",,GFT:GG,Index,EH
+GFT:GG018,"hollow tree trunk",,GFT:GG,Index,EH
+GFT:GG019,"other grave structure",,GFT:GG,Index,EH
+GFT:GV,"grave type",,GRAVE_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+GFT:GV001,"human",,GFT:GV,Index,EH
+GFT:GV002,"animal in the grave",,GFT:GV,Index,EH
+GFT:GV003,"human and animal in the grave",,GFT:GV,Index,EH
+GFT:GV004,"cenotaph",,GFT:GV,Index,EH
+GFT:GV005,"skeleton not preserved",,GFT:GV,Index,EH
+GFT:GV006,"unknown number of dead",,GFT:GV,Index,EH
+GFT:GV007,"grave uncertain",,GFT:GV,Index,EH
+GFT:GV008,"grave unknown",,GFT:GV,Index,EH
+GFT:GZA,"filling",,GRAVE_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+GFT:GZA01,"mortar in the filling",,GFT:GZA,Index,EH
+GFT:GZA02,"charcoal in the filling",,GFT:GZA,Index,EH
+GFT:GZA03,"metal artefact in the filling",,GFT:GZA,Index,EH
+GFT:GZA04,"pottery in the filling",,GFT:GZA,Index,EH
+GFT:GZA05,"glass in the filling",,GFT:GZA,Index,EH
+GFT:GZA06,"brick in the filling",,GFT:GZA,Index,EH
+GFT:GZA07,"bones, teeth in the filling",,GFT:GZA,Index,EH
+GFT:GZA08,"worked stone in the filling",,GFT:GZA,Index,EH
+GFT:GZA09,"other objects in the filling",,GFT:GZA,Index,EH
+GFT:GZZ,"grave marking",,GRAVE_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+GFT:GZZ01,"stone",,GFT:GZZ,Index,EH
+GFT:GZZ02,"post(hole)",,GFT:GZZ,Index,EH
+GFT:GZZ03,"burial (not mound)",,GFT:GZZ,Index,EH
+GFT:GZZ04,"burial mound",,GFT:GZZ,Index,EH
+GFT:GZZ05,"re-cut into burial mound",,GFT:GZZ,Index,EH
+GFT:GZZ06,"other marks",,GFT:GZZ,Index,EH

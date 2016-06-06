@@ -1,0 +1,41 @@
+conceptid,Value,ValueType,Provider
+SFT:,"",label:sl,GCI
+SFT:,"",label:de,GCI
+SFT:SCER,"cerkev",label:sl,GCI
+SFT:SCER,"Kirche",label:de,GCI
+SFT:KCES,"cesta",label:sl,GCI
+SFT:KCES,"Weg, Strasse",label:de,GCI
+SFT:PGOR,"gora, vzpetina ",label:sl,GCI
+SFT:PGOR,"Berg, Erhebung",label:de,GCI
+SFT:BGRA,"grad",label:sl,GCI
+SFT:BGRA,"Schloss, Burg",label:de,GCI
+SFT:SGRO,"grobišče",label:sl,GCI
+SFT:SGRO,"Friedhof",label:de,GCI
+SFT:SGRO02,"grobišče gomilno",label:sl,GCI
+SFT:SGRO02,"Hügelgräberfeld",label:de,GCI
+SFT:SGRO01,"grobišče plano",label:sl,GCI
+SFT:SGRO01,"Flachgräberfeld",label:de,GCI
+SFT:PJAM,"jama",label:sl,GCI
+SFT:PJAM,"Grube",label:de,GCI
+SFT:NLPR,"ljudska pripoved",label:sl,GCI
+SFT:NLPR,"Erzählung",label:de,GCI
+SFT:KMBR,"most, brod",label:sl,GCI
+SFT:KMBR,"Brücke, Furt",label:de,GCI
+SFT:BNAS,"naselbina",label:sl,GCI
+SFT:BNAS,"Siedlung",label:de,GCI
+SFT:CPON,"posamična najdba",label:sl,GCI
+SFT:CPON,"Einzelfund",label:de,GCI
+SFT:BOKO,"okop",label:sl,GCI
+SFT:BOKO,"Graben",label:de,GCI
+SFT:PRAV,"ravnina",label:sl,GCI
+SFT:PRAV,"Ebene",label:de,GCI
+SFT:BSAM,"samostan",label:sl,GCI
+SFT:BSAM,"Kloster",label:de,GCI
+SFT:SSVT,"svetišče",label:sl,GCI
+SFT:SSVT,"Heiligtum",label:de,GCI
+SFT:BUTR,"utrdba",label:sl,GCI
+SFT:BUTR,"Festigung",label:de,GCI
+SFT:PVMO,"voda, močvirje",label:sl,GCI
+SFT:PVMO,"Wasser, Moor",label:de,GCI
+SFT:CZAK,"zaklad",label:sl,GCI
+SFT:CZAK,"Depot",label:de,GCI

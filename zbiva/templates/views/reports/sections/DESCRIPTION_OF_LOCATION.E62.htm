@@ -1,0 +1,23 @@
+{% load i18n %}
+{% if 'DESCRIPTION_OF_LOCATION_E62' in report_info.source.graph %}
+	<div class="row">
+		<div class="col-xs-12">
+			<dl class="report-item-list">
+				<dt>
+					<h5 id="" class="arches-report-subsection-title">{% trans "Location Description" %}</h5>
+				</dt>
+
+				<dd class="arches-report-subsection-item empty-message">
+					{% trans "No descriptions recorded" %}
+				</dd>
+                 {% for DESCRIPTION_OF_LOCATION_E62 in report_info.source.graph.DESCRIPTION_OF_LOCATION_E62 %}
+                    {% if DESCRIPTION_OF_LOCATION_E62.DESCRIPTION_OF_LOCATION_E62__value != '' %}
+                        <dd class="arches-report-subsection-item report-list-item">
+                            {{DESCRIPTION_OF_LOCATION_E62.DESCRIPTION_OF_LOCATION_E62__value | safe}}
+                        </dd>
+                    {% endif %}
+                {% endfor %} 
+			</dl>
+		</div>
+	</div>
+{% endif %}

@@ -1,0 +1,37 @@
+conceptid,Value,ValueType,Provider
+MAT:SN010,"kamen",label:sl,GCI
+MAT:SN010,"Stein",label:de,GCI
+MAT:SN011,"steklo",label:sl,GCI
+MAT:SN011,"Glas",label:de,GCI
+MAT:SN012,"železo",label:sl,GCI
+MAT:SN012,"Eisen",label:de,GCI
+MAT:SN013,"kost, roževina",label:sl,GCI
+MAT:SN013,"Knochen, Horn, Geweih",label:de,GCI
+MAT:SN014,"bron, medenina",label:sl,GCI
+MAT:SN014,"Bronze, Messing",label:de,GCI
+MAT:SN015,"srebro",label:sl,GCI
+MAT:SN015,"Silber",label:de,GCI
+MAT:SN016,"zlato",label:sl,GCI
+MAT:SN016,"Gold",label:de,GCI
+MAT:SN017,"baker",label:sl,GCI
+MAT:SN017,"Kupfer",label:de,GCI
+MAT:SN018,"svinec",label:sl,GCI
+MAT:SN018,"Blei",label:de,GCI
+MAT:SN019,"glina",label:sl,GCI
+MAT:SN019,"Ton",label:de,GCI
+MAT:SN020,"neznano",label:sl,GCI
+MAT:SN020,"unbekannt",label:de,GCI
+MAT:SN021,"jantar",label:sl,GCI
+MAT:SN021,"Bernstein",label:de,GCI
+MAT:SN022,"tkanina, nit",label:sl,GCI
+MAT:SN022,"Textil, Faden",label:de,GCI
+MAT:SN023,"les",label:sl,GCI
+MAT:SN023,"Holz",label:de,GCI
+MAT:SN024,"usnje",label:sl,GCI
+MAT:SN024,"Leder",label:de,GCI
+MAT:SN025,"školjkovina",label:sl,GCI
+MAT:SN025,"Muschelschale",label:de,GCI
+MAT:SN026,"emajl",label:sl,GCI
+MAT:SN026,"Email",label:de,GCI
+MAT:SN027,"poldragi, dragi kamni",label:sl,GCI
+MAT:SN027,"Halbedel- und Edelsteine",label:de,GCI

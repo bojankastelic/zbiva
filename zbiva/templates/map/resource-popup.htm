@@ -1,0 +1,343 @@
+<!--
+ARCHES - a program developed to inventory and manage immovable cultural heritage.
+Copyright (C) 2013 J. Paul Getty Trust and World Monuments Fund
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+{% load staticfiles %}
+{% load i18n %}   
+<dl class="">
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'SITE.E18'">
+
+        <div data-bind="visible:selectedResource().other_name != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Other name' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().other_name : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().settlement != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Settlement' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().settlement : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().topographical_unit != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Topographical Unit' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().topographical_unit : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().topographical_area != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Topographical Area' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().topographical_area : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().region != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Region' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().region : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().country != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Country' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().country : ''"></span>
+                </div>
+            </div>
+        </div>
+
+        <div data-bind="visible:selectedResource().location_accuracy != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Location accuracy' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().location_accuracy : ''"></span>
+                </div>
+            </div>
+        </div>
+
+     
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'GRAVE.E18'">
+
+        <div data-bind="visible:selectedResource().site_name != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Site name' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().site_name : ''"></span>
+                </div>
+            </div>
+        </div>
+
+        
+        <div data-bind="visible:selectedResource().other_name != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Other name' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().other_name : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().settlement != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Settlement' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().settlement : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().topographical_unit != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Topographical Unit' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().topographical_unit : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().topographical_area != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Topographical Area' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().topographical_area : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().region != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Region' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().region : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().country != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Country' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().country : ''"></span>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'OBJECT.E18'">
+
+        <div data-bind="visible:selectedResource().site_name != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Site name' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().site_name : ''"></span>
+                </div>
+            </div>
+        </div>
+
+        
+        <div data-bind="visible:selectedResource().other_name != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Other name' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().other_name : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().settlement != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Settlement' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().settlement : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().topographical_unit != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Topographical Unit' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().topographical_unit : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().topographical_area != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Topographical Area' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().topographical_area : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().region != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Region' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().region : ''"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div data-bind="visible:selectedResource().country != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Country' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().country : ''"></span>
+                </div>
+            </div>
+        </div>
+
+        <div data-bind="visible:selectedResource().object_type != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Object' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().object_type : ''"></span>
+                </div>
+            </div>
+        </div>
+
+        <div data-bind="visible:selectedResource().description != 'Not specified'">
+            <div class="row"> 
+                <div class="col-xs-4">
+                    <span class="txt-color-blue">{% trans 'Description' %}:</span>
+                </div>
+                <div class="col-xs-8">
+                    <span class="txt-color-blue arches-map-panel-list" style="font-weight:700" data-bind="text:selectedResource() ? selectedResource().description : ''"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'HERITAGE_RESOURCE.E18'">
+        <dt class="txt-color-blue">{% trans 'Resource Type' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().resource_type : ''"></dd>
+        
+        <dt class="txt-color-blue">{% trans 'Address' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().address : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Designations' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().designations : ''"></dd>
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'HERITAGE_RESOURCE_GROUP.E27'">
+        <dt class="txt-color-blue">{% trans 'Historic District Type' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().resource_type : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Designations' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().designations : ''"></dd>
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'ACTIVITY.E7'">
+        <dt class="txt-color-blue">{% trans 'Activity Type' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().resource_type : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Start of Occurrence' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().start_date : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'End of Occurrence' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().end_date : ''"></dd>
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'HISTORICAL_EVENT.E5'">
+        <dt class="txt-color-blue">{% trans 'Historic Event Type' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().resource_type : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Start of Occurrence' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().start_date : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'End of Occurrence' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().end_date : ''"></dd>
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'ACTOR.E39'">
+        <dt class="txt-color-blue">{% trans 'Person/Organization Type' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().resource_type : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Birth Date/Start of Existence' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().start_date : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Death Date/End of Existence' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().end_date : ''"></dd>
+    </div>
+    <div data-bind="if: selectedResource()['entitytypeid'] === 'INFORMATION_RESOURCE.E73'">
+        <dt class="txt-color-blue">{% trans 'Information Resource Type' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().resource_type : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Date of Creation' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().creation_date : ''"></dd>
+
+        <dt class="txt-color-blue">{% trans 'Date of Publication' %}</dt>
+        <dd class="txt-color-blue arches-map-panel-list" data-bind="text:selectedResource() ? selectedResource().publication_date : ''"></dd>
+    </div>
+</dl>

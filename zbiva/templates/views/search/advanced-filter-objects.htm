@@ -1,0 +1,799 @@
+{% load i18n %}
+<!-- Advanced Filter - Sites -->
+<div class="arches-time-filter row margin-bottom-10 padding-bottom-10" id="advanced-filter-objects" style="display: none;">
+
+    <h4 class="margin-top-5 margin-bottom-5 margin-left-15" style="font-style: normal">
+        {% trans "Advanced filters" %} <small>{% trans "(show objects that meet these criteria)" %}</small>
+    </h4>
+
+    <div id="object-feature-section">
+    
+        <!-- Body -->
+        <div class="padding-top-0" style="padding-left: 10px;">
+
+            <!-- Advanced Filter Tools -->
+            <div class="row">
+                                                                      
+                <div class="col-xs-12">
+                            
+                    <!-- Advanced Pickers -->
+                    <div class="row">
+
+                        <!-- Finding Form -->
+                        <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                            <!-- Time Criteria Entry Form for screens > xs -->
+                            <form class="form-inline hidden-xs" role="form">
+                    
+                                <div class="form-group margin-top-5 padding-bottom-2" style="width: 99.5%">
+                                    
+                                    <div class="row" style="padding-left: 15px">
+                                        <div class="col-sm-3" style="padding-right: 5px;">
+                                            <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="object-feature-level1" placeholder="{% trans 'Object feature - level 1' %}" data-bind="select2: {value: getEditedNode('OBJECT_FEATURE_LEVEL1.E55', 'value'), dataKey: 'OBJECT_FEATURE_LEVEL1.E55'}">
+                                            </div>
+                                        </div>                   
+                                        <div class="col-sm-3" style="padding-right: 5px;padding-left: 10px">
+                                            <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="object-feature-level2" placeholder="{% trans 'Object feature - level 2' %}" data-bind="select2: {value: getEditedNode('OBJECT_FEATURE_LEVEL2.E55', 'value'), dataKey: 'OBJECT_FEATURE_LEVEL2.E55'}">
+                                            </div>
+                                        </div>                   
+                                        <div class="col-sm-3" style="padding-right: 5px;">
+                                            <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="object-feature" placeholder="{% trans 'Object feature - level 3' %}" data-bind="select2: {value: getEditedNode('OBJECT_FEATURE.E55', 'value'), dataKey: 'OBJECT_FEATURE.E55'}">
+                                            </div>
+                                        </div>       
+                                        <div class="col-sm-1 form-group" style="padding-right: 5px;padding-top:0px;padding-left: 1px;width:2%">
+                                        </div>
+            
+                                        <!-- Add Button -->
+                                        <div class="col-sm-2 btn-group" style="padding-top: 0px;">
+                                            <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-object-feature-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                        </div>                                                             
+                                    </div>                                                                  
+                                </div>
+                            </form>
+                            <!-- Time Criteria Entry Form for screens > xs -->
+
+                        </div>
+                        <!-- Show seleted filters -->
+                        <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+                            <div class="">
+                                <dl style="margin-bottom:0px">
+                                    <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                        <div data-bind='foreach: getBranchLists()'>
+                                            <div class="arches-crud-record">
+                                                <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("OBJECT_FEATURE.E55", "label") + " (" + nodes.get("OBJECT_FEATURE_LEVEL1.E55", "label") + (nodes.get("OBJECT_FEATURE_LEVEL2.E55", "label") ? " - " : "") + nodes.get("OBJECT_FEATURE_LEVEL2.E55", "label") + ")"' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Date Filters -->
+
+        </div>
+        <!-- End  Body -->
+    </div>
+    
+    <div id="measurement-type-section">
+    
+        <!-- Body -->
+        <div class="padding-top-0" style="padding-left: 10px;">
+
+            <!-- Advanced Filter Tools -->
+            <div class="row">
+                                                                      
+                <div class="col-xs-12">
+                            
+                    <!-- Advanced Pickers -->
+                    <div class="row">
+
+                        <!-- Body Feature Form -->
+                        <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                            <!-- Time Criteria Entry Form for screens > xs -->
+                            <form class="form-inline hidden-xs" role="form">
+                    
+                                <div class="form-group margin-top-5 padding-bottom-2" style="width: 99.5%">
+                                    
+                                    <div class="row" style="padding-left: 15px">
+                                        <div class="col-sm-3" style="padding-right: 5px;">
+                                            <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="object-measurement" placeholder="{% trans 'Object measurement type' %}" data-bind="select2: {value: getEditedNode('OBJECT_MEASUREMENT_TYPE.E55', 'value'), dataKey: 'OBJECT_MEASUREMENT_TYPE.E55'}">
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="col-sm-3" style="padding-right: 5px;padding-left: 10px">
+                                            <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="operator" placeholder="{% trans 'Operator' %}" data-bind="select2: {value: getEditedNode('COMPARISON_OPERATOR.E55', 'value'), dataKey: 'operators'}">
+                                            </div>
+                                        </div>                                    
+
+                                        <div class="col-sm-3 form-group" style="padding-right: 5px;padding-top: 0px">
+                                            <input class="form-control arches-form-input hidden-xs" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Value' %}" data-bind="{value: getEditedNode('measurement', 'value')}">
+                                            <input class="form-control arches-form-input hidden-sm hidden-md hidden-lg" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Value' %}" data-bind="{value: getEditedNode('measurement', 'value')}">
+                                        </div>
+                                    
+                                        <div class="col-sm-1 form-group" style="padding-right: 5px;padding-top:5px;padding-left: 1px;width:2%">
+                                            <span id="measurement-unit-label" style="width: 100%;" data-bind="{value: getEditedNode('unit', 'value')}">
+                                        </div>
+                                    
+                                        <!-- Add Button -->
+                                        <div class="col-sm-2 btn-group" style="padding-top: 0px;">
+                                            <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-temporal-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                        </div>
+                                        <!-- End Add Button -->
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- Time Criteria Entry Form for screens > xs -->
+
+                        </div>
+                        <!-- End Form for Small, Md, Lg Screens -->
+
+                        <!-- Show seleted filters -->
+                        <div class="col-xs-12">
+
+                            <div class="">
+                                <dl style="margin-bottom:0px">
+                                    <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                        <div data-bind='foreach: getBranchLists()'>
+                                            <div class="arches-crud-record">
+                                                <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit this date" %}"><span data-bind='text: nodes.get("OBJECT_MEASUREMENT_TYPE.E55", "label") +" " + nodes.get("COMPARISON_OPERATOR.E55", "label") + " " + nodes.get("measurement", "value") + " " + nodes.get("unit", "value")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Date Filters -->
+
+        </div>
+        <!-- End  Body -->
+    </div>
+    
+
+    <div class="col-xs-12 padding-left-0" >
+        <div class="row">
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="site-name-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Region Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6 form-group" style="padding-right: 0px;padding-top:0px">
+                                                        <input class="form-control arches-form-input hidden-xs" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Site name' %}" data-bind="{value: getEditedNode('SITE_NAME.E41', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-site-name-filter-btn').click()">
+                                                        <input class="form-control arches-form-input hidden-sm hidden-md hidden-lg" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Site name' %}" data-bind="{value: getEditedNode('SITE_NAME.E41', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-site-name-filter-btn').click()">
+                                                    </div>
+                                                    
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-site-name-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>                        
+                                                </div>                                                          
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("SITE_NAME.E41", "value")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+    
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="region-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Region Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6" style="padding-right: 0px;">
+                                                        <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="region" placeholder="{% trans 'Region' %}" data-bind="select2: {value: getEditedNode('REGION.E55', 'value'), dataKey: 'REGION.E55'}">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;padding-left:42px">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-region-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>                        
+                                                </div>                                                          
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("REGION.E55", "label")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="other-name-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Region Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6 form-group" style="padding-right: 0px;padding-top:0px">
+                                                        <input class="form-control arches-form-input hidden-xs" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Other name' %}" data-bind="{value: getEditedNode('OTHER_NAME.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-other-name-filter-btn').click()">
+                                                        <input class="form-control arches-form-input hidden-sm hidden-md hidden-lg" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Other name' %}" data-bind="{value: getEditedNode('OTHER_NAME.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-other-name-filter-btn').click()">
+                                                    </div>
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-other-name-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>                        
+                                                </div>                                                          
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("OTHER_NAME.E48", "value")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+    
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="country-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Country Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6" style="padding-right: 0px;">
+                                                        <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="country" placeholder="{% trans 'Country' %}" data-bind="select2: {value: getEditedNode('COUNTRY.E55', 'value'), dataKey: 'COUNTRY.E55'}">
+                                                        </div>
+                                                    </div>                                                                  
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;padding-left:42px">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-country-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>      
+                                                 </div>                                                        
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("COUNTRY.E55", "label")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>    
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="settlement-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Region Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6 form-group" style="padding-right: 0px;padding-top:0px">
+                                                        <input class="form-control arches-form-input hidden-xs" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Settlement' %}" data-bind="{value: getEditedNode('SETTLEMENT.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-settlement-filter-btn').click()">
+                                                        <input class="form-control arches-form-input hidden-sm hidden-md hidden-lg" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Settlement' %}" data-bind="{value: getEditedNode('SETTLEMENT.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-settlement-filter-btn').click()">
+                                                    </div>
+
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-settlement-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>                        
+                                                </div>                                                          
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("SETTLEMENT.E48", "value")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+    
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="material-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Country Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6" style="padding-right: 0px;">
+                                                        <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="material" placeholder="{% trans 'Material' %}" data-bind="select2: {value: getEditedNode('MATERIAL.E57', 'value'), dataKey: 'MATERIAL.E57'}">
+                                                        </div>
+                                                    </div>                                                                  
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;padding-left:42px">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-material-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>      
+                                                 </div>                                                        
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("MATERIAL.E57", "label")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="topographical-unit-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Region Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6 form-group" style="padding-right: 0px;padding-top:0px">
+                                                        <input class="form-control arches-form-input hidden-xs" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Topographical unit' %}" data-bind="{value: getEditedNode('TOPOGRAPHICAL_UNIT.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-tu-filter-btn').click()">
+                                                        <input class="form-control arches-form-input hidden-sm hidden-md hidden-lg" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Topographical unit' %}" data-bind="{value: getEditedNode('TOPOGRAPHICAL_UNIT.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-tu-filter-btn').click()">
+                                                    </div>
+
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-tu-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>                        
+                                                </div>                                                          
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("TOPOGRAPHICAL_UNIT.E48", "value")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+    
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="object-type-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Country Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6" style="padding-right: 0px;">
+                                                        <div style="height: 32px; padding-top: 0px; width:100%; font-size:14px" class="select2 arches-select2-crud-form" id="object-type" placeholder="{% trans 'Object type' %}" data-bind="select2: {value: getEditedNode('OBJECT_TYPE.E55', 'value'), dataKey: 'OBJECT_TYPE.E55'}">
+                                                        </div>
+                                                    </div>                                                                  
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;padding-left:42px">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-object-type-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>      
+                                                 </div>                                                        
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("OBJECT_TYPE.E55", "label")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6" style="width:50%">
+
+                <div id="topographical-area-section">
+                
+                    <!-- Body -->
+                    <div class="padding-top-0" style="padding-left: 10px;">
+
+                        <!-- Advanced Filter Tools -->
+                        <div class="row">
+                                                                                  
+                            <div class="col-xs-12" style="">
+                                        
+                                <!-- Advanced Pickers -->
+                                <div class="row">
+
+                                    <!-- Region Form -->
+                                    <div class="col-sm-12 padding-left-0 margin-bottom-0">
+
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+                                        <form class="form-inline hidden-xs" role="form">
+                                
+                                            <div class="form-group margin-top-5 padding-bottom-2" style="width: 100%">
+                                                
+                                                <div class="row" style="padding-left: 15px">
+                                                    <div class="col-sm-6 form-group" style="padding-right: 0px;padding-top:0px">
+                                                        <input class="form-control arches-form-input hidden-xs" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Topographical area' %}" data-bind="{value: getEditedNode('TOPOGRAPHICAL_AREA.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-ta-filter-btn').click()">
+                                                        <input class="form-control arches-form-input hidden-sm hidden-md hidden-lg" id="measurement-value" style="width: 100%;" placeholder="{% trans 'Topographical area' %}" data-bind="{value: getEditedNode('TOPOGRAPHICAL_AREA.E48', 'value')}" onkeyup = "if (event.keyCode == 13) document.getElementById('add-advanced-ta-filter-btn').click()">
+                                                    </div>
+
+                                                    <!-- Add Button -->
+                                                    <div class="col-sm-6 btn-group pull-right" style="padding-top: 0px;">
+                                                        <button type="button" class="add-button btn btn-primary" style="height: 32px;" id="add-advanced-ta-filter-btn"><i class=" fa fa-plus"></i> {% trans "Add" %}</button>
+                                                    </div>                        
+                                                </div>                                                          
+                                            </div>
+                                        </form>
+                                        <!-- Time Criteria Entry Form for screens > xs -->
+
+                                    </div>
+                                    <!-- Show seleted filters -->
+                                    <div class="col-xs-12" data-bind="visible: getBranchLists().length != 0">
+
+                                        <div class="">
+                                            <dl style="margin-bottom:0px">
+                                                <dd class="margin-left-5" style="display: block;" data-bind="visible: true">
+                                                    <div data-bind='foreach: getBranchLists()'>
+                                                        <div class="arches-crud-record">
+                                                            <a href="javascript:void(0)" class="arches-CRUD-child" title="Remove this filter"><i data-bind="click: $parent.deleteItem.bind($parent)" class="arches-CRUD-delete fa fa-times-circle"></i></a>
+                                                            <a href="javascript:void(0)" class="text-muted arches-CRUD-child arches-CRUD-edit" data-bind="click: $parent.editItem.bind($parent)" title="{% trans "Edit" %}"><span data-bind='text: nodes.get("TOPOGRAPHICAL_AREA.E48", "value")' style="padding-right:2px;"></span><span class="text-muted arches-crud-type-identifier"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date Filters -->
+
+                    </div>
+                    <!-- End  Body -->
+                </div>
+
+            </div>
+    
+            <div class="col-xs-6" style="width:50%">
+                <div class="margin-top-5 padding-left-10">
+                    <div class="btn btn-primary">
+                        <a href="javascript:void(0);" id="view-head-circlets" style="color:#ffffff">{% trans "View head circlets" %}</a>
+                    </div>
+                    <div class="btn btn-primary">
+                        <a href="javascript:void(0);" id="view-beads" style="color:#ffffff">{% trans "View beads" %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input id="advancedfilterdata" name="advancedfilterdata" type="hidden" value="{{advancedfilterdata}}"/>
+
+</div>
+<!-- End Time Filter -->

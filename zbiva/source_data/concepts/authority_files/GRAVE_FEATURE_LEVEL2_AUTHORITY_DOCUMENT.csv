@@ -1,0 +1,6 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+GF2:1,"stratigraphic relationship",,GRAVE_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+GF2:2,"grave structure",,GRAVE_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+GF2:3,"grave type",,GRAVE_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+GF2:4,"filling",,GRAVE_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH
+GF2:5,"grave marking",,GRAVE_FEATURE_LEVEL2_AUTHORITY_DOCUMENT.csv,Index,EH

@@ -1,0 +1,104 @@
+{% load i18n %}
+<!-- Related Resources -->
+{% if related_resource_dict.INFORMATION_RESOURCE_DOCUMENT|length > 0 %}
+<div class="block-level-v2 block-description" style="background: #f9f9f9; border-top: 0px solid #dcdcdc; padding-top: 10px; padding-bottom: 20px!important;">
+    <div class="container">
+
+        <div>
+
+            <!-- Section Header -->
+            <div class="">
+                <div class="">
+                    <h2 class="arches-report-subsection" style="text-align:center">{% trans "Bibliography" %}</h2>
+                </div> 
+            </div>
+
+            <!-- Anchor for in=page navigation from "report options" menu -->
+            <a href="evaluation" id="evaluation" style=""></a>
+
+            <!-- Content -->
+            <div class="row">
+                
+                <!-- Spacer -->
+                <div class="hidden-sm hidden-md hidden-lg margin-bottom-20"></div>
+
+                <!-- Related Resources -->
+                <div class="col-xs-12">
+                    <div class="arches-box-grey-border">
+                        
+                        <!-- Related Information Objects -->
+                        {% if related_resource_dict.INFORMATION_RESOURCE_DOCUMENT %}
+
+                            <div class="row">
+
+                                        <div class="col-xs-12">
+                                                <table class="table">
+                                                    <tr>
+                                                        <td class="td-header">
+                                                            <h5 class="arches-report-subsection-title">
+                                                                {% trans "Author" %}
+                                                            </h5>
+                                                        </td>
+                                                        <td class="td-header">
+                                                            <h5 class="arches-report-subsection-title">
+                                                                {% trans "Title" %}
+                                                            </h5>
+                                                        </td>
+                                                        <td class="td-header">
+                                                            <h5 class="arches-report-subsection-title">
+                                                                {% trans "Publicaton" %}
+                                                            </h5>
+                                                        </td>
+                                                        <td class="td-header">
+                                                            <h5 class="arches-report-subsection-title">
+                                                                {% trans "Published in" %}
+                                                            </h5>
+                                                        </td>
+                                                        <td class="td-header">
+                                                            <h5 class="arches-report-subsection-title">
+                                                                {% trans "Year" %}
+                                                            </h5>
+                                                        </td>
+                                                        <td class="td-header">
+                                                            <h5 class="arches-report-subsection-title">
+                                                                {% trans "Page" %}
+                                                            </h5>
+                                                        </td>                                                                                  
+                                                    </tr>
+                                                    {% for related_resource in related_resource_dict.INFORMATION_RESOURCE_DOCUMENT %}
+                                                        <tr class="arches-report-subsection-item">
+                                                            <td>
+                                                                {{related_resource.author}}
+                                                            </td>
+                                                            <td>
+                                                                {{related_resource.title}}
+                                                            </td>
+                                                            <td>
+                                                                {{related_resource.pub_title}}
+                                                            </td>
+                                                            <td>
+                                                                {{related_resource.pub_place}}
+                                                            </td>
+                                                            <td>
+                                                                {{related_resource.pub_year}}
+                                                            </td>
+                                                            <td>
+                                                                {{related_resource.notes}}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %} 
+                                                </table>
+                                        </div>
+                                <!-- End Section Content-->
+                            </div>
+                            <!-- End Related Information Objects Section -->
+                       {% endif %}
+                    </div>
+                </div>
+                <!-- End Related Historic Resources -->
+            </div>   
+        </div>
+    </div> 
+</div>    
+{% endif %}
+<!-- End Related Resource Container -->

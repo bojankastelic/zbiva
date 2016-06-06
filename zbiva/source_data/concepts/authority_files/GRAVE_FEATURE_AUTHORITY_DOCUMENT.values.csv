@@ -1,0 +1,103 @@
+conceptid,Value,ValueType,Provider
+GFT:GD,"odnos groba",label:sl,GCI
+GFT:GD,"stratigraphisches Verhältnis (Grab)",label:de,GCI
+GFT:GDG01,"pod",label:sl,GCI
+GFT:GDG01,"unter",label:de,GCI
+GFT:GDG02,"nad",label:sl,GCI
+GFT:GDG02,"über",label:de,GCI
+GFT:GDG03,"uniči drugega",label:sl,GCI
+GFT:GDG03,"stört anderes Grab",label:de,GCI
+GFT:GDG04,"drugi uniči njega",label:sl,GCI
+GFT:GDG04,"wird gestört",label:de,GCI
+GFT:GG,"gradba groba",label:sl,GCI
+GFT:GG,"Grabeinbauten",label:de,GCI
+GFT:GG001,"žara",label:sl,GCI
+GFT:GG001,"Urne",label:de,GCI
+GFT:GG002,"sarkofag",label:sl,GCI
+GFT:GG002,"Sarkophag",label:de,GCI
+GFT:GG003,"krsta lesena",label:sl,GCI
+GFT:GG003,"Sarg",label:de,GCI
+GFT:GG004,"deska",label:sl,GCI
+GFT:GG004,"Brett",label:de,GCI
+GFT:GG005,"krsta ali deska",label:sl,GCI
+GFT:GG005,"Sarg oder Brett",label:de,GCI
+GFT:GG006,"obloga jame iz kamnov",label:sl,GCI
+GFT:GG006,"Steinumrandung",label:de,GCI
+GFT:GG007,"pod glavo kamen, plošča",label:sl,GCI
+GFT:GG007,"Stein oder Steinplatte unter Kopf",label:de,GCI
+GFT:GG008,"za glavo kamen",label:sl,GCI
+GFT:GG008,"Stein oder Platte hinter Kopf",label:de,GCI
+GFT:GG009,"stene iz kamnitih plošč",label:sl,GCI
+GFT:GG009,"Steinplattenumrandung",label:de,GCI
+GFT:GG010,"pokrov iz kamnitih plošč",label:sl,GCI
+GFT:GG010,"Steinplattenabdeckung",label:de,GCI
+GFT:GG011,"dno iz kamnitih plošč",label:sl,GCI
+GFT:GG011,"Steinplattenbodenpflaster",label:de,GCI
+GFT:GG012,"pokrivajo kamni truplo",label:sl,GCI
+GFT:GG012,"Steinabdeckung des Körpers",label:de,GCI
+GFT:GG013,"zidan grob",label:sl,GCI
+GFT:GG013,"Gruft",label:de,GCI
+GFT:GG014,"samo vkop v tla",label:sl,GCI
+GFT:GG014,"Erdgrab",label:de,GCI
+GFT:GG015,"niša",label:sl,GCI
+GFT:GG015,"Nische",label:de,GCI
+GFT:GG016,"lesena konstrukcija drugačna",label:sl,GCI
+GFT:GG016,"hölzerne Einbauten",label:de,GCI
+GFT:GG017,"sledovi kurjenja v grobu",label:sl,GCI
+GFT:GG017,"Grabfeuerspuren",label:de,GCI
+GFT:GG018,"votlo deblo",label:sl,GCI
+GFT:GG018,"Baumsarg",label:de,GCI
+GFT:GG019,"drugačna gradba groba",label:sl,GCI
+GFT:GG019,"andere Grabbauten",label:de,GCI
+GFT:GV,"grobna vsebina",label:sl,GCI
+GFT:GV,"Bestattungsart",label:de,GCI
+GFT:GV001,"človek",label:sl,GCI
+GFT:GV001,"menschliche Bestattung",label:de,GCI
+GFT:GV002,"žival v grobu",label:sl,GCI
+GFT:GV002,"Tierbestattung",label:de,GCI
+GFT:GV003,"človek in žival v grobu",label:sl,GCI
+GFT:GV003,"Mensch und Tier im Grab",label:de,GCI
+GFT:GV004,"kenotaf",label:sl,GCI
+GFT:GV004,"Kenotaph",label:de,GCI
+GFT:GV005,"okostje neohranjeno",label:sl,GCI
+GFT:GV005,"Skelett vergangen",label:de,GCI
+GFT:GV006,"neznano število pokojnih",label:sl,GCI
+GFT:GV006,"Anzahl der Bestatteten unbekannt",label:de,GCI
+GFT:GV007,"dvomljiv grob",label:sl,GCI
+GFT:GV007,"Grab ungesichert",label:de,GCI
+GFT:GV008,"grob neznan",label:sl,GCI
+GFT:GV008,"Grab unbekannt",label:de,GCI
+GFT:GZA,"zasutje",label:sl,GCI
+GFT:GZA,"Einfüllung",label:de,GCI
+GFT:GZA01,"malta v zasutju",label:sl,GCI
+GFT:GZA01,"Mörtel in Grabverfüllung",label:de,GCI
+GFT:GZA02,"oglje v zasutju",label:sl,GCI
+GFT:GZA02,"Holzkohle in Grabverfüllung",label:de,GCI
+GFT:GZA03,"kovinski predmet v zasutju",label:sl,GCI
+GFT:GZA03,"Metallstücke in Grabverfüllung",label:de,GCI
+GFT:GZA04,"lončenina v zasutju",label:sl,GCI
+GFT:GZA04,"Keramik in Grabverfüllung",label:de,GCI
+GFT:GZA05,"steklo v zasutju",label:sl,GCI
+GFT:GZA05,"Glas in Grabverfüllung",label:de,GCI
+GFT:GZA06,"opeka v zasutju",label:sl,GCI
+GFT:GZA06,"Ziegel in Grabverfüllung",label:de,GCI
+GFT:GZA07,"kosti, zobje v zasutju",label:sl,GCI
+GFT:GZA07,"Knochen/Zähne in Grabverfüllung",label:de,GCI
+GFT:GZA08,"obdelani kamni v zasutju",label:sl,GCI
+GFT:GZA08,"bearbeitete Steine in Grabverfüllung",label:de,GCI
+GFT:GZA09,"drugo v zasutju",label:sl,GCI
+GFT:GZA09,"Sonstiges in Grabverfüllung",label:de,GCI
+GFT:GZZ,"znaki groba",label:sl,GCI
+GFT:GZZ,"Grabmarkierung",label:de,GCI
+GFT:GZZ01,"kamen",label:sl,GCI
+GFT:GZZ01,"Stein",label:de,GCI
+GFT:GZZ02,"kol (sled)",label:sl,GCI
+GFT:GZZ02,"Pfostenspur",label:de,GCI
+GFT:GZZ03,"plani grob",label:sl,GCI
+GFT:GZZ03,"Flachgrab",label:de,GCI
+GFT:GZZ04,"gomila",label:sl,GCI
+GFT:GZZ04,"Hügel",label:de,GCI
+GFT:GZZ05,"vkop v obstoječo gomilo",label:sl,GCI
+GFT:GZZ05,"Nachbestattung in Hügel",label:de,GCI
+GFT:GZZ06,"znaki drugi",label:sl,GCI
+GFT:GZZ06,"andere Grabkennzeichen",label:de,GCI

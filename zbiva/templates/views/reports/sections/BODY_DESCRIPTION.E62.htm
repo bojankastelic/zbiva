@@ -1,0 +1,24 @@
+{% load i18n %}
+<div class="row">
+    <div class="col-xs-12">
+		<dl class="report-item-list">
+    		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		        <dt>
+		            <h5 id="" class="arches-report-subsection-title">{% trans "Body description" %}:</h5>
+		        </dt>
+			</div>
+    		<div class="col-xs-10">
+                <dd class="arches-report-subsection-item report-list-item">
+                    {% for BODY_DESCRIPTION_E62 in report_info.source.graph.BODY_DESCRIPTION_E62 %}
+	                    {% if report_info.source.graph.BODY_DESCRIPTION_E62|length == 1 or report_info.source.graph.BODY_DESCRIPTION_E62.last %}
+                            {{ BODY_DESCRIPTION_E62.BODY_DESCRIPTION_E62__value |safe }}
+                        {% else %}
+                            {{ BODY_DESCRIPTION_E62.BODY_DESCRIPTION_E62__value |safe }}
+                            <br></br>
+                        {% endif %}   
+                    {% endfor %}           
+                </dd>
+			</div>
+		</dl>
+	</div>
+</div>

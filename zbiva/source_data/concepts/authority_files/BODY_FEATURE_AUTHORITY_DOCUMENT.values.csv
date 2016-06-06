@@ -1,0 +1,101 @@
+conceptid,Value,ValueType,Provider
+BFT:TD,"odnos pokojnika",label:sl,GCI
+BFT:TD,"stratigraphisches Verhältnis (Körper)",label:de,GCI
+BFT:TDT01,"pod",label:sl,GCI
+BFT:TDT01,"unter",label:de,GCI
+BFT:TDT02,"nad",label:sl,GCI
+BFT:TDT02,"über",label:de,GCI
+BFT:TDT03,"poleg",label:sl,GCI
+BFT:TDT03,"neben",label:de,GCI
+BFT:TLG,"lega glave",label:sl,GCI
+BFT:TLG,"Blickrichtung",label:de,GCI
+BFT:TLG01,"naravnost (glava)",label:sl,GCI
+BFT:TLG01,"Blickrichtung gerade",label:de,GCI
+BFT:TLG02,"desno (glava)",label:sl,GCI
+BFT:TLG02,"Blickrichtung rechts",label:de,GCI
+BFT:TLG03,"levo (glava)",label:sl,GCI
+BFT:TLG03,"Blickrichtung links",label:de,GCI
+BFT:TLG04,"drugačna lega glave",label:sl,GCI
+BFT:TLG04,"andere Blickrichtung",label:de,GCI
+BFT:TLN,"lega nog",label:sl,GCI
+BFT:TLN,"Fusshaltung",label:de,GCI
+BFT:TLN01,"vzporedni (nogi)",label:sl,GCI
+BFT:TLN01,"Fusshaltung parallel",label:de,GCI
+BFT:TLN02,"prekrižani (nogi)",label:sl,GCI
+BFT:TLN02,"überkreuzte Füsse",label:de,GCI
+BFT:TLN03,"drugačna lega nog",label:sl,GCI
+BFT:TLN03,"andere Fusshaltung",label:de,GCI
+BFT:TLR,"lega rok",label:sl,GCI
+BFT:TLR,"Armhaltung",label:de,GCI
+BFT:TLR01,"leva roka iztegnjena",label:sl,GCI
+BFT:TLR01,"linker Arm gestreckt",label:de,GCI
+BFT:TLR02,"desna roka iztegnjena",label:sl,GCI
+BFT:TLR02,"rechter Arm gestreckt",label:de,GCI
+BFT:TLR03,"leva roka delno zapognjena",label:sl,GCI
+BFT:TLR03,"linker Unterarm angewinkelt",label:de,GCI
+BFT:TLR04,"desna roka delno zapognjena",label:sl,GCI
+BFT:TLR04,"rechter Unterarm angewinkelt",label:de,GCI
+BFT:TLR05,"leva roka pravokotno zapognjena",label:sl,GCI
+BFT:TLR05,"linker Arm rechtwinkelig",label:de,GCI
+BFT:TLR06,"desna roka pravokotno zapognjena",label:sl,GCI
+BFT:TLR06,"rechter Arm rechtwinkelig",label:de,GCI
+BFT:TLR07,"drugačna lega leve roke",label:sl,GCI
+BFT:TLR07,"andere Lage des linken Armes",label:de,GCI
+BFT:TLR08,"drugačna lega desne roke",label:sl,GCI
+BFT:TLR08,"andere Lage des rechten Armes",label:de,GCI
+BFT:TLR09,"leva roka zapognjena navzgor",label:sl,GCI
+BFT:TLR09,"linker Unterarm über Brust",label:de,GCI
+BFT:TLR10,"desna roka zapognjena navzgor",label:sl,GCI
+BFT:TLR10,"rechter Unterarm über Brust",label:de,GCI
+BFT:TLR11,"leva roka prepognjena",label:sl,GCI
+BFT:TLR11,"linker Unterarm zum Kopf gerichtet",label:de,GCI
+BFT:TLR12,"desna roka prepognjena",label:sl,GCI
+BFT:TLR12,"rechter Unterarm zum Kopf gerichtet",label:de,GCI
+BFT:TLT,"lega telesa",label:sl,GCI
+BFT:TLT,"Körperhaltung",label:de,GCI
+BFT:TLT01,"hrbet",label:sl,GCI
+BFT:TLT01,"Rückenlage",label:de,GCI
+BFT:TLT02,"desni bok - iztegnjeno",label:sl,GCI
+BFT:TLT02,"rechte Seitenlage",label:de,GCI
+BFT:TLT03,"levi bok - iztegnjeno",label:sl,GCI
+BFT:TLT03,"linke Seitenlage",label:de,GCI
+BFT:TLT04,"skrčeno na desnem boku",label:sl,GCI
+BFT:TLT04,"Hockerlage rechts",label:de,GCI
+BFT:TLT05,"skrčeno na levem boku",label:sl,GCI
+BFT:TLT05,"Hockerlage links",label:de,GCI
+BFT:TLT06,"drugačna lega pokojnika",label:sl,GCI
+BFT:TLT06,"andere Körperlage",label:de,GCI
+BFT:TO,"ohranjenost",label:sl,GCI
+BFT:TO,"Erhaltung",label:de,GCI
+BFT:TO001,"ohranjeno: vsaj dolge kosti in lobanja",label:sl,GCI
+BFT:TO001,"Erhaltung: Langknochen und Schädel",label:de,GCI
+BFT:TO002,"delno ohranjeno",label:sl,GCI
+BFT:TO002,"teilweise erhalten",label:de,GCI
+BFT:TO003,"neohranjeno",label:sl,GCI
+BFT:TO003,"Knochen vergangen",label:de,GCI
+BFT:TO004,"v prvotni legi",label:sl,GCI
+BFT:TO004,"ursprüngliche Körperlage",label:de,GCI
+BFT:TO005,"delno premaknjene kosti",label:sl,GCI
+BFT:TO005,"teilweise verlagerte Knochen",label:de,GCI
+BFT:TO006,"v celoti premaknjene kosti",label:sl,GCI
+BFT:TO006,"verworfene Knochen",label:de,GCI
+BFT:TP,"posebnosti okostja",label:sl,GCI
+BFT:TP,"Skelettbesonderheiten",label:de,GCI
+BFT:TP001,"deformirana lobanja",label:sl,GCI
+BFT:TP001,"Schädeldeformation",label:de,GCI
+BFT:TP002,"poškodbe okostja",label:sl,GCI
+BFT:TP002,"alte Verletzungen",label:de,GCI
+BFT:TP003,"druge posebnosti okostja",label:sl,GCI
+BFT:TP003,"andere anthropologische Besonderheiten",label:de,GCI
+BFT:TR,"pridatki",label:sl,GCI
+BFT:TR,"Beigaben",label:de,GCI
+BFT:TR001,"ima vidne pridatke",label:sl,GCI
+BFT:TR001,"nachweisbare Beigaben",label:de,GCI
+BFT:TR002,"nima vidnih pridatkov",label:sl,GCI
+BFT:TR002,"ohne nachweisbare Beigaben",label:de,GCI
+BFT:TS,"spol",label:sl,GCI
+BFT:TS,"Geschlecht",label:de,GCI
+BFT:TS001,"ženska",label:sl,GCI
+BFT:TS001,"Frau",label:de,GCI
+BFT:TS002,"moški",label:sl,GCI
+BFT:TS002,"Mann",label:de,GCI

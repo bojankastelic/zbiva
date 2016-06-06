@@ -1,0 +1,179 @@
+{% load staticfiles %}
+{% load i18n %}
+
+<div class="header">
+
+    <script>
+    function post(path, params, method) {
+        method = method || "post"; // Set method to post by default if not specified.
+
+        // The rest of this code assumes you are not using a library.
+        // It can be made less wordy if you use one.
+        var form = document.createElement("form");
+        form.setAttribute("method", method);
+        form.setAttribute("action", path);
+
+        for(var key in params) {
+            if(params.hasOwnProperty(key)) {
+                var hiddenField = document.createElement("input");
+                hiddenField.setAttribute("type", "hidden");
+                hiddenField.setAttribute("name", key);
+                hiddenField.setAttribute("value", params[key]);
+
+                form.appendChild(hiddenField);
+             }
+        }
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+    </script>
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="container">
+             <!-- Topbar Navigation -->
+            <ul class="loginbar pull-right">
+                <!--
+                <li>
+                    <img src="{{ STATIC_URL }}img/PoweredByArches.png" class="powered-by-arches">
+                </li>
+                -->
+                <!--<form id="change_language" action="{% url 'set_language' %}" method="post">-->
+	            {% csrf_token %}
+	            <!--<input name="next" type="hidden" value="{{ redirect_to }}" /> -->
+	            {% get_language_info_list for LANGUAGES as languages %}
+	            {% for language in languages %}
+	                {% if LANGUAGE_CODE == 'sl' %}
+   	               	    <li class="topbar-devider" {% if language.code != 'en' %}style="display:none"{% endif %}></li>   
+   	               	{% endif %}
+                    {% if LANGUAGE_CODE == 'en' %}
+   	               	    <li class="topbar-devider" {% if language.code != 'de' %}style="display:none"{% endif %}></li>   
+   	               	{% endif %}
+   	                {% if LANGUAGE_CODE == 'de' %}
+   	               	    <li class="topbar-devider" {% if language.code != 'en' %}style="display:none"{% endif %}></li>   
+   	               	{% endif %}
+                    <li {% if language.code == LANGUAGE_CODE %}style="display:none"{% endif %}>
+                        <a href="javascript:void(0);" onclick="javascript:post('{% url 'set_language' %}',{language:'{{ language.code }}',next:'{{ redirect_to }}'})">{{ language.name_local }}</a> 
+                	</li>
+	            {% endfor %}
+                <!--
+                <li class="topbar-devider"></li>   
+                <li><a href="{{ STATIC_URL }}docs/{{ LANGUAGE_CODE }}/index.html" target="_blank">{% trans "Help" %}</a></li>
+                -->
+            </ul>
+            <!-- End Topbar Navigation -->
+        </div>
+    </div>
+    <!-- End Topbar -->
+
+    <!-- Navbar -->
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">{% trans "Toggle navigation" %}</span>
+                    <span class="fa fa-bars"></span>
+                </button>
+                <a class="navbar-brand" href="http://www.zrc-sazu.si">
+                    <img id="logo-zrc" class="zbiva-logo" src="{{ STATIC_URL }}img/logo_ZRC.png" alt="Logo">
+                </a>
+
+                <a class="navbar-brand" href="{% url 'home' %}">
+                    <img id="logo-header" class="zbiva-logo" src="{{ STATIC_URL }}img/logo_Zbiva-1.png" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    
+                    <!-- Home -->
+                    <li class="{% if active_page = 'Home' %}active{% endif %}">
+                        <a href="{% url 'home' %}">
+                            {% trans "Home" %}
+                        </a>
+                    </li>
+                    <!-- End Home -->
+
+                    <!-- New Search-->
+                    <li class="{% if active_page = 'Site' %}active{% endif %}">
+                        <a href="{% url 'search_sites' %}">
+                            {% trans "Sites" %}
+                        </a>
+                    </li>
+                    <!-- End Search-->
+
+                    <!-- New Search-->
+                    <li class="{% if active_page = 'Grave' %}active{% endif %}">
+                        <a href="{% url 'search_graves' %}">
+                            {% trans "Graves" %}
+                        </a>
+                    </li>
+                    <!-- End Search-->
+
+                    <!-- New Search-->
+                    <li class="{% if active_page = 'Object' %}active{% endif %}">
+                        <a href="{% url 'search_objects' %}">
+                            {% trans "Objects" %}
+                        </a>
+                    </li>
+                    <!-- End Search-->
+
+                    <!-- New Search-->
+                    <li class="{% if active_page = 'Search' %}active{% endif %}">
+                        <a href="{% url 'search_home' %}">
+                            {% trans "General search" %}
+                        </a>
+                    </li>
+                    <!-- End Search-->
+
+                    <!-- Map-->
+                    <li class="{% if active_page = 'Map' %}active{% endif %}">
+                        <a href="{% url 'map' %}">
+                            {% trans "Map View" %}
+                        </a>
+                    </li>
+                    <!-- End Map-->
+
+                    {% if 'edit' in user.user_groups %}
+                    <!-- Resource Editor-->
+                    <li class="dropdown {% if active_page = 'ResourceManger' %}active{% endif %}">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            {% trans "Resource Manager" %}
+                        </a>
+                        <ul class="dropdown-menu">
+                            {% for type, type_data in resource_types %}
+                                <li><a href="{% url 'resource_manager' type type_data.default_page '' %}"><i class="{{type_data.icon_class}}"></i>{{type_data.name}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <!-- End Resource Editor -->
+
+                     <!-- RDM-->
+                    <li class="{% if user.is_anonymous %}{% endif %} {% if active_page = 'RDM' %}active{% endif %}">
+                        <a href="{% url 'rdm' '' %}">
+                            {% trans "RDM" %}
+                        </a>
+                    </li>
+                    <!-- End RDM-->
+                    {% endif %}
+
+                    <!-- Help-->
+                    <li class="{% if active_page = 'Help' %}active{% endif %}">
+                        <a href="{% url 'help' %}">
+                            {% trans "Help" %}
+                        </a>
+                    </li>
+                    <!-- End Help-->
+
+
+                </ul>
+            </div><!--/navbar-collapse-->
+        </div>    
+    </div>            
+    <!-- End Navbar -->
+
+</div>

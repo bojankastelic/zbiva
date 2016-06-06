@@ -1,0 +1,109 @@
+conceptid,Value,ValueType,Provider
+OBJ:VP100,"nož",label:sl,GCI
+OBJ:VP100,"Messer",label:de,GCI
+OBJ:VP101,"sekira",label:sl,GCI
+OBJ:VP101,"Axt",label:de,GCI
+OBJ:VP102,"posoda",label:sl,GCI
+OBJ:VP102,"Gefäß",label:de,GCI
+OBJ:VP103,"meč",label:sl,GCI
+OBJ:VP103,"Schwert",label:de,GCI
+OBJ:VP104,"puščica",label:sl,GCI
+OBJ:VP104,"Pfeil",label:de,GCI
+OBJ:VP105,"kresilo",label:sl,GCI
+OBJ:VP105,"Feuerstahl",label:de,GCI
+OBJ:VP106,"glasbilo",label:sl,GCI
+OBJ:VP106,"Musikinstrument",label:de,GCI
+OBJ:VP107,"kultni predmet",label:sl,GCI
+OBJ:VP107,"Kultgegenstand",label:de,GCI
+OBJ:VP108,"uhan, obsenčnik",label:sl,GCI
+OBJ:VP108,"Kopfschmuckring",label:de,GCI
+OBJ:VP109,"ogrlica",label:sl,GCI
+OBJ:VP109,"Halskette",label:de,GCI
+OBJ:VP110,"glavnik",label:sl,GCI
+OBJ:VP110,"Kamm",label:de,GCI
+OBJ:VP111,"igla",label:sl,GCI
+OBJ:VP111,"Nadel",label:de,GCI
+OBJ:VP112,"zaponka",label:sl,GCI
+OBJ:VP112,"Fibel",label:de,GCI
+OBJ:VP113,"spona",label:sl,GCI
+OBJ:VP113,"Schnalle",label:de,GCI
+OBJ:VP114,"jermenski okov",label:sl,GCI
+OBJ:VP114,"Riemenbeschlag",label:de,GCI
+OBJ:VP115,"jermenski jeziček",label:sl,GCI
+OBJ:VP115,"Riemenzunge",label:de,GCI
+OBJ:VP116,"prstan",label:sl,GCI
+OBJ:VP116,"Fingerring",label:de,GCI
+OBJ:VP117,"zapestnica",label:sl,GCI
+OBJ:VP117,"Armreif",label:de,GCI
+OBJ:VP119,"ostroga",label:sl,GCI
+OBJ:VP119,"Sporn",label:de,GCI
+OBJ:VP120,"streme",label:sl,GCI
+OBJ:VP120,"Steigbügel",label:de,GCI
+OBJ:VP121,"neznano",label:sl,GCI
+OBJ:VP121,"unbekannt",label:de,GCI
+OBJ:VP122,"žrmlje",label:sl,GCI
+OBJ:VP122,"Mahlstein",label:de,GCI
+OBJ:VP123,"poljedelsko orodje (motika, lemež...)",label:sl,GCI
+OBJ:VP123,"Landwirtschaftliches Gerät (Pflugschar, Hacke...)",label:de,GCI
+OBJ:VP124,"vretence",label:sl,GCI
+OBJ:VP124,"Spinnwirtel",label:de,GCI
+OBJ:VP125,"svitek",label:sl,GCI
+OBJ:VP125,"Tonring",label:de,GCI
+OBJ:VP126,"utež",label:sl,GCI
+OBJ:VP126,"Gewicht",label:de,GCI
+OBJ:VP127,"žebelj",label:sl,GCI
+OBJ:VP127,"Nagel",label:de,GCI
+OBJ:VP128,"brus",label:sl,GCI
+OBJ:VP128,"Schleifstein",label:de,GCI
+OBJ:VP129,"britev",label:sl,GCI
+OBJ:VP129,"Rasiermesser",label:de,GCI
+OBJ:VP130,"sveder",label:sl,GCI
+OBJ:VP130,"Bohrer",label:de,GCI
+OBJ:VP131,"šilo",label:sl,GCI
+OBJ:VP131,"Ahle",label:de,GCI
+OBJ:VP132,"šivanka",label:sl,GCI
+OBJ:VP132,"Nadel",label:de,GCI
+OBJ:VP133,"ovratnica",label:sl,GCI
+OBJ:VP133,"Halsreif",label:de,GCI
+OBJ:VP134,"brzda",label:sl,GCI
+OBJ:VP134,"Zaumzeug",label:de,GCI
+OBJ:VP135,"sedlo",label:sl,GCI
+OBJ:VP135,"Sattel",label:de,GCI
+OBJ:VP136,"saks",label:sl,GCI
+OBJ:VP136,"Sax",label:de,GCI
+OBJ:VP137,"ščit in njegovi deli",label:sl,GCI
+OBJ:VP137,"Schild",label:de,GCI
+OBJ:VP138,"čelada",label:sl,GCI
+OBJ:VP138,"Helm",label:de,GCI
+OBJ:VP139,"oklep",label:sl,GCI
+OBJ:VP139,"Panzer",label:de,GCI
+OBJ:VP140,"jagoda",label:sl,GCI
+OBJ:VP140,"Perle",label:de,GCI
+OBJ:VP141,"obesek ogrlice",label:sl,GCI
+OBJ:VP141,"Halsanhänger",label:de,GCI
+OBJ:VP142,"srp",label:sl,GCI
+OBJ:VP142,"Sichel",label:de,GCI
+OBJ:VP143,"gumb obleke",label:sl,GCI
+OBJ:VP143,"Knopf",label:de,GCI
+OBJ:VP144,"kresilnik",label:sl,GCI
+OBJ:VP144,"Feuerstein",label:de,GCI
+OBJ:VP145,"sulica, kopje",label:sl,GCI
+OBJ:VP145,"Lanze und Speer",label:de,GCI
+OBJ:VP146,"hrana",label:sl,GCI
+OBJ:VP146,"Lebensmittel",label:de,GCI
+OBJ:VP147,"plačilno sredstvo, novec",label:sl,GCI
+OBJ:VP147,"Zahlungsmittel",label:de,GCI
+OBJ:VP148,"orodje razno",label:sl,GCI
+OBJ:VP148,"Werkzeug",label:de,GCI
+OBJ:VP149,"gumb, zakovica",label:sl,GCI
+OBJ:VP149,"Niet",label:de,GCI
+OBJ:VP150,"obroč",label:sl,GCI
+OBJ:VP150,"Ring",label:de,GCI
+OBJ:VP151,"jermenski pridržnik",label:sl,GCI
+OBJ:VP151,"Riemenschlaufen",label:de,GCI
+OBJ:VP152,"pinceta",label:sl,GCI
+OBJ:VP152,"Pinzette",label:de,GCI
+OBJ:VP153,"verižni členki",label:sl,GCI
+OBJ:VP153,"Kettenglieder",label:de,GCI
+OBJ:VP154,"hišni omet",label:sl,GCI
+OBJ:VP154,"Hüttenlehm",label:de,GCI

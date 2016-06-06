@@ -1,0 +1,5 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+CNT:1,Austria,,COUNTRY_AUTHORITY_DOCUMENT.csv,Index,EH
+CNT:2,Croatia,,COUNTRY_AUTHORITY_DOCUMENT.csv,Index,EH
+CNT:3,Italy,,COUNTRY_AUTHORITY_DOCUMENT.csv,Index,EH
+CNT:4,Slovenia,,COUNTRY_AUTHORITY_DOCUMENT.csv,Index,EH

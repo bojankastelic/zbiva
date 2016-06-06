@@ -1,0 +1,19 @@
+conceptid,Value,ValueType,Provider
+BF2:6,"odnos pokojnika",label:sl,GCI
+BF2:6,"stratigraphisches Verhältnis (Körper)",label:de,GCI
+BF2:7,"lega glave",label:sl,GCI
+BF2:7,"Blickrichtung",label:de,GCI
+BF2:8,"lega nog",label:sl,GCI
+BF2:8,"Fusshaltung",label:de,GCI
+BF2:9,"lega rok",label:sl,GCI
+BF2:9,"Armhaltung",label:de,GCI
+BF2:10,"lega telesa",label:sl,GCI
+BF2:10,"Körperhaltung",label:de,GCI
+BF2:11,"ohranjenost",label:sl,GCI
+BF2:11,"Erhaltung",label:de,GCI
+BF2:12,"posebnosti okostja",label:sl,GCI
+BF2:12,"Skelettbesonderheiten",label:de,GCI
+BF2:13,"pridatki",label:sl,GCI
+BF2:13,"Beigaben",label:de,GCI
+BF2:14,"spol",label:sl,GCI
+BF2:14,"Geschlecht",label:de,GCI

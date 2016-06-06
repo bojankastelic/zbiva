@@ -1,0 +1,260 @@
+
+<!--
+ARCHES - a program developed to inventory and manage immovable cultural heritage.
+Copyright (C) 2013 J. Paul Getty Trust and World Monuments Fund
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+{% load staticfiles %}
+{% load i18n %}
+{% include 'views/reports/title.htm' %}
+
+<!-- End Fixed Nav for Report -->
+<div id="report-body" class="report-body">
+    
+    <!--=== Resource Description Section ===-->
+    <div class="block-description1" style="padding-top: 10px;" id="report">
+        <div class="container">
+
+            <!-- Resource Report Container -->
+            <div>
+
+                <!-- Section Header -->
+                <div class="">
+                    <div class="">
+                        <h2 class="arches-report-section-header">{% trans "Report" %}</h2>
+                    </div> 
+                </div>
+
+                <!-- Anchor for in=page navigation from "report options" menu -->
+                <a href="overview" id="overview" style="top: 250px;"></a>
+
+
+                <!-- Resource Description Content -->
+                <div class="row">
+                    
+                    <!-- Spacer -->
+                    <div class="hidden-sm hidden-md hidden-lg margin-bottom-20"></div>
+
+                    <!-- Resource Summary Info -->
+                    <div class="col-xs-12">
+                        <div class="right-inner arches-box-grey-border margin-bottom-20 padding-bottom-10">
+                            <!-- Resource Summary Info -->
+                            {% if 'TITLE_E41' in report_info.source.graph or 'IDENTIFIER_E42' in report_info.source.graph or 'INFORMATION_CARRIER_E84' in report_info.source.graph or 'LANGUAGE_E55' in report_info.source.graph or 'KEYWORD_E55' in report_info.source.graph %}
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="arches-report-subsection-content">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+		                                            <div class="">
+			                                            <dl class="report-item-list">
+                                                    		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+			                                                    <dt>
+			                                                        <h5 id="" class="arches-report-subsection-title">{% trans "Titles" %}:</h5>
+			                                                    </dt>
+                                                			</div>
+                                                    		<div class="col-xs-10">
+                                                                <dd class="arches-report-subsection-item report-list-item">
+                                                                    {% for TITLE_E41 in report_info.source.graph.TITLE_E41 %}
+                                                                        {{ TITLE_E41.TITLE_E41__value }} {% if not forloop.last %}, {% endif %}
+                                                                    {% endfor %}            
+                                                                </dd>
+                                                			</div>
+			                                            </dl>
+		                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}    
+                            <!-- Publication titles -->
+                            {% if 'PUBLICATION_TITLE_E41' in report_info.source.graph %}
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="arches-report-subsection-content">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+		                                            <div class="">
+			                                            <dl class="report-item-list">
+                                                    		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+			                                                    <dt>
+			                                                        <h5 id="" class="arches-report-subsection-title">{% trans "Publication title" %}:</h5>
+			                                                    </dt>
+                                                			</div>
+                                                    		<div class="col-xs-10">
+                                                                <dd class="arches-report-subsection-item report-list-item">
+                                                                    {% for PUBLICATION_TITLE_E41 in report_info.source.graph.PUBLICATION_TITLE_E41 %}
+                                                                        {{ PUBLICATION_TITLE_E41.PUBLICATION_TITLE_E41__value }} {% if not forloop.last %}, {% endif %}
+                                                                    {% endfor %}            
+                                                                </dd>
+                                                			</div>
+			                                            </dl>
+		                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}    
+
+                            <!-- Image Section  ONLY FOR RESOURCES THAT ARE IMAGE FORMATS -->
+                            {% if 'FILE_PATH_E62' in report_info.source.graph %}
+                                <div class="row">
+
+                                     <!-- Section Content -->
+                                    <div class="col-sm-8">
+
+                                        <!-- Spacer -->
+                                        <div class="arches-report-spacer hidden-xs"></div>
+
+                                        <div class="arches-report-subsection-content">
+
+                                            <!-- Image -->
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <dl>
+                                                        <!-- Links for Image Gallery Supply Image in the href, thumbnails in the img tags -->
+                                                        {% for FILE_PATH_E62 in report_info.source.graph.FILE_PATH_E62 %}
+
+                                                            {% if 'THUMBNAIL_E62' in report_info.source.graph %}
+
+                                                                <dd class="arches-report-subsection-item">
+                                                                    <div id="" style="margin-top: 5px;">
+                                                                        <img src="{{MEDIA_URL}}{{FILE_PATH_E62.FILE_PATH_E62__label}}" alt="" class="" style="width: 100%; margin-bottom: 30px; border: solid 1px #555;" onerror="this.src='{{STATIC_URL}}img/photo_missing.png';">
+                                                                    </div>
+                                                                </dd>
+
+                                                            {% endif %}
+
+                                                            {% empty %}
+                                                                <dd class="arches-report-subsection-item">
+                                                                    {% trans "None" %}
+                                                                </dd>                                                        
+                                                        {% endfor %}
+
+                                                    </dl>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- End Section Content-->
+
+                                </div>
+                                <!-- End Image Section -->
+                            {% endif %}
+
+                            {% if 'RESOURCE_CREATION_EVENT_E65' in report_info.source.graph or 'PUBLICATION_EVENT_E12' in report_info.source.graph or 'RIGHT_DESCRIPTION_E30' in report_info.source.graph %}
+                            
+                                {% if 'RESOURCE_CREATION_EVENT_E65' in report_info.source.graph %}
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            {% for RESOURCE_CREATION_EVENT_E65 in report_info.source.graph.RESOURCE_CREATION_EVENT_E65 %}
+                                                <!-- Creator -->
+                                                {% if 'CREATOR_E39' in RESOURCE_CREATION_EVENT_E65 %}
+                                                    {% for CREATOR_E39 in RESOURCE_CREATION_EVENT_E65.CREATOR_E39 %}
+                                                        {% if 'CREATOR_APPELLATION_E82' in CREATOR_E39 %}
+                                                            <div class="arches-report-subsection-content">
+                                                                <div class="row">
+                                                                    <div class="col-xs-12">
+		                                                                <dl class="report-item-list">
+                                                                    		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		                                                                        <dt>
+		                                                                            <h5 id="" class="arches-report-subsection-title">{% trans "Creator" %}:</h5>
+		                                                                        </dt>
+                                                                			</div>
+                                                                    		<div class="col-xs-10">
+                                                                                <dd class="arches-report-subsection-item report-list-item">
+                                                                                    {% for CREATOR_APPELLATION_E82 in CREATOR_E39.CREATOR_APPELLATION_E82 %}
+                                                                                        {{CREATOR_APPELLATION_E82.CREATOR_APPELLATION_E82__value}} {% if not forloop.last %}, {% endif %}
+                                                                                    {% endfor %}            
+                                                                                </dd>
+                                                                			</div>
+		                                                                </dl>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endif %}
+                                                <!-- Place of creation -->
+                                                {% if 'PLACE_OF_CREATION_E48' in RESOURCE_CREATION_EVENT_E65 %}
+                                                    <div class="arches-report-subsection-content">
+                                                        <div class="row">
+                                                            <div class="col-xs-12">
+                                                                <dl class="report-item-list">
+                                                            		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+                                                                        <dt>
+                                                                            <h5 id="" class="arches-report-subsection-title">{% trans "Place of creation" %}:</h5>
+                                                                        </dt>
+                                                        			</div>
+                                                            		<div class="col-xs-10">
+                                                                        <dd class="arches-report-subsection-item report-list-item">
+                                                                            {% for PLACE_OF_CREATION_E48 in RESOURCE_CREATION_EVENT_E65.PLACE_OF_CREATION_E48 %}
+                                                                                {{PLACE_OF_CREATION_E48.PLACE_OF_CREATION_E48__value}} {% if not forloop.last %}, {% endif %}
+                                                                            {% endfor %}            
+                                                                        </dd>
+                                                        			</div>
+                                                                </dl>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                {% endif %}
+                                                <!-- Year of creation -->
+                                                {% if 'YEAR_OF_CREATION_E62' in RESOURCE_CREATION_EVENT_E65 %}
+                                                    <div class="arches-report-subsection-content">
+                                                        <div class="row">
+                                                            <div class="col-xs-12">
+                                                                <dl class="report-item-list">
+                                                            		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+                                                                        <dt>
+                                                                            <h5 id="" class="arches-report-subsection-title">{% trans "Year of creation" %}:</h5>
+                                                                        </dt>
+                                                        			</div>
+                                                            		<div class="col-xs-10">
+                                                                        <dd class="arches-report-subsection-item report-list-item">
+                                                                            {% for YEAR_OF_CREATION_E62 in RESOURCE_CREATION_EVENT_E65.YEAR_OF_CREATION_E62 %}
+                                                                                {{YEAR_OF_CREATION_E62.YEAR_OF_CREATION_E62__value}}
+                                                                            {% endfor %}            
+                                                                        </dd>
+                                                        			</div>
+                                                                </dl>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                {% endif %} 
+                            {% endif %} 
+                        </div>
+                    </div>
+                    <!-- End Project Information -->
+                    
+                </div>   
+            </div>
+            <!-- End Project Summary -->
+        </div>
+    </div>
+    <!-- End Resource Description Section -->
+
+    {% include "views/reports/sections/related_resource_section.htm" %}
+
+    {% include 'footer.htm' %}
+
+    {% include 'copyright.htm' %}
+
+</div>

@@ -1,0 +1,56 @@
+{% load i18n %}
+<!-- Time Filter -->
+<div class="arches-time-filter" id="time-filter" style="display: none;">
+    
+    <!-- Body -->
+    <div class="padding-top-10" style="padding-left: 10px;">
+
+        <!-- Date Filter Tools -->
+        <div class="row">
+                                                                  
+            <div class="col-xs-12" style="">
+                        
+                <!-- Year-Before-Present Slider -->
+                <div class="row">
+
+                    <h4 class="margin-top-5 margin-bottom-5 margin-left-15" style="font-style: normal;">
+                        {% trans "Range of Years" %} 
+                        <small>
+                            {% if search_type == 'Site' %} 
+                                {% trans "(show sites with dates that falls between these years)" %} 
+                            {% elif search_type == 'Grave' %} 
+                                {% trans "(show graves with dates that falls between these years)" %} 
+                            {% elif search_type == 'Object' %} 
+                                {% trans "(show objects with dates that falls between these years)" %} 
+                            {% else %} 
+                                {% trans "(show resources with dates that falls between these years)" %} 
+                            {% endif %}
+                        </small>
+                    </h4>
+                    
+                    <form>
+                        <fieldset style="margin-right: 30px; margin-top: 20px">
+                            <div class="col-xs-12">
+
+                                    <input type="text" class="slider slider-success" style="margin-bottom:10px;" id="sal" value="" 
+                                    data-slider-min="{{min_date}}" 
+                                    data-slider-max="{{max_date}}" 
+                                    data-slider-step="5" 
+                                    data-slider-value="[{{min_date}},{{max_date}}]"
+                                    data-slider-handle="round">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- End Year-Before-Present Slider -->
+            </div>
+        </div>
+        <!-- End Date Filters -->
+
+    </div>
+    <!-- End  Body -->
+
+    <input id="timefilterdata" name="timefilterdata" type="hidden" value="{{timefilterdata}}"/>
+
+</div>
+<!-- End Time Filter -->

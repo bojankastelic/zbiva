@@ -1,0 +1,9 @@
+########
+Napredno
+########
+
+Zbiva podatkovni grafi
+======================
+ * :download:`Kompresirani grafi v PDF formatu<graphs/zbiva_podatkovni_grafi_pdf.zip>`
+ * :download:`Kompresirani grafi v GEPHI formatu<graphs/zbiva_podatkovni_grafi_gephi.zip>`
+

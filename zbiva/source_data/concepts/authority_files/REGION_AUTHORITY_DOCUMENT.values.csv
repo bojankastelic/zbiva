@@ -1,0 +1,31 @@
+conceptid,Value,ValueType,Provider
+REG:0,,label:sl,GCI
+REG:0,,label:de,GCI
+REG:1,Furlanija,label:sl,GCI
+REG:1,Friuli,label:de,GCI
+REG:2,Goriška,label:sl,GCI
+REG:2,Görz,label:de,GCI
+REG:3,Gradiščansko,label:sl,GCI
+REG:3,Burgenland,label:de,GCI
+REG:4,Koroška,label:sl,GCI
+REG:4,Kaernten,label:de,GCI
+REG:5,Predarlberška,label:sl,GCI
+REG:5,Vorarlberg,label:de,GCI
+REG:6,Salzburška,label:sl,GCI
+REG:6,Salzburg,label:de,GCI
+REG:7,Sp. Avstrija,label:sl,GCI
+REG:7,Niederoesterreich,label:de,GCI
+REG:8,Štajerska,label:sl,GCI
+REG:8,Steiermark,label:de,GCI
+REG:9,Tirolska,label:sl,GCI
+REG:9,Tirol,label:de,GCI
+REG:10,Tržaška pokrajina,label:sl,GCI
+REG:10,Triest,label:de,GCI
+REG:11,Wien - Dunaj,label:sl,GCI
+REG:11,Wien,label:de,GCI
+REG:12,Zg. Avstrija,label:sl,GCI
+REG:12,Oberoesterreich,label:de,GCI
+REG:13,Istra,label:sl,GCI
+REG:13,Istrien,label:de,GCI
+REG:14,Kvarner,label:sl,GCI
+REG:14,Kvarner (Bucht),label:de,GCI

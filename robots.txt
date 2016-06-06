@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /search/resources/
+Disallow: /concepts/search/
+Disallow: /search/export/
+Disallow: /buffer/
+Disallow: /get_admin_areas/
+Disallow: /resources/markers/
+Disallow: /resources/layers/
+Disallow: /concepts/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/confirm_delete/
+Disallow: /reports/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/
+Disallow: /concepts/search_sparql_endpoint/
+
+Sitemap: http://zbiva.zrc-sazu.si/sitemap.xml

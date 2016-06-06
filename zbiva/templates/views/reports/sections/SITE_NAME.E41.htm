@@ -1,0 +1,21 @@
+{% load i18n %}
+<div class="row">
+     <div class="col-xs-12">
+		<div class="">
+			<dl class="report-item-list">
+        		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+			        <dt>
+			            <h5 id="" class="arches-report-subsection-title">{% trans "Site Name" %}:</h5>
+			        </dt>
+    			</div>
+        		<div class="col-xs-10">
+                    <dd class="arches-report-subsection-item report-list-item">
+                        {% for SITE_NAME_E41 in report_info.source.graph.SITE_NAME_E41 %}
+                            {{ SITE_NAME_E41.SITE_NAME_E41__value }} {% if not forloop.last %}, {% endif %}
+                        {% endfor %}            
+                    </dd>
+    			</div>
+			</dl>
+		</div>
+    </div>
+</div>

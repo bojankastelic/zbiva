@@ -1,0 +1,22 @@
+{% load i18n %}
+{% if 'OTHER_NAME_E48' in report_info.source.graph %}	
+	<div class="row">
+      <div class="col-xs-12">
+		<dl class="report-item-list">
+    		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+		        <dt>
+		            <h5 id="" class="arches-report-subsection-title">{% trans "Other name" %}:</h5>
+		        </dt>
+			</div>
+    		<div class="col-xs-10">
+                <dd class="arches-report-subsection-item report-list-item">
+		            {% for OTHER_NAME_E48 in report_info.source.graph.OTHER_NAME_E48 %}
+                        {{OTHER_NAME_E48.OTHER_NAME_E48__value}} {% if not forloop.last %}, {% endif %}
+                    {% endfor %}            
+                </dd>
+			</div>
+		</dl>
+     </div>
+   </div>
+{% endif %}
+

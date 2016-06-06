@@ -1,0 +1,499 @@
+{
+    "csv": {
+        "NAME": "Zbiva_Search_Results_Export",
+        "SCHEMA": [
+            {"field_name": "LON","source": "longitude"},
+            {"field_name": "LAT","source": "latitude"},
+            {"field_name": "NAJDISCE","source": "field_map"},
+            {"field_name": "ZASELEK","source": "field_map"},
+            {"field_name": "NASELJE","source": "field_map"},
+            {"field_name": "TE","source": "field_map"},
+            {"field_name": "TP","source": "field_map"},
+            {"field_name": "DEZELA","source": "field_map"},
+            {"field_name": "DRZAVA","source": "field_map"},
+            {"field_name": "SIFRA","source": "field_map"},
+            {"field_name": "SIFRA2","source": "field_map"},
+            {"field_name": "NAJPREJ","source": "first_date"},
+            {"field_name": "NAJKASNEJE","source": "last_date"}
+        ],
+        "RESOURCE_TYPES": {
+            "ACTOR.E39": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "TYPE",
+                        "entitytypeid": "ACTOR_TYPE.E55"
+                    },
+                    {
+                        "field_name": "PRIMARY ADDRESS/LOCATION DESCRIPTION",
+                        "entitytypeid": "PLACE_ADDRESS.E45",
+                        "value_type": "e4f5bd2f-56b7-4b8d-ac48-7e6d90e530ae",
+                        "alternate_entitytypeid": "DESCRIPTION_OF_LOCATION.E62"
+                    }
+                ]
+            },
+            "HERITAGE_RESOURCE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "ID",
+                        "entitytypeid": "EXTERNAL_XREF.E42"
+                    }
+                ]
+            },
+            "SITE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "SIFRA",
+                        "entitytypeid": "SITE_CODE.E42"
+                    },
+                    {
+                        "field_name": "NAJDISCE",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "ZASELEK",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "NASELJE",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TE",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TP",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "DEZELA",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "DRZAVA",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            },
+            "GRAVE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "SIFRA",
+                        "entitytypeid": "GRAVE_CODE.E42"
+                    },
+                    {
+                        "field_name": "SIFRA2",
+                        "entitytypeid": "BODY_CODE.E42"
+                    },
+                    {
+                        "field_name": "NAJDISCE",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "ZASELEK",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "NASELJE",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TE",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TP",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "DEZELA",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "DRZAVA",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            },
+            "OBJECT.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "SIFRA",
+                        "entitytypeid": "OBJECT_CODE.E42"
+                    },
+                    {
+                        "field_name": "SIFRA2",
+                        "entitytypeid": "GRAVE_SE.E62"
+                    },
+                    {
+                        "field_name": "NAJDISCE",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "ZASELEK",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "NASELJE",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TE",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TP",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "DEZELA",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "DRZAVA",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            }
+        }
+    },
+    "kml": {
+        "NAME": "Zbiva_Search_Results_Export",
+        "SCHEMA": [
+            {"field_name": "primary_name","source": "primaryname"},
+            {"field_name": "geometry","source": "geometries"},
+            {"field_name": "SITE_NAME","source": "field_map"},
+            {"field_name": "OTHER_SITE_NAME","source": "field_map"},
+            {"field_name": "SETTLEMENT","source": "field_map"},
+            {"field_name": "TOPOGRAPHICAL_UNIT","source": "field_map"},
+            {"field_name": "TOPOGRAPHICAL_AREA","source": "field_map"},
+            {"field_name": "REGION","source": "field_map"},
+            {"field_name": "COUNTRY","source": "field_map"},
+            {"field_name": "CODE","source": "field_map"},
+            {"field_name": "CODE2","source": "field_map"}
+        ],
+        "RESOURCE_TYPES": {
+            "ACTOR.E39": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "type",
+                        "entitytypeid": "ACTOR_TYPE.E55"
+                    },
+                    {
+                        "field_name": "primary_address_or_description",
+                        "entitytypeid": "PLACE_ADDRESS.E45",
+                        "value_type": "e4f5bd2f-56b7-4b8d-ac48-7e6d90e530ae",
+                        "alternate_entitytypeid": "DESCRIPTION_OF_LOCATION.E62"
+                    }
+                ]
+            },
+            "HERITAGE_RESOURCE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "type",
+                        "entitytypeid": "HERITAGE_RESOURCE_TYPE.E55"
+                    },
+                    {
+                        "field_name": "primary_address_or_description",
+                        "entitytypeid": "PLACE_ADDRESS.E45",
+                        "value_type": "e4f5bd2f-56b7-4b8d-ac48-7e6d90e530ae",
+                        "alternate_entitytypeid": "DESCRIPTION_OF_LOCATION.E62"
+                    },
+                    {
+                        "field_name": "designations",
+                        "entitytypeid": "TYPE_OF_DESIGNATION_OR_PROTECTION.E55"
+                    },
+                    {
+                        "field_name": "ID",
+                        "entitytypeid": "EXTERNAL_XREF.E42"
+                    }
+                ]
+            },
+            "SITE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "CODE",
+                        "entitytypeid": "SITE_CODE.E42"
+                    },
+                    {
+                        "field_name": "SITE_NAME",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "OTHER_SITE_NAME",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "SETTLEMENT",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_UNIT",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_AREA",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "REGION",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "COUNTRY",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            },
+            "GRAVE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "CODE",
+                        "entitytypeid": "GRAVE_CODE.E42"
+                    },
+                    {
+                        "field_name": "CODE2",
+                        "entitytypeid": "BODY_CODE.E42"
+                    },
+                    {
+                        "field_name": "SITE_NAME",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "OTHER_SITE_NAME",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "SETTLEMENT",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_UNIT",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_AREA",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "REGION",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "COUNTRY",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            },
+            "OBJECT.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "CODE",
+                        "entitytypeid": "OBJECT_CODE.E42"
+                    },
+                    {
+                        "field_name": "CODE2",
+                        "entitytypeid": "GRAVE_SE.E62"
+                    },
+                    {
+                        "field_name": "SITE_NAME",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "OTHER_SITE_NAME",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "SETTLEMENT",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_UNIT",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_AREA",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "REGION",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "COUNTRY",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            }
+        }
+    },
+    "shp": {
+        "NAME": "Zbiva_Search_Results_Export",
+        "SCHEMA": [
+            {"field_name": "prime_name","source": "primaryname","data_type": "str","data_length": "128"},
+            {"field_name": "SITE_NAME","source": "field_map"},
+            {"field_name": "OTHER_SITE_NAME","source": "field_map"},
+            {"field_name": "SETTLEMENT","source": "field_map"},
+            {"field_name": "TOPOGRAPHICAL_UNIT","source": "field_map"},
+            {"field_name": "TOPOGRAPHICAL_AREA","source": "field_map"},
+            {"field_name": "REGION","source": "field_map"},
+            {"field_name": "COUNTRY","source": "field_map"},
+            {"field_name": "CODE","source": "field_map"},
+            {"field_name": "CODE2","source": "field_map"}
+        ],
+        "RESOURCE_TYPES": {
+            "ACTOR.E39": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "type",
+                        "entitytypeid": "ACTOR_TYPE.E55"
+                    },
+                    {
+                        "field_name": "address",
+                        "entitytypeid": "PLACE_ADDRESS.E45",
+                        "value_type": "e4f5bd2f-56b7-4b8d-ac48-7e6d90e530ae",
+                        "alternate_entitytypeid": "DESCRIPTION_OF_LOCATION.E62"
+                    }
+                ]
+            },
+            "HERITAGE_RESOURCE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "type",
+                        "entitytypeid": "HERITAGE_RESOURCE_TYPE.E55"
+                    },
+                    {
+                        "field_name": "address",
+                        "entitytypeid": "PLACE_ADDRESS.E45",
+                        "value_type": "e4f5bd2f-56b7-4b8d-ac48-7e6d90e530ae",
+                        "alternate_entitytypeid": "DESCRIPTION_OF_LOCATION.E62"
+                    },
+                    {
+                        "field_name": "designatns",
+                        "entitytypeid": "TYPE_OF_DESIGNATION_OR_PROTECTION.E55"
+                    },
+                    {
+                        "field_name": "ID",
+                        "entitytypeid": "EXTERNAL_XREF.E42"
+                    }
+                ]
+            },
+            "SITE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "CODE",
+                        "entitytypeid": "SITE_CODE.E42"
+                    },
+                    {
+                        "field_name": "SITE_NAME",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "OTHER_SITE_NAME",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "SETTLEMENT",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_UNIT",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_AREA",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "REGION",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "COUNTRY",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            },
+            "GRAVE.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "CODE",
+                        "entitytypeid": "GRAVE_CODE.E42"
+                    },
+                    {
+                        "field_name": "CODE2",
+                        "entitytypeid": "BODY_CODE.E42"
+                    },
+                    {
+                        "field_name": "SITE_NAME",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "OTHER_SITE_NAME",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "SETTLEMENT",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_UNIT",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_AREA",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "REGION",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "COUNTRY",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            },
+            "OBJECT.E18": {
+                "FIELD_MAP": [
+                    {
+                        "field_name": "CODE",
+                        "entitytypeid": "OBJECT_CODE.E42"
+                    },
+                    {
+                        "field_name": "CODE2",
+                        "entitytypeid": "GRAVE_SE.E62"
+                    },
+                    {
+                        "field_name": "SITE_NAME",
+                        "entitytypeid": "SITE_NAME.E41"
+                    },
+                    {
+                        "field_name": "OTHER_SITE_NAME",
+                        "entitytypeid": "OTHER_SITE_NAME.E48"
+                    },
+                    {
+                        "field_name": "SETTLEMENT",
+                        "entitytypeid": "SETTLEMENT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_UNIT",
+                        "entitytypeid": "TOPOGRAPHICAL_UNIT.E48"
+                    },
+                    {
+                        "field_name": "TOPOGRAPHICAL_AREA",
+                        "entitytypeid": "TOPOGRAPHICAL_AREA.E48"
+                    },
+                    {
+                        "field_name": "REGION",
+                        "entitytypeid": "REGION.E55"
+                    },
+                    {
+                        "field_name": "COUNTRY",
+                        "entitytypeid": "COUNTRY.E55"
+                    }
+                ]
+            }
+        }
+    }
+}

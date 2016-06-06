@@ -1,0 +1,25 @@
+{% load i18n %}
+{% if 'ADMINISTRATIVE_SUBDIVISION_E48' in report_info.source.graph %}
+    <div class="row">
+        <div class="col-xs-12">
+            <dl class="report-item-list">
+                <dt>
+                    <h5 id="" class="arches-report-subsection-title">{% trans "Administrative Areas" %}</h5>
+                </dt>
+
+                <dd class="arches-report-subsection-item empty-message" style="display:none;">
+                    {% trans "No areas recorded" %}
+                </dd>
+                {% for ADMINISTRATIVE_SUBDIVISION_E48 in report_info.source.graph.ADMINISTRATIVE_SUBDIVISION_E48 %}
+                    <dd class="arches-report-subsection-item report-list-item">
+                        {{ADMINISTRATIVE_SUBDIVISION_E48.ADMINISTRATIVE_SUBDIVISION_E48__value}}
+                        <span class="arches-report-subsection-item-type">
+                            ({{ADMINISTRATIVE_SUBDIVISION_E48.ADMINISTRATIVE_SUBDIVISION_TYPE_E55__value}})
+                        </span>
+                    </dd>
+                {% endfor %}                      
+            </dl>
+        </div>
+    </div>
+{% endif %}
+

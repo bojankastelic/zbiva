@@ -1,0 +1,44 @@
+{% load staticfiles %}
+{% load i18n %}
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- About -->
+                <address class="md-margin-bottom-40">
+                    <b>{% trans 'Avtor strukture:' %}</b> <a href="mailto:Pleterski@zrc-sazu.si">Andrej Pleterski</a><br>	
+                    <b>{% trans 'Skrbnika:' %}</b> <a href="mailto:Pleterski@zrc-sazu.si">Andrej Pleterski</a>, <a href="mailto:Mateja@zrc-sazu.si">Mateja Belak</a><br>
+                    <b>{% trans 'Digitalna zbirka od' %}</b> 1987<br>
+                    <b>{% trans 'Na spletu dostopna od' %}</b> 2000<br>
+                    <b>{% trans 'ISSN:' %}</b> 2350-5826
+                </address>                         
+                <!-- End Monthly Newsletter -->
+            </div><!--/col-md-4-->  
+
+            <div class="col-md-4">
+                <!-- Contact Us -->
+                <address style="margin-bottom:0px">
+                    {% if LANGUAGE_CODE == 'sl' %}
+                        <a href="http://www.zrc-sazu.si/sl" target="new">{% trans 'ZRC SAZU' %}</a><br>
+                    {% endif %}
+                    {% if LANGUAGE_CODE == 'en' %}
+                        <a href="http://www.zrc-sazu.si/en" target="new">{% trans 'ZRC SAZU' %}</a>, 
+                    {% endif %}
+                    {% if LANGUAGE_CODE == 'de' %}
+                        <a href="http://iza2.zrc-sazu.si" target="new">{% trans 'ZRC SAZU' %}</a><br>
+                    {% endif %}
+                    {% if LANGUAGE_CODE != 'de' %}
+                        <a href="http://iza2.zrc-sazu.si" target="new">{% trans 'Inštitut za arheologijo' %}</a><br>
+                    {% endif %}
+                    <b>{% trans 'Sedež:' %}</b> Novi trg 2, 1000 Ljubljana, Slovenija<br>
+                    <b>{% trans 'Naslov:' %}</b> Gosposka 13, 1000 Ljubljana, Slovenija<br>
+                    <b>{% trans 'E-pošta:' %}</b> <a href="mailto:zbiva@zrc-sazu.si">zbiva@zrc-sazu.si</a><br>
+                </address>
+                <!-- End Contact Us -->
+            </div><!--/col-md-4-->
+            <div class="col-md-4">
+                {% trans "<a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sl'><img alt='Creative Commons licenca' style='border-width:0;height:25px;' src='http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' /></a><br /><span xmlns:dct='http://purl.org/dc/terms/' href='http://purl.org/dc/dcmitype/Dataset' property='dct:title' rel='dct:type'>Zbiva </span> (<a xmlns:cc='http://creativecommons.org/ns#' href='http://zbiva.zrc-sazu.si' property='cc:attributionName' rel='cc:attributionURL'> http://zbiva.zrc-sazu.si</a>) je objavljen pod licenco  <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sl'>Creative Commons Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 3.0 Slovenija</a>."%}
+            </div>
+        </div>
+    </div> 
+</div> 

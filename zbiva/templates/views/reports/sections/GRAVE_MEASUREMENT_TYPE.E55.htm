@@ -1,0 +1,27 @@
+{% load i18n %}
+{% load l10n %}
+{% load humanize %}
+    {% for GRAVE_MEASUREMENT_TYPE_E55 in report_info.source.graph.GRAVE_MEASUREMENT_TYPE_E55 %}
+        <div class="arches-report-subsection-content">
+            <div class="row">
+                <div class="col-xs-12">
+			        <dl class="report-item-list">
+                		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+			                <dt>
+			                    <h5 id="" class="arches-report-subsection-title">{{ GRAVE_MEASUREMENT_TYPE_E55.GRAVE_MEASUREMENT_TYPE_E55__value }}:</h5>
+			                </dt>
+            			</div>
+                		<div class="col-xs-10">
+                            <dd class="arches-report-subsection-item report-list-item">
+		                        {{ GRAVE_MEASUREMENT_TYPE_E55.VALUE_OF_MEASUREMENT_E60__value|floatformat:-2 }}
+	                            {% if GRAVE_MEASUREMENT_TYPE_E55.UNIT_OF_MEASUREMENT_E55__value != '-' %}
+	                                 {{ GRAVE_MEASUREMENT_TYPE_E55.UNIT_OF_MEASUREMENT_E55__value }}
+	                            {% endif %}           
+                            </dd>
+            			</div>
+			        </dl>
+		        </div>
+	        </div>
+        </div>
+    {% endfor %}
+

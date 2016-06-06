@@ -1,0 +1,16 @@
+############
+Predstavitev
+############
+
+Kaj je Zbiva
+============
+ZA DOPOLNIT: Zbiva je arheološka baza podatkov za vzhodne Alpe in obrobje v zgodnjem srednjem veku. Prostorsko pokriva Slovenijo, Avstrijo, Istro in Kvarner na Hrvaškem in Furlanijo ter Julijsko krajino v Italiji, primerjalno pa vsebuje tudi posamična najdišča iz soseščine in predhodnega obdobja.
+
+Sestavljena je iz treh večjih delov, ki se prepletajo v celoto:
+* najdišča
+* grobovi
+* predmeti
+
+Opozorila in pojasnila
+======================
+ZA DOPOLNIT: Opozorila in pojasnila...

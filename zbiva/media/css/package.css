@@ -1,0 +1,339 @@
+/*put package specific styles here...*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext);
+
+.form-control {
+	display:block;
+	width:100%;
+	height:34px;
+	padding:6px 6px 6px 8px;
+	font-size:14px;
+	line-height:1.428571429;
+	color:#999;
+	background-color:#fff;
+	background-image:none;
+	border:1px solid #ccc;
+	border-radius:4px;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.resize-down {
+  bottom: 5px;
+  right: .5em;
+  z-index: 100;
+}
+.ol-touch .resize-down {
+  bottom: 5px;
+  right: .5em;
+  z-index: 100;
+}
+
+.resize-up {
+  bottom: 30px;
+  right: .5em;
+  z-index: 100;
+}
+.ol-touch .resize-up {
+  bottom: 30px;
+  right: .5em;
+  z-index: 100;
+}
+
+.arches-report-subsection-title {
+	font-size: 16px !important;
+	font-weight: 200;
+	color: #777;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.arches-report-section-header {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 22px !important;
+	font-weight: 200;
+}
+
+dl {
+	margin-top:0;
+	margin-bottom:8px
+}
+
+.footer {
+    color: #dadada;
+    background: #585f69;
+    padding: 20px 0 10px;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
+	color:#fff;
+	background-color:#0086B7;
+	border-color:#0086B7;
+}
+
+.btn {
+	color:#fff;
+	background-color:#009ed8;
+	border-color:#009ed8;
+}
+
+.btn-primary {
+	color:#fff;
+	background-color:#009ed8;
+	border-color:#009ed8;
+}
+
+.btn-success {
+	color:#fff;
+	background-color:#5cb85c;
+	border-color:#4cae4c
+}
+.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open .dropdown-toggle.btn-success {
+	color:#fff;
+	background-color:#47a447;
+	border-color:#398439
+}
+
+/* Inventory Map Tools Buttons and panels*/
+.arches-map-tools {
+    width: 175px;
+    height: 46px;
+    background: #F5F7FB;
+    color: #3A67A6;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid rgba(206,217,233,.95);
+}
+
+arches-map-tools:active {
+    top: 0px;
+    left: 0px;
+    color: #3A67A6;
+    background: #F5F7FB;
+    border: 1px solid rgba(206,217,233,.95);
+    z-index: 0;
+    box-shadow: none;
+}
+
+.arches-map-tools:focus {
+    top: 0px;
+    left: 0px;
+    background: #F5F7FB;
+    color: #3A67A6;
+    border: 1px solid rgba(206,217,233,.95);
+    z-index: 0;
+    box-shadow: none;
+}
+
+.arches-map-tools:hover {
+    background: #fdfdfd;
+    color: #645699;
+    border: 1px solid rgba(206,217,233,.95);
+}
+
+.arches-map-tools-pressed {
+    width: 175px;
+    height: 46px;
+    font-size: 15px;
+    background: #ffffff;
+    border: 1px solid rgba(206,217,233,.95);
+    border-top-color: #ffffff;
+    color: #3A67A6;
+    font-weight: 400;
+}
+
+.arches-map-tools-pressed:hover {
+    background: #ffffff;
+    border: 1px solid rgba(206,217,233,.95);
+    border-top-color: #ffffff;
+    cursor: pointer;
+    color: #3A67A6;
+}
+
+.arches-map-tools-pressed:active {
+    background: #ffffff;
+    border: 1px solid rgba(206,217,233,.95);
+    border-top-color: #ffffff;
+    cursor: pointer;
+    color: #3A67A6;
+    top: 0px;
+    left: 0px;
+    /*box-shadow: inset 0 0px 0px rgba(0,0,0,.125);*/
+    box-shadow: none;
+}
+
+.arches-map-tools-pressed:focus {
+    background: #ffffff;
+    border: 1px solid rgba(206,217,233,.95);
+    border-top-color: #ffffff;
+    cursor: pointer;
+    color: #3A67A6;
+}
+
+.arches-search-item-description {
+    margin-bottom: 5px;
+    color: #585f69;
+    font-size: 15px;s
+    line-height: 1.35;
+    font-weight: 200;
+    margin-top: -3px;
+}
+
+.arches-search-link {
+    color: #585f69;
+    padding-left: 3px;
+}
+
+.arches-search-subtitle {
+    color: #585f69;
+}
+
+.scale-line {
+  position: absolute;
+  top: 730px;
+}
+
+.ol-scale-line {
+    background:#95b9e6;
+    background:rgba(0,60,136,.3);
+    border-radius:4px;
+    bottom:65px;
+    left:8px;
+    padding:2px;
+    position:absolute;
+}
+
+.ol-scale-line-inner {
+    border:1px solid #eee;
+    border-top:none;
+    color:#eee;
+    font-size:10px;
+    text-align:center;
+    margin:1px;
+    padding:0 2px;
+ }
+
+.tools-panel-layers {
+    margin-top: -418px;
+    height: 200px; 
+    width: 349px; 
+    margin-left: -100px;
+    background: #ffffff; 
+    border: 1px solid rgba(0,0,0,.15); 
+    opacity: 1.0; 
+    border-top-left-radius: 1px; 
+    border-top-right-radius: 1px;
+}
+
+
+.tools-panel {
+    margin-top: -518px;
+    height: 400px; 
+    width: 349px; 
+    margin-left: 50px;
+    background: #ffffff; 
+    border: 1px solid rgba(0,0,0,.15); 
+    opacity: 1.0; 
+    border-top-left-radius: 1px; 
+    border-top-right-radius: 1px;
+}
+
+.topbar ul.lenguages {
+    min-width: 120px;
+}
+
+.block-description1,
+.job-team {
+	padding: 40px 0 30px;
+	position: relative;
+	background: #f9f9f9;
+	border-top: 1px solid #eee;
+}
+
+.block-description1 {
+	padding-bottom: 30px !important;
+}
+
+.block-description1 .left-inner img {
+	float: left;
+	width: 80px;
+	height: auto;
+	padding: 3px;
+	margin: 0 10px 10px 0;
+	border: 1px solid #eee;
+}
+
+.block-description1 .right-inner img {
+	float: left;
+	width: 90px;
+	height: auto;
+	margin-right: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #585f69;    
+  margin-top: 5px;
+  text-shadow: none; 
+  font-weight: normal; 
+  font-family: 'Open Sans', sans-serif;
+} 
+
+.zbiva-logo {
+    height: 70px;
+    margin-top: -23px;
+}
+
+.title-box {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0 30px;
+    border-bottom: solid 1px #eee;
+}
+
+.table td.td-header {
+  border-top-style: none;
+}
+
+.table td.td-footer {
+  border-bottom-style: solid;
+}
+
+.arches-report-subsection-item {
+	font-size: 16px;
+	font-weight: 200;
+	color: #4765a0;
+	margin-left: 10px;
+	line-height: 1.4 !important;
+}
+
+.arches-report-subsection-item-left {
+	font-size: 16px;
+	font-weight: 200;
+	color: #4765a0;
+	line-height: 1;
+}
+
+.loading-mask {
+    z-index: 10000;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 180px;
+    width: 250px;
+    background-color: #4C85A1;
+    border: 1px solid #31708f;
+}
+
+.topbar ul.loginbar > li > a, 
+.topbar ul.loginbar > li > a:hover {
+    color: #7c8082;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+

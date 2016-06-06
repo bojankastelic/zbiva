@@ -1,0 +1,6 @@
+conceptid,Value,ValueType,Provider 
+RELATIONSHIP_TYPE:1,povezava,label:sl,GCI
+RELATIONSHIP_TYPE:2,vsebuje,label:sl,GCI
+RELATIONSHIP_TYPE:1,bezogen,label:de,GCI
+RELATIONSHIP_TYPE:2,einbegriffen in,label:de,GCI
+

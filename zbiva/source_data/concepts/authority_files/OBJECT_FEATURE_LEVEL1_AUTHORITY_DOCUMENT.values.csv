@@ -1,0 +1,17 @@
+conceptid,Value,ValueType,Provider
+OF1:1,"jagoda",label:sl,GCI
+OF1:1,"Perle",label:de,GCI
+OF1:2,"lega v grobu",label:sl,GCI
+OF1:2,"Lage im Grab",label:de,GCI
+OF1:3,"nož",label:sl,GCI
+OF1:3,"Messer",label:de,GCI
+OF1:4,"ohranjenost",label:sl,GCI
+OF1:4,"Erhaltungszustand",label:de,GCI
+OF1:5,"najdba",label:sl,GCI
+OF1:5,"Befund",label:de,GCI
+OF1:6,"posoda",label:sl,GCI
+OF1:6,"Gefäß",label:de,GCI
+OF1:9,"naglavni obroček",label:sl,GCI
+OF1:9,"Kopfschmuckring",label:de,GCI
+OF1:11,"zaponka",label:sl,GCI
+OF1:11,"Fibel",label:de,GCI

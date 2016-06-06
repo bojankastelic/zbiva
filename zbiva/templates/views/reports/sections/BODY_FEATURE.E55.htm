@@ -1,0 +1,22 @@
+{% load i18n %}
+{% if 'BODY_FEATURE_E55' in report_info.source.graph %}	
+	<div class="row">
+		<div class="col-xs-12">
+			<dl class="report-item-list">
+        		<div class="col-xs-2" style="padding-left:0px;padding-right:5px">
+			        <dt>
+			            <h5 id="" class="arches-report-subsection-title">{% trans "Body features" %}:</h5>
+			        </dt>
+    			</div>
+        		<div class="col-xs-10">
+                    <dd class="arches-report-subsection-item report-list-item">
+			            {% for BODY_FEATURE_E55 in report_info.source.graph.BODY_FEATURE_E55 %}
+                            {{BODY_FEATURE_E55.BODY_FEATURE_E55__value}}{% if not forloop.last %}, {% endif %}
+	                    {% endfor %}                          
+                    </dd>
+    			</div>
+			</dl>
+		</div>
+	</div>
+{% endif %}
+

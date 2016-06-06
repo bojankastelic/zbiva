@@ -1,0 +1,5 @@
+conceptid,Value,ValueType,Provider 
+LOCATION_ACCURACY:1,Da,label:sl,GCI
+LOCATION_ACCURACY:2,Ne,label:sl,GCI
+LOCATION_ACCURACY:1,Ja,label:de,GCI
+LOCATION_ACCURACY:2,Nein,label:de,GCI

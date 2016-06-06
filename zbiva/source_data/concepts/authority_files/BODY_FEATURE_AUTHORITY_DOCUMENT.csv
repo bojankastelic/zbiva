@@ -1,0 +1,51 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+BFT:TD,"position of body as regards to another body",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TDT01,"under",,BFT:TD,Index,EH
+BFT:TDT02,"above",,BFT:TD,Index,EH
+BFT:TDT03,"next to",,BFT:TD,Index,EH
+BFT:TLG,"position of head",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TLG01,"straight (head)",,BFT:TLG,Index,EH
+BFT:TLG02,"right (head)",,BFT:TLG,Index,EH
+BFT:TLG03,"left (head)",,BFT:TLG,Index,EH
+BFT:TLG04,"other (head)",,BFT:TLG,Index,EH
+BFT:TLN,"position of legs",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TLN01,"parallel (legs)",,BFT:TLN,Index,EH
+BFT:TLN02,"crossed (legs)",,BFT:TLN,Index,EH
+BFT:TLN03,"other (legs)",,BFT:TLN,Index,EH
+BFT:TLR,"position of arms",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TLR01,"left arm stretched",,BFT:TLR,Index,EH
+BFT:TLR02,"right arm stretched",,BFT:TLR,Index,EH
+BFT:TLR03,"left arm partially bent",,BFT:TLR,Index,EH
+BFT:TLR04,"right arm partially bent",,BFT:TLR,Index,EH
+BFT:TLR05,"left arm bent at 90 degrees",,BFT:TLR,Index,EH
+BFT:TLR06,"right arm bent at 90 degrees",,BFT:TLR,Index,EH
+BFT:TLR07,"left arm, other arrangement",,BFT:TLR,Index,EH
+BFT:TLR08,"right arm, other arrangement",,BFT:TLR,Index,EH
+BFT:TLR09,"left arm bent upwards",,BFT:TLR,Index,EH
+BFT:TLR10,"right arm bent upwards",,BFT:TLR,Index,EH
+BFT:TLR11,"left arm bent towards the head",,BFT:TLR,Index,EH
+BFT:TLR12,"right arm bent towards the head",,BFT:TLR,Index,EH
+BFT:TLT,"position of body ",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TLT01,"on the back",,BFT:TLT,Index,EH
+BFT:TLT02,"on the right side, fully stretched",,BFT:TLT,Index,EH
+BFT:TLT03,"on the left side, fully stretched",,BFT:TLT,Index,EH
+BFT:TLT04,"on the right side, bent",,BFT:TLT,Index,EH
+BFT:TLT05,"on the left side, bent",,BFT:TLT,Index,EH
+BFT:TLT06,"other arrangement of the body",,BFT:TLT,Index,EH
+BFT:TO,"state of preservation",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TO001,"state of preservation, at least long bones and skull",,BFT:TO,Index,EH
+BFT:TO002,"partially preserved",,BFT:TO,Index,EH
+BFT:TO003,"not preserved",,BFT:TO,Index,EH
+BFT:TO004,"in situ",,BFT:TO,Index,EH
+BFT:TO005,"bones partially rearranged",,BFT:TO,Index,EH
+BFT:TO006,"bones rearranged",,BFT:TO,Index,EH
+BFT:TP,"peculiarities of skeleton",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TP001,"deformed skull",,BFT:TP,Index,EH
+BFT:TP002,"skeleton damaged",,BFT:TP,Index,EH
+BFT:TP003,"other marks on skeleton",,BFT:TP,Index,EH
+BFT:TR,"grave goods",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TR001,"visible grave goods",,BFT:TR,Index,EH
+BFT:TR002,"no visible grave goods",,BFT:TR,Index,EH
+BFT:TS,"gender",,BODY_FEATURE_AUTHORITY_DOCUMENT.csv,Index,EH
+BFT:TS001,"female",,BFT:TS,Index,EH
+BFT:TS002,"male",,BFT:TS,Index,EH

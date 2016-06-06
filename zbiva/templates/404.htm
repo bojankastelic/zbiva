@@ -1,0 +1,44 @@
+﻿<!--
+ARCHES - a program developed to inventory and manage immovable cultural heritage.
+Copyright (C) 2013 J. Paul Getty Trust and World Monuments Fund
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+{% extends "base.htm" %}
+{% load staticfiles %}
+{% load i18n %}
+{% block title %}{% trans "Error 404" %}{% endblock %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'plugins/layer_slider/css/layerslider.css' %}" type="text/css">
+{{ block.super }}
+{% endblock css %}
+
+{% block content %}
+
+<!--=== HIP Title Block ===-->
+    <div class="container">
+        <div class="row">
+            <!--Title Box-->        
+            <div class="title-box no-border margin-top-minus-10" style="border-bottom-color: #dcdcdc;">
+                <div class="title-box-text"><span class="color-green">{% trans 'Error 404' %}</span></div>
+                   {% trans 'No data found' %}
+                </div>
+            <!-- End Title Box -->                     
+        </div>
+    </div>
+
+<!-- End HIP Title Block -->
+
+<!-- End Content Part -->
+{% endblock %}

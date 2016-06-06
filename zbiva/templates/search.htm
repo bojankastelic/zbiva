@@ -1,0 +1,206 @@
+{% extends "base.htm" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block title %}
+    {% if active_page = 'Site' %}
+        {% trans "Sites" %}
+    {% endif %}
+    {% if active_page = 'Grave' %}
+        {% trans "Graves" %}
+    {% endif %}
+    {% if active_page = 'Object' %}
+        {% trans "Objects" %}
+    {% endif %}
+    {% if active_page = 'Search' %}
+        {% trans "General search" %}
+    {% endif %}
+{% endblock %}
+
+
+{% block css %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/plugins/bootstrap-slider.min.css' %}">    
+{% endblock css%}
+{% block content %}
+
+<!--=== Search Block ===-->
+<div class="search-block padding-top-10">
+    
+    <!-- Search Terms -->
+    <div class="container">
+        <div class="row">
+            
+            <!-- Search Widget -->
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="form-group" style="margin-bottom:10px"> 
+                    {% if search_type == 'Site' %}      
+                        <input class="select2 resource_search_widget arches-select2" name="" style="width:75%" placeholder="{% trans "Search for a site..." %}" value="">
+                    {% endif %}
+                    {% if search_type == 'Grave' %}      
+                        <input class="select2 resource_search_widget arches-select2" name="" style="width:75%" placeholder="{% trans "Search for a grave..." %}" value="">
+                    {% endif %}
+                    {% if search_type == 'Object' %}      
+                        <input class="select2 resource_search_widget arches-select2" name="" style="width:75%" placeholder="{% trans "Search for a object..." %}" value="">
+                    {% endif %}
+                    {% if search_type == 'Search' %}
+                        <input class="select2 resource_search_widget arches-select2" name="" style="width:75%" placeholder="{% trans "Search for a resource..." %}" value="">
+                    {% endif %}
+                    <input type="hidden" id="search_type" value="{{search_type}}"/>
+                    <div style="display:inline-block;vertical-align:middle;width:24.6%;">
+                        <div class="btn btn-primary" id="clear-search" style=""> 
+                            <a {% if search_type == 'Site' %}
+                                    href="{% url 'search_sites' %}"
+                               {% endif %}
+                               {% if search_type == 'Grave' %} 
+                                    href="{% url 'search_graves' %}"
+                               {% endif %}
+                               {% if search_type == 'Object' %}      
+                                    href="{% url 'search_objects' %}"
+                               {% endif %}
+                               {% if search_type == 'Search' %}
+                                   href="{% url 'search_home' %}"
+                               {% endif %}
+                               style="color:#ffffff">
+                                  {% trans "Clear Search" %}
+                            </a>
+                        </div>
+                        <div class="btn btn-primary pull-right" id="csv" style="float:right;"> 
+                            <a class="dataexport" id="csv" href="" target="_blank" style="color:#ffffff">
+                                {% trans "Export" %}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Search Widget -->
+
+
+            <!-- Advanced Search Option -->
+            <div class="col-xs-12 col-md-12 col-lg-12 margin-bottom-10">
+                    <button class="btn btn-success btn" id="map-filter-button" style=""> 
+                        <i class="fa fa-map-marker" style="padding-right:8px;"></i>{% trans "Location Filter" %}
+                    </button>
+
+                    <button class="btn btn-success btn" id="time-filter-button" style=""> 
+                        <i class="fa fa-clock-o" style="padding-right:8px;"></i>{% trans "Time Filter" %}
+                    </button>
+                    {% if search_type != 'Search' %}
+                        <button class="btn btn-success btn" id="advanced-filter-button" style=""> 
+                            <i class="fa fa-ellipsis-v" style="padding-right:8px;"></i>{% trans "Advanced Filter" %}
+                        </button>
+                    {% endif %}
+<!--
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        {% trans "Tools" %}
+                        <i class="fa fa-chevron-down"></i>
+                        <span class="sr-only">{% trans "Toggle Dropdown" %}</span>                            
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        {% if search_type == 'Object' %}
+                            <li><a href="javascript:void(0);" id="view-saved-searches">{% trans "View head circlets" %}</a></li>
+                            <li class="divider"></li>
+                        {% endif %}
+                        <li><a class="dataexport" id="csv" href="" target="_blank">{% trans "Export results to .CSV" %}</a></li>
+                        <li class="divider"></li>
+                        <li><a href="javascript:void(0);" id="clear-search">{% trans "Clear Search" %}</a></li>
+                    </ul>
+                </div>
+            </div>
+-->
+            <!-- End Advanced Search Option -->
+        </div>
+    </div>
+    <!-- End Search Terms -->  
+
+</div>    
+<!--=== End Search Block ===-->
+
+
+<!--=== Default Resource Summary ===-->
+<div class="container margin-bottom-10">
+
+    <div class="row" id="search-results" style="margin-left:0px; margin-right:0px;">
+        <div class="s-results margin-bottom-10">
+            <div class="row" id="map-filter-container" data-filtertext="{% trans "Map Filter Enabled" %}" style="margin-right: 20px;"> 
+                {% include 'views/search/map-filter.htm' %}
+            </div>
+            <div class="row" id="time-filter-container" data-filtertext="{% trans "Time Filter Enabled" %}"> 
+                {% include 'views/search/time-filter.htm' %}
+            </div>
+            
+                <div class="row" id="advanced-filter-container" data-filtertext="{% trans "Advanced Filter Enabled" %}"> 
+                    {% if search_type == 'Site' %}            
+                        {% include 'views/search/advanced-filter-sites.htm' %}
+                    {% endif %}
+                    {% if search_type == 'Grave' %}            
+                        {% include 'views/search/advanced-filter-graves.htm' %}
+                    {% endif %}
+                    {% if search_type == 'Object' %}            
+                        {% include 'views/search/advanced-filter-objects.htm' %}
+                    {% endif %}
+                </div>
+                        
+            {% if search_type == 'Object' %}
+                <div class="row" id="head-circlets" style="display:none;margin-left:100px; margin-right:0px;">
+                    <!-- Results Header -->
+                    <h2 style="margin-bottom:8px;">
+                        <div class="row">        
+                            <div class="col-xs-12">
+                                <span class="text-muted" style="margin-bottom: 5px;">{% trans "Head circlets" %}: <a href='?page=1&termFilter=[{"inverted"%3Afalse%2C"type"%3A"concept"%2C"context"%3A"{{search_context.Object_Feature.naglavni_obrocek.context}}"%2C"context_label"%3A"{% trans "Object Feature" %}"%2C"id"%3A"naglavni%20obro%C4%8Dek{{search_context.Object_Feature.naglavni_obrocek.context}}"%2C"text"%3A"{% trans "naglavni obroček" %}"%2C"value"%3A"{{search_context.Object_Feature.naglavni_obrocek.conceptid}}"}]&temporalFilter={"year_min_max"%3A[]%2C"filters"%3A[]%2C"inverted"%3Afalse}&spatialFilter={"geometry"%3A{"type"%3A""%2C"coordinates"%3A[]}%2C"buffer"%3A{"width"%3A"0"%2C"unit"%3A"ft"}%2C"inverted"%3Afalse}&mapExpanded=true&timeExpanded=false&include_ids=true&searchType=Object'> {% trans "all types" %}</a></span>
+                            </div>
+
+                        </div>
+                    </h2>   
+                    <!-- Results Header -->
+
+                    {% include 'views/head-circlets.htm' %}
+                </div>
+                <div class="row" id="beads" style="display:none;margin-left:100px; margin-right:0px;">
+                    <!-- Results Header -->
+                    <h2 style="margin-bottom:8px;">
+                        <div class="row">        
+                            <div class="col-xs-12">
+                                <span class="text-muted" style="margin-bottom: 5px;">{% trans "Beads" %}: <a href='?page=1&termFilter=[{"inverted"%3Afalse%2C"type"%3A"concept"%2C"context"%3A"{{search_context.Object_Feature.oblika.context}}"%2C"context_label"%3A"{% trans "Object Feature" %}"%2C"id"%3A"oblika{{search_context.Object_Feature.oblika.context}}"%2C"text"%3A"{% trans "oblika" %}"%2C"value"%3A"{{search_context.Object_Feature.oblika.conceptid}}"}]&temporalFilter={"year_min_max"%3A[]%2C"filters"%3A[]%2C"inverted"%3Afalse}&spatialFilter={"geometry"%3A{"type"%3A""%2C"coordinates"%3A[]}%2C"buffer"%3A{"width"%3A"0"%2C"unit"%3A"ft"}%2C"inverted"%3Afalse}&mapExpanded=true&timeExpanded=false&include_ids=true&searchType=Object'> {% trans "all types" %}</a></span>
+                            </div>
+
+                        </div>
+                    </h2>   
+                    <!-- Results Header -->
+                    {% include 'views/beads-shapes.htm' %}
+                    <div style="padding-bottom:10px"></div>
+                    <!-- Results Header -->
+                    <h2 style="margin-bottom:8px;">
+                        <div class="row">        
+                            <div class="col-xs-12">
+                                <span class="text-muted" style="margin-bottom: 5px;">{% trans "Beads" %}: <a href='?page=1&termFilter=[{"inverted"%3Afalse%2C"type"%3A"concept"%2C"context"%3A"{{search_context.Object_Feature.prerez.context}}"%2C"context_label"%3A"{% trans "Object Feature" %}"%2C"id"%3A"prerez{{search_context.Object_Feature.prerez.context}}"%2C"text"%3A"{% trans "prerez" %}"%2C"value"%3A"{{search_context.Object_Feature.prerez.conceptid}}"}]&temporalFilter={"year_min_max"%3A[]%2C"filters"%3A[]%2C"inverted"%3Afalse}&spatialFilter={"geometry"%3A{"type"%3A""%2C"coordinates"%3A[]}%2C"buffer"%3A{"width"%3A"0"%2C"unit"%3A"ft"}%2C"inverted"%3Afalse}&mapExpanded=true&timeExpanded=false&include_ids=true&searchType=Object'> {% trans "all cross sections" %}</a></span>
+                            </div>
+
+                        </div>
+                    </h2>   
+                    <!-- Results Header -->
+
+                    {% include 'views/beads-profiles.htm' %}
+                </div>
+            {% endif %}
+           <!-- Results Header -->
+            <h2 style="margin-bottom:10px;margin-top:0px">
+                <div class="row" id="search-results-count" data-count="">        
+                    <div class="col-xs-12 col-lg-2" data-bind="if: total() >= 0">
+                        <span class="" style="font-size:23px;" data-bind="text: '{% trans "Results" %} ' + total()"></span>                               
+                    </div>
+
+                </div>
+            </h2>   
+            <!-- Results Header -->      
+          
+            
+            <div class="row" id="search-results-container"> 
+                {% include 'views/search/search-results.htm' %}
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock content %}

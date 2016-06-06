@@ -1,0 +1,25 @@
+conceptid,PrefLabel,AltLabels,ParentConceptid,ConceptType,Provider 
+FND:0,"",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:1,"church",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:2,"road",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:3,"workshop",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:4,"castle",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:5,"cemetery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:6,"pit",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:7,"story, narrative",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:8,"settlement",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:9,"settlement, church",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:10,"settlement, church, cemetery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:11,"settlement, cemetery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:12,"undefined",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:13,"earthwork",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:14,"isolated find",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:15,"monastery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:16,"sanctuary",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:17,"fortification",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:18,"hoard",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:19,"church, cemetery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:20,"church, monastery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:21,"church, cemetery, monastery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:23,"fortification, cemetery",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH
+FND:24,"church, fortification",,FINDING_TYPE_AUTHORITY_DOCUMENT.csv,Index,EH

@@ -1,0 +1,2022 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-19 04:46-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+
+#: zbiva/settings.py:55
+msgid "Slovenscina"
+msgstr ""
+
+#: zbiva/settings.py:56
+msgid "Deutsch"
+msgstr ""
+
+#: zbiva/settings.py:57
+msgid "English"
+msgstr ""
+
+#: zbiva/settings.py:91 zbiva/templates/views/reports/SITE.E18.htm:113
+msgid "Site"
+msgstr "Najdišče"
+
+#: zbiva/settings.py:94 zbiva/settings.py:113 zbiva/settings.py:131
+#: zbiva/settings.py:149
+msgid "No description available"
+msgstr "Ni opisa"
+
+#: zbiva/settings.py:95 zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:24
+#: zbiva/templates/map/resource-popup.htm:73
+#: zbiva/templates/map/resource-popup.htm:115
+#: zbiva/templates/views/reports/sections/OTHER_NAME.E48.htm:8
+#: zbiva/templates/views/search/advanced-filter-graves.htm:97
+#: zbiva/templates/views/search/advanced-filter-graves.htm:98
+#: zbiva/templates/views/search/advanced-filter-objects.htm:97
+#: zbiva/templates/views/search/advanced-filter-objects.htm:98
+#: zbiva/templates/views/search/advanced-filter-sites.htm:97
+#: zbiva/templates/views/search/advanced-filter-sites.htm:98
+msgid "Other name"
+msgstr "Zaselek"
+
+#: zbiva/settings.py:95 zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:29
+#: zbiva/templates/map/resource-popup.htm:78
+#: zbiva/templates/map/resource-popup.htm:120
+#: zbiva/templates/views/reports/sections/SETTLEMENT.E48.htm:8
+#: zbiva/templates/views/search/advanced-filter-graves.htm:161
+#: zbiva/templates/views/search/advanced-filter-graves.htm:162
+#: zbiva/templates/views/search/advanced-filter-objects.htm:161
+#: zbiva/templates/views/search/advanced-filter-objects.htm:162
+#: zbiva/templates/views/search/advanced-filter-sites.htm:161
+#: zbiva/templates/views/search/advanced-filter-sites.htm:162
+msgid "Settlement"
+msgstr "Naselje"
+
+#: zbiva/settings.py:95 zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/views/reports/sections/TOPOGRAPHICAL_UNIT.E48.htm:8
+#: zbiva/templates/views/search/advanced-filter-graves.htm:226
+#: zbiva/templates/views/search/advanced-filter-graves.htm:227
+#: zbiva/templates/views/search/advanced-filter-objects.htm:226
+#: zbiva/templates/views/search/advanced-filter-objects.htm:227
+#: zbiva/templates/views/search/advanced-filter-sites.htm:226
+#: zbiva/templates/views/search/advanced-filter-sites.htm:227
+msgid "Topographical unit"
+msgstr "TE"
+
+#: zbiva/settings.py:95 zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/views/reports/sections/TOPOGRAPHICAL_AREA.E48.htm:8
+#: zbiva/templates/views/search/advanced-filter-graves.htm:291
+#: zbiva/templates/views/search/advanced-filter-graves.htm:292
+#: zbiva/templates/views/search/advanced-filter-objects.htm:291
+#: zbiva/templates/views/search/advanced-filter-objects.htm:292
+#: zbiva/templates/views/search/advanced-filter-sites.htm:291
+#: zbiva/templates/views/search/advanced-filter-sites.htm:292
+msgid "Topographical area"
+msgstr "TP"
+
+#: zbiva/settings.py:95 zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:44
+#: zbiva/templates/map/resource-popup.htm:93
+#: zbiva/templates/map/resource-popup.htm:135
+#: zbiva/templates/views/reports/sections/REGION.E55.htm:8
+#: zbiva/templates/views/search/advanced-filter-graves.htm:356
+#: zbiva/templates/views/search/advanced-filter-objects.htm:356
+#: zbiva/templates/views/search/advanced-filter-sites.htm:356
+msgid "Region"
+msgstr "Dežela"
+
+#: zbiva/settings.py:95 zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:49
+#: zbiva/templates/map/resource-popup.htm:98
+#: zbiva/templates/map/resource-popup.htm:140
+#: zbiva/templates/views/reports/sections/COUNTRY.E55.htm:8
+#: zbiva/templates/views/search/advanced-filter-graves.htm:420
+#: zbiva/templates/views/search/advanced-filter-objects.htm:420
+#: zbiva/templates/views/search/advanced-filter-sites.htm:420
+msgid "Country"
+msgstr "Država"
+
+#: zbiva/settings.py:95 zbiva/templates/map/resource-popup.htm:54
+#: zbiva/templates/views/search/advanced-filter-sites.htm:483
+msgid "Site feature"
+msgstr "Lastnost najdišča"
+
+#: zbiva/settings.py:96 zbiva/settings.py:115 zbiva/settings.py:133
+#: zbiva/settings.py:151
+msgid "Resource"
+msgstr "Podatek"
+
+msgid "Report"
+msgstr "Poročilo"
+
+#: zbiva/settings.py:110 zbiva/templates/views/reports/GRAVE.E18.htm:113
+msgid "Grave"
+msgstr "Grob"
+
+#: zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:68
+#: zbiva/templates/map/resource-popup.htm:110
+#: zbiva/templates/views/search/advanced-filter-graves.htm:32
+#: zbiva/templates/views/search/advanced-filter-graves.htm:33
+#: zbiva/templates/views/search/advanced-filter-objects.htm:32
+#: zbiva/templates/views/search/advanced-filter-objects.htm:33
+#: zbiva/templates/views/search/advanced-filter-sites.htm:32
+#: zbiva/templates/views/search/advanced-filter-sites.htm:33
+msgid "Site name"
+msgstr "Najdišče"
+
+#: zbiva/settings.py:114 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:103
+#: zbiva/templates/map/resource-popup.htm:150
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:82
+msgid "Description"
+msgstr "Opis"
+
+#: zbiva/settings.py:128 zbiva/settings.py:132
+#: zbiva/templates/map/resource-popup.htm:145
+#: zbiva/templates/views/reports/OBJECT.E18.htm:113
+#: zbiva/templates/views/reports/OBJECT.E18.htm:117
+#: zbiva/templates/views/reports/OBJECT.E18.htm:120
+#: zbiva/templates/views/reports/sections/OBJECT_TYPE.E55.htm:8
+msgid "Object"
+msgstr "Predmet"
+
+#: zbiva/settings.py:146
+msgid "Information Resource"
+msgstr "Informacijski vir"
+
+#: zbiva/settings.py:150
+msgid "INSERT RESOURCE DESCRIPTION NODE HERE"
+msgstr ""
+
+#: zbiva/models/concept.py:723
+msgid "Before"
+msgstr "Pred"
+
+#: zbiva/models/concept.py:733
+msgid "On"
+msgstr "Na"
+
+#: zbiva/models/concept.py:743
+msgid "After"
+msgstr "Po"
+
+#: zbiva/models/forms.py:49 zbiva/models/forms.py:168
+#: zbiva/models/forms.py:392 zbiva/models/forms.py:402
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:136
+#: zbiva/templates/views/reports/ACTOR.E39.htm:136
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:136
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:136
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:136
+msgid "Resource Summary"
+msgstr "Povzetek podatkovnega vira"
+
+#: zbiva/models/forms.py:119 zbiva/templates/views/reports/ACTIVITY.E7.htm:328
+#: zbiva/templates/views/reports/ACTOR.E39.htm:406
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:406
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:388
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:337
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:758
+#: zbiva/templates/views/reports/sections/EXTERNAL_XREF.E42.htm:6
+msgid "External System References"
+msgstr ""
+
+#: zbiva/models/forms.py:142
+msgid "Actions"
+msgstr ""
+
+#: zbiva/models/forms.py:218
+msgid "Components"
+msgstr ""
+
+#: zbiva/models/forms.py:285 zbiva/models/forms.py:1187
+msgid "Classifications"
+msgstr ""
+
+#: zbiva/models/forms.py:454
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:726
+msgid "Descriptions"
+msgstr "Opisi"
+
+#: zbiva/models/forms.py:483
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:375
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:357
+#: zbiva/templates/views/reports/SITE.E18.htm:277
+#: zbiva/templates/views/reports/sections/MEASUREMENT_TYPE.E55.htm:6
+#: zbiva/templates/views/reports/sections/SITE_MEASUREMENT_TYPE.E55.htm:6
+msgid "Measurements"
+msgstr "Mere"
+
+#: zbiva/models/forms.py:509
+msgid "Condition Assessment"
+msgstr ""
+
+#: zbiva/models/forms.py:629
+msgid "Location"
+msgstr "Lega"
+
+#: zbiva/models/forms.py:693
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:470
+msgid "Coverage"
+msgstr "Pokritost"
+
+#: zbiva/models/forms.py:730
+msgid "Images and Files"
+msgstr ""
+
+#: zbiva/models/forms.py:831
+msgid "File Upload"
+msgstr ""
+
+#: zbiva/models/forms.py:872
+msgid "Designation"
+msgstr ""
+
+#: zbiva/models/forms.py:898 zbiva/templates/views/reports/ACTOR.E39.htm:317
+msgid "Role"
+msgstr ""
+
+#: zbiva/models/forms.py:925
+msgid "Actor Summary"
+msgstr ""
+
+#: zbiva/models/forms.py:981
+msgid "Phase"
+msgstr ""
+
+#: zbiva/models/forms.py:1011
+msgid "Evaluation Criteria"
+msgstr ""
+
+#: zbiva/models/forms.py:1106
+#: zbiva/templates/views/reports/sections/related_images_section.htm:13
+#: zbiva/templates/views/search/search-results.htm:47
+msgid "Related Resources"
+msgstr "Povezani podatki"
+
+#: zbiva/models/forms.py:1283
+msgid "Creation and Publication"
+msgstr ""
+
+#: zbiva/models/resource.py:39
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:113
+#: zbiva/templates/views/reports/ACTOR.E39.htm:113
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:113
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:113
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:113
+msgid "Resource Description"
+msgstr ""
+
+#: zbiva/models/resource.py:63
+msgid "Evaluate Resource"
+msgstr ""
+
+#: zbiva/models/resource.py:126
+msgid "Manage Resource"
+msgstr ""
+
+#: zbiva/models/resource.py:354 zbiva/models/resource.py:373
+msgid "None specified"
+msgstr "Ni definiran"
+
+#: zbiva/templates/base.htm:38
+msgid "This website uses cookies to ensure you get the best experience."
+msgstr "Spletno mesto za popolno delovanje uporablja piškotke."
+
+#: zbiva/templates/base.htm:38
+msgid "Got it!"
+msgstr "Se strinjam"
+
+#: zbiva/templates/base.htm:175
+msgid "Streets"
+msgstr ""
+
+#: zbiva/templates/base.htm:180
+msgid "Satellite"
+msgstr "Satelitski posnetek"
+
+#: zbiva/templates/base.htm:185
+msgid "Streets & Satellite"
+msgstr ""
+
+#: zbiva/templates/copyright.htm:13
+msgid ""
+"Zbiva (v1.0) is powered by Arches (v3.1.2), an open-source, web-based, "
+"geospatial information system for cultural heritage inventory and management."
+msgstr ""
+"Zbiva (v3.03) temelji na platformi Arches (v3.1.2), odprtokodnem sistemu za popis in upravljanje s "
+"kulturno dediščino."
+
+#: zbiva/templates/copyright.htm:14
+msgid "Arches Community"
+msgstr "Skupnost Arches"
+
+msgid "Spletna Zbiva je sofinancirana iz 7. okvirnega programa Evropske komisije"
+msgstr "Spletna Zbiva je delno financirana iz 7. okvirnega programa Evropske komisije."
+
+#: zbiva/templates/footer.htm:8
+msgid "About"
+msgstr "O zbirki"
+
+#: zbiva/templates/footer.htm:10
+msgid "Avtor strukture:"
+msgstr ""
+
+#: zbiva/templates/footer.htm:11
+msgid "Skrbnika:"
+msgstr ""
+
+#: zbiva/templates/footer.htm:12
+msgid "Digitalna zbirka od"
+msgstr ""
+
+#: zbiva/templates/footer.htm:13
+msgid "Na spletu dostopna od"
+msgstr ""
+
+#: zbiva/templates/footer.htm:20
+msgid "Izdajatelj"
+msgstr ""
+
+#: zbiva/templates/footer.htm:22
+msgid "Inštitut za arheologijo"
+msgstr ""
+
+#: zbiva/templates/footer.htm:22
+msgid "ZRC SAZU"
+msgstr "Znanstvenoraziskovalni center SAZU"
+
+#: zbiva/templates/footer.htm:23
+msgid "Sedež:"
+msgstr ""
+
+#: zbiva/templates/footer.htm:24
+msgid "Naslov:"
+msgstr ""
+
+#: zbiva/templates/footer.htm:25
+msgid "ISSN:"
+msgstr ""
+
+#: zbiva/templates/header.htm:41
+msgid "Languages"
+msgstr "Jeziki"
+
+#: zbiva/templates/header.htm:45
+msgid "Slovenščina"
+msgstr ""
+
+#: zbiva/templates/header.htm:66
+msgid "Help"
+msgstr "Pomoč"
+
+#: zbiva/templates/header.htm:70
+msgid "Login"
+msgstr "Prijava"
+
+#: zbiva/templates/header.htm:70
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: zbiva/templates/header.htm:70
+msgid "Logout"
+msgstr "Odjava"
+
+#: zbiva/templates/header.htm:86
+msgid "Toggle navigation"
+msgstr ""
+
+#: zbiva/templates/header.htm:101
+msgid "Home"
+msgstr "Začetna stran"
+
+#: zbiva/templates/header.htm:109
+msgid "Sites"
+msgstr "Najdišča"
+
+#: zbiva/templates/header.htm:117
+msgid "Graves"
+msgstr "Grobovi"
+
+#: zbiva/templates/header.htm:125
+msgid "Objects"
+msgstr "Predmeti"
+
+#: zbiva/templates/header.htm:133
+msgid "General search"
+msgstr "Splošno iskanje"
+
+#: zbiva/templates/header.htm:141
+msgid "Map View"
+msgstr "Zemljevid"
+
+#: zbiva/templates/header.htm:150
+msgid "Resource Manager"
+msgstr ""
+
+#: zbiva/templates/header.htm:163
+msgid "RDM"
+msgstr ""
+
+#: zbiva/templates/index.htm:34
+msgid "Opis"
+msgstr "O Zbivi"
+
+#: zbiva/templates/index.htm:35
+msgid ""
+"je baza podatkov za vzhodne Alpe in obrobje v zgodnjem srednjem "
+"veku. Prostorsko pokriva Slovenijo, Avstrijo, Istro in Kvarner na Hrvaškem "
+"in Furlanijo ter Julijsko krajino v Italiji, primerjalno pa vsebuje tudi "
+"posamična najdišča iz soseščine in predhodnega obdobja."
+msgstr ""
+
+#: zbiva/templates/index.htm:39
+msgid "Sestavljena je iz treh večjih delov, ki se prepletajo v celoto: "
+msgstr ""
+
+#: zbiva/templates/index.htm:41
+msgid "najdišča"
+msgstr ""
+
+#: zbiva/templates/index.htm:42
+msgid "grobovi"
+msgstr ""
+
+#: zbiva/templates/index.htm:43
+msgid "predmeti"
+msgstr ""
+
+#: zbiva/templates/index.htm:47
+msgid "Citiranje"
+msgstr ""
+
+#: zbiva/templates/index.htm:49
+msgid "Opozorila in pojasnila"
+msgstr ""
+
+#: zbiva/templates/map.htm:67 zbiva/templates/map.htm.py:69
+msgid "Find an Address"
+msgstr "Poišči naslov"
+
+#: zbiva/templates/map.htm:83
+msgid "Loading resource data..."
+msgstr "Nalaganje podatkov..."
+
+#: zbiva/templates/map.htm:104
+msgid "Map Zoom"
+msgstr "Povečava"
+
+#: zbiva/templates/map.htm:105
+msgid "Cursor"
+msgstr "Kazalček"
+
+#: zbiva/templates/map.htm:105
+msgid "(long,lat)"
+msgstr ""
+
+#: zbiva/templates/map.htm:132 zbiva/templates/map.htm.py:259
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:51
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:90
+#: zbiva/templates/views/reports/ACTOR.E39.htm:51
+#: zbiva/templates/views/reports/ACTOR.E39.htm:90
+#: zbiva/templates/views/reports/GRAVE.E18.htm:51
+#: zbiva/templates/views/reports/GRAVE.E18.htm:90
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:51
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:90
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:51
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:90
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:51
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:90
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:51
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:90
+#: zbiva/templates/views/reports/OBJECT.E18.htm:51
+#: zbiva/templates/views/reports/OBJECT.E18.htm:90
+#: zbiva/templates/views/reports/SITE.E18.htm:51
+#: zbiva/templates/views/reports/SITE.E18.htm:90
+#: zbiva/templates/views/search/map-filter.htm:59
+#: zbiva/templates/views/search/map-filter.htm:194
+msgid "Basemaps"
+msgstr "Podlaga"
+
+#: zbiva/templates/map.htm:180
+msgid "Add Layer"
+msgstr "Dodaj sloj"
+
+#: zbiva/templates/map.htm:180
+msgid "CSV Layer"
+msgstr "CSV sloj"
+
+
+#: zbiva/templates/map.htm:186 zbiva/templates/map.htm.py:262
+msgid "Overlays"
+msgstr "Sloji"
+
+#: zbiva/templates/map.htm:231
+msgid "Layer info"
+msgstr "Podatki o sloju"
+
+#: zbiva/templates/map.htm:316 zbiva/templates/map.htm.py:366
+#: zbiva/templates/views/search/map-filter.htm:138
+#: zbiva/templates/views/search/map-filter.htm:181
+msgid "Close"
+msgstr "Zapri"
+
+#: zbiva/templates/map.htm:320
+#: zbiva/templates/views/reports/sections/related_images_section.htm:54
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:47
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:92
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:139
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:189
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:242
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:298
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:351
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:404
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:462
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:489
+#: zbiva/templates/views/search/map-filter.htm:142
+msgid "View Report"
+msgstr "Poročilo"
+
+#: zbiva/templates/map.htm:326
+#: zbiva/templates/views/search/advanced-filter-graves.htm:55
+#: zbiva/templates/views/search/advanced-filter-graves.htm:119
+#: zbiva/templates/views/search/advanced-filter-graves.htm:184
+#: zbiva/templates/views/search/advanced-filter-graves.htm:249
+#: zbiva/templates/views/search/advanced-filter-graves.htm:314
+#: zbiva/templates/views/search/advanced-filter-graves.htm:378
+#: zbiva/templates/views/search/advanced-filter-graves.htm:442
+#: zbiva/templates/views/search/advanced-filter-graves.htm:509
+#: zbiva/templates/views/search/advanced-filter-graves.htm:576
+#: zbiva/templates/views/search/advanced-filter-objects.htm:55
+#: zbiva/templates/views/search/advanced-filter-objects.htm:119
+#: zbiva/templates/views/search/advanced-filter-objects.htm:184
+#: zbiva/templates/views/search/advanced-filter-objects.htm:249
+#: zbiva/templates/views/search/advanced-filter-objects.htm:314
+#: zbiva/templates/views/search/advanced-filter-objects.htm:378
+#: zbiva/templates/views/search/advanced-filter-objects.htm:442
+#: zbiva/templates/views/search/advanced-filter-objects.htm:505
+#: zbiva/templates/views/search/advanced-filter-objects.htm:568
+#: zbiva/templates/views/search/advanced-filter-objects.htm:641
+#: zbiva/templates/views/search/advanced-filter-sites.htm:55
+#: zbiva/templates/views/search/advanced-filter-sites.htm:119
+#: zbiva/templates/views/search/advanced-filter-sites.htm:184
+#: zbiva/templates/views/search/advanced-filter-sites.htm:249
+#: zbiva/templates/views/search/advanced-filter-sites.htm:314
+#: zbiva/templates/views/search/advanced-filter-sites.htm:378
+#: zbiva/templates/views/search/advanced-filter-sites.htm:442
+#: zbiva/templates/views/search/advanced-filter-sites.htm:504
+#: zbiva/templates/views/search/search-results.htm:41
+msgid "Edit"
+msgstr "Uredi"
+
+#: zbiva/templates/map.htm:345 zbiva/templates/views/search/map-filter.htm:160
+msgid "Clustered Resources"
+msgstr "Podatki s skupnimi koordinatami"
+
+#: zbiva/templates/map.htm:389
+msgid "Back to map"
+msgstr "Nazaj na zemljevid"
+
+#: zbiva/templates/map.htm:393
+msgid "Manage Map Layers"
+msgstr "Plasti zemljevida"
+
+#: zbiva/templates/map.htm:437
+msgid "Categories"
+msgstr "Kategorije"
+
+#: zbiva/templates/search.htm:21
+msgid "Search for a site..."
+msgstr "Iskanje najdišč..."
+
+#: zbiva/templates/search.htm:24
+msgid "Search for a grave..."
+msgstr "Iskanje grobov..."
+
+#: zbiva/templates/search.htm:27
+msgid "Search for a object..."
+msgstr "Iskanje predmetov..."
+
+#: zbiva/templates/search.htm:30
+msgid "Search for a resource..."
+msgstr "Iskanje podatkov..."
+
+#: zbiva/templates/search.htm:42
+msgid "Location Filter"
+msgstr "Prikaži/Skrij zemljevid"
+
+#: zbiva/templates/search.htm:46
+msgid "Time Filter"
+msgstr "Prikaži/Skrij časovni trak"
+
+#: zbiva/templates/search.htm:50
+msgid "Advanced Filter"
+msgstr "Prikaži/Skrij napredno iskanje"
+
+#: zbiva/templates/search.htm:55
+msgid "Tools"
+msgstr "Orodja"
+
+#: zbiva/templates/search.htm:57
+#: zbiva/templates/views/search/map-filter.htm:16
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: zbiva/templates/search.htm:61
+msgid "View head circlets"
+msgstr "Naglavni obročki"
+
+#: zbiva/templates/search.htm:65
+msgid "Export"
+msgstr "Izvoz"
+
+msgid "Export results to .SHP"
+msgstr "Izvozi rezultate v datoteko .SHP"
+
+#: zbiva/templates/search.htm:67
+msgid "Export results to .CSV"
+msgstr "Izvozi rezultate v datoteko .CSV"
+
+#: zbiva/templates/search.htm:69
+msgid "Export results to .KML"
+msgstr "Izvozi rezultate v datoteko .KML"
+
+#: zbiva/templates/search.htm:72
+msgid "Clear Search"
+msgstr "Počisti"
+
+#: zbiva/templates/search.htm:93
+msgid "Results"
+msgstr "Zadetki:"
+
+#: zbiva/templates/search.htm:101
+msgid "Map Filter Enabled"
+msgstr "Prostorska omejitev z zemljevidom omogočena"
+
+#: zbiva/templates/search.htm:104
+msgid "Time Filter Enabled"
+msgstr "Časovna omejitev omogočena"
+
+#: zbiva/templates/search.htm:108
+msgid "Advanced Filter Enabled"
+msgstr "Napredno iskanje omogočeno"
+
+#: zbiva/templates/search.htm:126
+msgid "Head circlets"
+msgstr "Naglavni obročki"
+
+#: zbiva/templates/search.htm:126
+msgid "all types"
+msgstr "vse oblike"
+
+#: zbiva/templates/map/layers.htm:7
+msgid "Example Layer"
+msgstr "Vzorčni sloj"
+
+#: zbiva/templates/map/layers.htm:8
+msgid "visible zoom range: 9-20"
+msgstr ""
+
+#: zbiva/templates/map/layers.htm:9
+msgid "City Admin Area"
+msgstr "Mestna okrožja..."
+
+#: zbiva/templates/map/resource-layers.htm:8
+msgid "Arches Resources"
+msgstr "Podatki Zbiva"
+
+#: zbiva/templates/map/resource-layers.htm:9
+msgid "All Arches resources..."
+msgstr "Vsi podatki"
+
+#: zbiva/templates/map/resource-layers.htm:11
+msgid "resource"
+msgstr "podatek"
+
+#: zbiva/templates/map/resource-layers.htm:16
+#: zbiva/templates/map/resource-layers.htm:37
+msgid "visible zoom range: all"
+msgstr "Razpon povečave: vse"
+
+#: zbiva/templates/map/resource-popup.htm:34
+#: zbiva/templates/map/resource-popup.htm:83
+#: zbiva/templates/map/resource-popup.htm:125
+msgid "Topographical Unit"
+msgstr "TE"
+
+#: zbiva/templates/map/resource-popup.htm:39
+#: zbiva/templates/map/resource-popup.htm:88
+#: zbiva/templates/map/resource-popup.htm:130
+msgid "Topographical Area"
+msgstr "TP"
+
+#: zbiva/templates/map/resource-popup.htm:59
+msgid "Location accuracy"
+msgstr "Natančnost umestitve v prostor"
+
+#: zbiva/templates/map/resource-popup.htm:155
+msgid "Resource Type"
+msgstr "Tip"
+
+#: zbiva/templates/map/resource-popup.htm:158
+msgid "Address"
+msgstr "Naslov"
+
+#: zbiva/templates/map/resource-popup.htm:161
+#: zbiva/templates/map/resource-popup.htm:168
+#: zbiva/templates/views/reports/sections/designation_section.htm:15
+msgid "Designations"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:165
+msgid "Historic District Type"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:172
+msgid "Activity Type"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:175
+#: zbiva/templates/map/resource-popup.htm:185
+msgid "Start of Occurrence"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:178
+#: zbiva/templates/map/resource-popup.htm:188
+msgid "End of Occurrence"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:182
+msgid "Historic Event Type"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:192
+msgid "Person/Organization Type"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:195
+msgid "Birth Date/Start of Existence"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:198
+msgid "Death Date/End of Existence"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:202
+msgid "Information Resource Type"
+msgstr "Informacijski vir"
+
+#: zbiva/templates/map/resource-popup.htm:205
+msgid "Date of Creation"
+msgstr ""
+
+#: zbiva/templates/map/resource-popup.htm:208
+msgid "Date of Publication"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:173
+#: zbiva/templates/views/reports/ACTOR.E39.htm:246
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:185
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:176
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:173
+msgid "Location Information"
+msgstr "Informacije o lokaciji"
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:211
+msgid "Activity Details"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:228
+msgid "Tasks"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:233
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:240
+#: zbiva/templates/views/reports/ACTOR.E39.htm:302
+#: zbiva/templates/views/reports/ACTOR.E39.htm:309
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:239
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:246
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:233
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:240
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:11
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:18
+msgid "No classifications recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:248
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:255
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:248
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:559
+#: zbiva/templates/views/reports/sections/designation_section.htm:60
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:26
+msgid "Type"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:257
+#: zbiva/templates/views/reports/ACTOR.E39.htm:335
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:282
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:266
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:70
+msgid "Dates (from/to)"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTIVITY.E7.htm:297
+#: zbiva/templates/views/reports/ACTOR.E39.htm:375
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:344
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:326
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:306
+msgid "Resource Descriptions"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:153
+msgid "Names/Epithets"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:158
+#: zbiva/templates/views/reports/ACTOR.E39.htm:164
+#: zbiva/templates/views/reports/sections/NAME.E41.htm:11
+#: zbiva/templates/views/reports/sections/SITE_NAME.E41.htm:11
+msgid "No names recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:175
+msgid "Epithet"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:191
+#: zbiva/templates/views/reports/sections/RESOURCE_TYPE_CLASSIFICATION.E55.htm:6
+msgid "Resource Types"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:196
+#: zbiva/templates/views/reports/ACTOR.E39.htm:202
+#: zbiva/templates/views/reports/ACTOR.E39.htm:208
+#: zbiva/templates/views/reports/sections/FINDING_TYPE.E55.htm:11
+#: zbiva/templates/views/reports/sections/RESOURCE_TYPE_CLASSIFICATION.E55.htm:11
+msgid "No types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:280
+#: zbiva/templates/views/reports/ACTOR.E39.htm:297
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:217
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:234
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:6
+msgid "Classification"
+msgstr ""
+
+#: zbiva/templates/views/reports/ACTOR.E39.htm:326
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:273
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:257
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:48
+msgid "Period"
+msgstr ""
+
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:227
+#: zbiva/templates/views/reports/SITE.E18.htm:201
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:231
+#: zbiva/templates/views/reports/SITE.E18.htm:205
+msgid "No settings recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:281
+msgid "Classification/Components"
+msgstr ""
+
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:304
+msgid "Modifications"
+msgstr ""
+
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE.E18.htm:309
+msgid "No modifications recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/HERITAGE_RESOURCE_GROUP.E27.htm:264
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:37
+msgid "Use"
+msgstr ""
+
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:211
+msgid "Event Details"
+msgstr ""
+
+#: zbiva/templates/views/reports/HISTORICAL_EVENT.E5.htm:228
+msgid "Actions/Activities"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:113
+msgid "Information Resource Description"
+msgstr "Informacijski vir"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:149
+msgid "Titles"
+msgstr "Naslov"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:154
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:180
+msgid "No titles recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:175
+msgid "Publication title"
+msgstr "Naslov publikacije"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:202
+msgid "Identifiers"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:207
+msgid "No identifiers recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:232
+msgid "Formats"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:237
+msgid "No formats recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:265
+msgid "No languages recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:309
+msgid "Digital representation"
+msgstr "Digitalna predstavitev"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:437
+msgid "View document"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:438
+msgid "Link to document"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:446
+#: zbiva/templates/views/reports/sections/picture_section.htm:40
+#: zbiva/templates/views/reports/sections/related_images_section.htm:61
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:59
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:104
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:151
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:201
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:254
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:310
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:363
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:416
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:469
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:502
+msgid "None"
+msgstr "Ni podatka"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:490
+msgid "Temporal Coverage"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:495
+msgid "No coverage recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:542
+msgid "Resource Creation"
+msgstr "Podatki o izdaji"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:547
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:645
+msgid "No creation information recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:572
+msgid "Created on"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:585
+msgid "Creator"
+msgstr "Avtor"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:597
+msgid "Place of creation"
+msgstr "Kraj izida"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:606
+msgid "Year of creation"
+msgstr "Leto izida"
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:616
+msgid "Contributor"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:640
+msgid "Publishers"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:667
+msgid "Publication date"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:692
+msgid "Copy Rights"
+msgstr ""
+
+#: zbiva/templates/views/reports/INFORMATION_RESOURCE.E73.htm:697
+msgid "No rights recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/ADMINISTRATIVE_SUBDIVISION.E48.htm:7
+msgid "Administrative Areas"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/ADMINISTRATIVE_SUBDIVISION.E48.htm:11
+msgid "No areas recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/ANCILLARY_FEATURE_TYPE.E55.htm:6
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:86
+msgid "Related Features"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/ANCILLARY_FEATURE_TYPE.E55.htm:11
+#: zbiva/templates/views/reports/sections/ANCILLARY_FEATURE_TYPE.E55.htm:17
+#: zbiva/templates/views/reports/sections/ANCILLARY_FEATURE_TYPE.E55.htm:23
+msgid "No features recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/BODY_AGE_E16.htm:8
+msgid "Min age"
+msgstr "Najmanjša starost"
+
+#: zbiva/templates/views/reports/sections/BODY_AGE_E16.htm:24
+msgid "Max age"
+msgstr "Največja starost"
+
+#: zbiva/templates/views/reports/sections/BODY_CODE.E42.htm:8
+msgid "Body code"
+msgstr "Oznaka telesa"
+
+#: zbiva/templates/views/reports/sections/BODY_CODE.E42.htm:12
+#: zbiva/templates/views/reports/sections/GRAVE_CODE.E42.htm:12
+#: zbiva/templates/views/reports/sections/OTHER_NAME.E48.htm:12
+msgid "No other names types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/BODY_DESCRIPTION.E62.htm:6
+msgid "Body description"
+msgstr "Opis telesa"
+
+#: zbiva/templates/views/reports/sections/BODY_DESCRIPTION.E62.htm:11
+#: zbiva/templates/views/reports/sections/DESCRIPTION.E62.htm:8
+#: zbiva/templates/views/reports/sections/DESCRIPTION_OF_LOCATION.E62.htm:11
+#: zbiva/templates/views/reports/sections/GRAVE_DESCRIPTION.E62.htm:11
+#: zbiva/templates/views/reports/sections/OBJECT_DESCRIPTION.E62.htm:11
+#: zbiva/templates/views/reports/sections/SITE_DESCRIPTION.E62.htm:11
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:87
+msgid "No descriptions recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/BODY_FEATURE.E55.htm:8
+msgid "Body features"
+msgstr "Lastnosti telesa"
+
+#: zbiva/templates/views/reports/sections/BODY_FEATURE.E55.htm:12
+msgid "No body features types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:6
+msgid "Features"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:11
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:18
+msgid "No components recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:26
+msgid "Component"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:33
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:52
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:63
+#: zbiva/templates/views/reports/sections/designation_section.htm:67
+#: zbiva/templates/views/reports/sections/designation_section.htm:83
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:33
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:44
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:55
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:66
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:82
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:93
+msgid "none defined"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:37
+msgid "Technique"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/COMPONENT.E18.htm:56
+#: zbiva/templates/views/reports/sections/MATERIAL.E57.htm:9
+#: zbiva/templates/views/search/advanced-filter-objects.htm:483
+msgid "Material"
+msgstr "Snov"
+
+#: zbiva/templates/views/reports/sections/COUNTRY.E55.htm:12
+msgid "No country types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/DECEDENT_GENDER.E55.htm:10
+msgid "Decendent gender"
+msgstr "Spol pokojnika"
+
+#: zbiva/templates/views/reports/sections/DESCRIPTION_OF_LOCATION.E62.htm:7
+msgid "Location Description"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/EXTERNAL_XREF.E42.htm:11
+msgid "No references recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/SITE_FEATURE.E55.htm:6
+msgid "Site features"
+msgstr "Lastnosti najdišča"
+
+#: zbiva/templates/views/reports/sections/GRAVE_CODE.E42.htm:8
+msgid "Grave code"
+msgstr "Oznaka groba"
+
+#: zbiva/templates/views/reports/sections/GRAVE_DESCRIPTION.E62.htm:6
+msgid "Grave description"
+msgstr "Opis groba"
+
+#: zbiva/templates/views/reports/sections/GRAVE_FEATURE.E55.htm:8
+msgid "Grave features"
+msgstr "Lastnosti groba"
+
+#: zbiva/templates/views/reports/sections/GRAVE_FEATURE.E55.htm:12
+msgid "No grave features types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/GRAVE_MEASUREMENT_TYPE.E55.htm:6
+msgid "Grave measurements"
+msgstr "Mere groba"
+
+#: zbiva/templates/views/reports/sections/GRAVE_MEASUREMENT_TYPE.E55.htm:11
+#: zbiva/templates/views/reports/sections/MEASUREMENT_TYPE.E55.htm:11
+#: zbiva/templates/views/reports/sections/OBJECT_MEASUREMENT_TYPE.E55.htm:10
+#: zbiva/templates/views/reports/sections/SITE_MEASUREMENT_TYPE.E55.htm:11
+msgid "No measurements recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/GRAVE_SE.E62.htm:8
+msgid "Grave, building, SE"
+msgstr "Grob, stavba, SE"
+
+#: zbiva/templates/views/reports/sections/GRAVE_SE.E62.htm:12
+#: zbiva/templates/views/reports/sections/OBJECT_CODE.E42.htm:12
+#: zbiva/templates/views/reports/sections/OBJECT_TYPE.E55.htm:12
+msgid "No other codes recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/KEYWORD.E55.htm:12
+msgid "No keywords recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/NAME.E41.htm:6
+msgid "Names"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/OBJECT_CODE.E42.htm:8
+msgid "Object code"
+msgstr "Oznaka predmeta"
+
+#: zbiva/templates/views/reports/sections/OBJECT_DESCRIPTION.E62.htm:6
+msgid "Object description"
+msgstr "Opis predmeta"
+
+#: zbiva/templates/views/reports/sections/OBJECT_FEATURE.E55.htm:8
+msgid "Object features"
+msgstr "Lastnosti predmeta"
+
+#: zbiva/templates/views/reports/sections/OBJECT_FEATURE.E55.htm:12
+msgid "No object features types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/OBJECT_MEASUREMENT_TYPE.E55.htm:5
+msgid "Object measurements"
+msgstr "Meritve predmeta"
+
+#: zbiva/templates/views/reports/sections/PLACE_ADDRESS.E45.htm:8
+msgid "Addresses"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/PLACE_ADDRESS.E45.htm:12
+msgid "No addresses recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/PLACE_APPELLATION_CADASTRAL_REFERENCE.E44.htm:7
+msgid "Parcels"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/PLACE_APPELLATION_CADASTRAL_REFERENCE.E44.htm:11
+msgid "No parcels recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/PROPERTY.E55.htm:9
+msgid "Property"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/REGION.E55.htm:12
+msgid "No settlement types recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/SETTLEMENT.E48.htm:12
+msgid "No settlements recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/SITE_DESCRIPTION.E62.htm:6
+msgid "Site description"
+msgstr "Opis najdišča"
+
+#: zbiva/templates/views/reports/sections/SITE_NAME.E41.htm:6
+msgid "Site Name"
+msgstr "Ime najdišča"
+
+#: zbiva/templates/views/reports/sections/TOPOGRAPHICAL_AREA.E48.htm:12
+msgid "No topographical areas recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/TOPOGRAPHICAL_UNIT.E48.htm:12
+msgid "No topographical units recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:13
+msgid "Bibliography"
+msgstr "Literatura"
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:40
+msgid "Author"
+msgstr "Avtor"
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:45
+msgid "Title"
+msgstr "Naslov"
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:50
+msgid "Publicaton"
+msgstr "Naslov publikacije"
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:55
+msgid "Published in"
+msgstr "Kraj izida"
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:60
+msgid "Year"
+msgstr "Leto izida"
+
+#: zbiva/templates/views/reports/sections/bibliography_section.htm:65
+msgid "Page"
+msgstr "Stran"
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:15
+msgid "Resource Condition Assessment"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:58
+msgid "Condition"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:63
+msgid "No conditions recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:106
+#: zbiva/templates/views/reports/sections/picture_section.htm:26
+#: zbiva/templates/views/reports/sections/related_images_section.htm:47
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:455
+msgid "Images"
+msgstr "Slike"
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:138
+msgid "Previous"
+msgstr "Prejšnja"
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:141
+msgid "Next"
+msgstr "Naslednja"
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:156
+msgid "No images recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:183
+msgid "Disturbances"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:188
+msgid "No disturbances recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:207
+msgid "Threats"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:212
+msgid "No theats recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:231
+msgid "Management Recommendations"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:236
+#: zbiva/templates/views/reports/sections/condition_assessment_section.htm:242
+msgid "No recommendations recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/decedent_age_section.htm:8
+msgid "Decendent age"
+msgstr "Starost pokojnika"
+
+#: zbiva/templates/views/reports/sections/decedent_age_section.htm:17
+msgid "Min"
+msgstr "Najmanjša starost"
+
+#: zbiva/templates/views/reports/sections/decedent_age_section.htm:23
+msgid "Max"
+msgstr "Največja starost"
+
+#: zbiva/templates/views/reports/sections/designation_section.htm:37
+msgid "Designation and Protection Status"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/designation_section.htm:71
+msgid "Date"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:15
+msgid "Resource Significance"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:40
+msgid "Evaluation Details"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:58
+msgid "Context/Theme"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:63
+msgid "No criteria recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:82
+msgid "Eligibility Standards"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:87
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:109
+msgid "No standards recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:104
+msgid "Integrity Standards"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:126
+msgid "Status Codes"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:131
+msgid "No codes recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:148
+msgid "Significance Statement"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/evaluation_section.htm:153
+msgid "No statement recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/heritage_resource_phase_type_assignment.htm:59
+msgid "Style"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/important_dates.htm:6
+msgid "Important Dates"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/important_dates.htm:11
+msgid "No dates recorded"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/picture_section.htm:57
+msgid "3D model example"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:41
+msgid "Related sites"
+msgstr "Najdišče"
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:86
+msgid "Related graves"
+msgstr "Grob"
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:134
+msgid "Related objects"
+msgstr "Predmet"
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:171
+msgid "Related Historic Resources"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:224
+msgid "Related Historic Districts"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:279
+msgid "Related Activities"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:333
+msgid "Related Historic Events"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:387
+msgid "Related People/Organizations"
+msgstr ""
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:439
+msgid "Related Information Resources"
+msgstr "Informacijski vir"
+
+#: zbiva/templates/views/reports/sections/related_resource_section.htm:483
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:6
+#: zbiva/templates/views/search/advanced-filter-objects.htm:6
+#: zbiva/templates/views/search/advanced-filter-sites.htm:6
+msgid "Advanced filters"
+msgstr "Napredno iskanje"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:6
+msgid "(show graves that meet these criteria)"
+msgstr "(prikaže grobove, ki ustrezajo izbranim merilom)"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:38
+#: zbiva/templates/views/search/advanced-filter-graves.htm:102
+#: zbiva/templates/views/search/advanced-filter-graves.htm:167
+#: zbiva/templates/views/search/advanced-filter-graves.htm:232
+#: zbiva/templates/views/search/advanced-filter-graves.htm:297
+#: zbiva/templates/views/search/advanced-filter-graves.htm:361
+#: zbiva/templates/views/search/advanced-filter-graves.htm:425
+#: zbiva/templates/views/search/advanced-filter-graves.htm:492
+#: zbiva/templates/views/search/advanced-filter-graves.htm:560
+#: zbiva/templates/views/search/advanced-filter-graves.htm:637
+#: zbiva/templates/views/search/advanced-filter-objects.htm:38
+#: zbiva/templates/views/search/advanced-filter-objects.htm:102
+#: zbiva/templates/views/search/advanced-filter-objects.htm:167
+#: zbiva/templates/views/search/advanced-filter-objects.htm:232
+#: zbiva/templates/views/search/advanced-filter-objects.htm:297
+#: zbiva/templates/views/search/advanced-filter-objects.htm:361
+#: zbiva/templates/views/search/advanced-filter-objects.htm:425
+#: zbiva/templates/views/search/advanced-filter-objects.htm:488
+#: zbiva/templates/views/search/advanced-filter-objects.htm:551
+#: zbiva/templates/views/search/advanced-filter-objects.htm:625
+#: zbiva/templates/views/search/advanced-filter-objects.htm:702
+#: zbiva/templates/views/search/advanced-filter-sites.htm:38
+#: zbiva/templates/views/search/advanced-filter-sites.htm:102
+#: zbiva/templates/views/search/advanced-filter-sites.htm:167
+#: zbiva/templates/views/search/advanced-filter-sites.htm:232
+#: zbiva/templates/views/search/advanced-filter-sites.htm:297
+#: zbiva/templates/views/search/advanced-filter-sites.htm:361
+#: zbiva/templates/views/search/advanced-filter-sites.htm:425
+#: zbiva/templates/views/search/advanced-filter-sites.htm:488
+msgid "Add"
+msgstr "Dodaj/Išči"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:483
+msgid "Grave feature - level 1"
+msgstr "Lastnosti groba (nivo 1)"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:487
+msgid "Grave feature - level 2"
+msgstr "Lastnosti groba (nivo 2)"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:550
+msgid "Body feature - level 1"
+msgstr "Lastnosti telesa (nivo 1)"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:555
+msgid "Body feature - level 2"
+msgstr "Lastnosti telesa (nivo 2)"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:617
+msgid "Grave measurement type"
+msgstr "Mere groba"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:622
+#: zbiva/templates/views/search/advanced-filter-objects.htm:687
+msgid "Operator"
+msgstr "Operator"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:627
+#: zbiva/templates/views/search/advanced-filter-graves.htm:628
+#: zbiva/templates/views/search/advanced-filter-objects.htm:692
+#: zbiva/templates/views/search/advanced-filter-objects.htm:693
+msgid "Value"
+msgstr "Vrednost"
+
+#: zbiva/templates/views/search/advanced-filter-graves.htm:657
+#: zbiva/templates/views/search/advanced-filter-objects.htm:722
+msgid "Edit this date"
+msgstr ""
+
+#: zbiva/templates/views/search/advanced-filter-objects.htm:6
+msgid "(show objects that meet these criteria)"
+msgstr "(prikaže predmete, ki ustrezajo izbranim merilom)"
+
+#: zbiva/templates/views/search/advanced-filter-objects.htm:546
+msgid "Object type"
+msgstr "Vrsta predmeta"
+
+#: zbiva/templates/views/search/advanced-filter-objects.htm:609
+msgid "Object feature - level 1"
+msgstr "Lastnosti predmeta (nivo 1)"
+
+#: zbiva/templates/views/search/advanced-filter-objects.htm:613
+msgid "Object feature - level 2"
+msgstr "Lastnosti predmeta (nivo 2)"
+
+#: zbiva/templates/views/search/advanced-filter-objects.htm:617
+msgid "Object feature - level 3"
+msgstr "Lastnosti predmeta (nivo 3)"
+
+#: zbiva/templates/views/search/advanced-filter-objects.htm:682
+msgid "Object measurement type"
+msgstr "Mere predmeta"
+
+#: zbiva/templates/views/search/advanced-filter-sites.htm:6
+msgid "(show sites that meet these criteria)"
+msgstr "(prikaže najdišča, ki ustrezajo izbranim zahtevam)"
+
+#: zbiva/templates/views/search/map-filter.htm:14
+msgid "Map Tools"
+msgstr "Prikaži/skrij orodja"
+
+#: zbiva/templates/views/search/map-filter.htm:19
+msgid "Limit search results to map extent"
+msgstr "Omeji iskanje na prikazani del zemljevida"
+
+#: zbiva/templates/views/search/map-filter.htm:21
+msgid "Draw Polygon to Filter Map"
+msgstr "Omeji območje na zemljevidu s poligonom"
+
+#: zbiva/templates/views/search/map-filter.htm:22
+msgid "Draw Line to Filter Map"
+msgstr "Določi območje na zemljevidu s črto"
+
+#: zbiva/templates/views/search/map-filter.htm:23
+msgid "Draw Point to Filter Map"
+msgstr "Določi območje na zemljevidu s piko"
+
+#: zbiva/templates/views/search/map-filter.htm:26
+msgid "Buffer (m)"
+msgstr "Širina zajema (m)"
+
+#: zbiva/templates/views/search/search-results.htm:9
+msgid "Loading results..."
+msgstr "Pripravljam podatke..."
+
+#: zbiva/templates/views/search/search-results.htm:52
+msgid "Map"
+msgstr "Zemljevid"
+
+#: zbiva/templates/views/search/time-filter.htm:17
+msgid "Range of Years"
+msgstr "Časovni razpon"
+
+#: zbiva/templates/views/search/time-filter.htm:20
+msgid "(show sites with dates that falls between these years)"
+msgstr "(prikaže najdišča izbranega časovnega razpona)"
+
+#: zbiva/templates/views/search/time-filter.htm:22
+msgid "(show graves with dates that falls between these years)"
+msgstr "(prikaže grobove izbranega časovnega razpona)"
+
+#: zbiva/templates/views/search/time-filter.htm:24
+msgid "(show objects with dates that falls between these years)"
+msgstr "(prikaže predmete izbranega časovnega razpona)"
+
+#: zbiva/templates/views/search/time-filter.htm:26
+msgid "(show resources with dates that falls between these years)"
+msgstr "(prikaže podatke izbranega časovnega razpona)"
+
+#: zbiva/views/search.py:149
+msgid "m"
+msgstr ""
+
+#: zbiva/views/search.py:160 zbiva/views/search.py:262
+msgid "less than"
+msgstr "manj kot"
+
+#: zbiva/views/search.py:170 zbiva/views/search.py:272
+msgid "less than or equal"
+msgstr "manj ali enako kot"
+
+#: zbiva/views/search.py:180 zbiva/views/search.py:282
+msgid "greater than"
+msgstr "več kot"
+
+#: zbiva/views/search.py:190 zbiva/views/search.py:292
+msgid "greater than or equal"
+msgstr "več ali enako kot"
+
+#: zbiva/views/search.py:201 zbiva/views/search.py:302
+msgid "equal"
+msgstr "enako"
+
+#~ msgid "Site summary"
+#~ msgstr "Najdišče - povzetek"
+
+#~ msgid "Grave summary"
+#~ msgstr "Grob - povzetek"
+
+#~ msgid "Summary"
+#~ msgstr "Povzetek"
+
+#~ msgid "Object summary"
+#~ msgstr "Predmet - povzetek"
+
+#~ msgid "Related images"
+#~ msgstr "Povezane slike"
+
+#~ msgid "Documentation coming soon."
+#~ msgstr "Dokumentacija bo pripravljena kmalu."
+
+#~ msgid "You have selected the following regions:"
+#~ msgstr "Izbrali ste naslednje regije:"
+
+msgid "Increase map height"
+msgstr "Povečaj višino zemljevida"
+
+msgid "Decrease map height"
+msgstr "Zmanjšaj višino zemljevida"
+
+msgid "Wrong CSV file structure (SITE_NAME, LON, LAT)!"
+msgstr "Napačna struktura datoteke CSV (LON, LAT, NAJDISCE)!"
+
+msgid "Invalid coordinates format!"
+msgstr "Napačna oblika zapisa koordinat!"
+
+msgid "<a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sl'><img alt='Creative Commons licenca' style='border-width:0;height:25px;' src='http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' /></a><br /><span xmlns:dct='http://purl.org/dc/terms/' href='http://purl.org/dc/dcmitype/Dataset' property='dct:title' rel='dct:type'>Zbiva </span> (<a xmlns:cc='http://creativecommons.org/ns#' href='http://zbiva.zrc-sazu.si' property='cc:attributionName' rel='cc:attributionURL'> http://zbiva.zrc-sazu.si</a>) je objavljen pod licenco  <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sl'>Creative Commons Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 3.0 Slovenija</a>."
+msgstr "<a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sl'><img alt='Creative Commons licenca' style='border-width:0;height:25px;' src='http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' /></a><br /><span xmlns:dct='http://purl.org/dc/terms/' href='http://purl.org/dc/dcmitype/Dataset' property='dct:title' rel='dct:type'>Zbiva </span> (<a xmlns:cc='http://creativecommons.org/ns#' href='http://zbiva.zrc-sazu.si' property='cc:attributionName' rel='cc:attributionURL'>http://zbiva.zrc-sazu.si</a>) je objavljen pod licenco  <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sl'>Creative Commons Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 3.0 Slovenija</a>."
+
+msgid "Error 404"
+msgstr "Napaka 404"
+
+msgid "No data found"
+msgstr "Podatek ne obstaja"
+
+# Izrazi za sestavljanje iskalnega kriterija
+msgid "Search criteria"
+msgstr "Iskalni kriterij"
+
+msgid "and"
+msgstr "in"
+
+msgid "from"
+msgstr "od"
+
+msgid "to"
+msgstr "do"
+
+msgid "NOT"
+msgstr "Ni"
+
+msgid "Any string"
+msgstr "Poljubni niz"
+
+# Izrazi za slikovne poizvedbe
+msgid "View beads"
+msgstr "Jagode"
+
+msgid "Beads"
+msgstr "Jagode"
+
+msgid "all cross sections"
+msgstr "vsi prerezi"
+
+msgid "naglavni obroček"
+msgstr ""
+
+msgid "oblika"
+msgstr ""
+
+msgid "prerez"
+msgstr ""
+
+# Javascript prevodi
+msgid "Open Street Map"
+msgstr "Zemljevid"
+
+# Ročni prevodi
+msgid "Address Type"
+msgstr ""
+
+msgid "Age_Max.E16"
+msgstr "Največja starost"
+
+msgid "Age_Min.E16"
+msgstr "Najmanjša starost"
+
+msgid "Beginning_Of_Existence.E63"
+msgstr "Začetek obdobja"
+
+msgid "Beginning_Of_Existence_Time-Span.E52"
+msgstr ""
+
+msgid "Beginning Of Existence Type"
+msgstr "Začetek obdobja"
+
+msgid "Body.E21"
+msgstr ""
+
+msgid "Body_Code.E42"
+msgstr "Oznaka telesa"
+
+msgid "Body_Description.E62"
+msgstr "Opis telesa"
+
+msgid "Body Feature"
+msgstr "Lastnost telesa"
+
+msgid "Body Feature Level2"
+msgstr "Lastnost telesa (nivo 2)"
+
+msgid "Contributor.E39"
+msgstr ""
+
+msgid "Contributor_Appellation.E82"
+msgstr ""
+
+msgid "Creator.E39"
+msgstr "Avtor"
+
+msgid "Creator_Appellation.E82"
+msgstr "Avtor"
+
+msgid "Date_Of_Creation.E50"
+msgstr "Datum izida"
+
+msgid "Date_Of_Publication.E50"
+msgstr "Datum izida"
+
+msgid "Date_Of_Update.E50"
+msgstr ""
+
+msgid "Description.E62"
+msgstr "Opis"
+
+msgid "Description_Of_Location.E62"
+msgstr "Opis lokacije"
+
+msgid "Description Type"
+msgstr "Tip opisa"
+
+msgid "End_Date_Of_Existence.E49"
+msgstr "Konec obdobja"
+
+msgid "End_Of_Existence.E64"
+msgstr "Konec obdobja"
+
+msgid "End_Of_Existence_Time-Span.E52"
+msgstr ""
+
+msgid "End Of Existence Type"
+msgstr "Konec obdobja"
+
+msgid "External_Resource.E1"
+msgstr ""
+
+msgid "External_Xref.E42"
+msgstr ""
+
+msgid "External Xref Type"
+msgstr ""
+
+msgid "File_Path.E62"
+msgstr ""
+
+msgid "Geometry Qualifier"
+msgstr "Tip geometrije"
+
+msgid "Grave.E18"
+msgstr "Grob"
+
+msgid "Grave_Code.E42"
+msgstr "Oznaka groba"
+
+msgid "Grave_Description.E62"
+msgstr "Opis groba"
+
+msgid "Grave Feature"
+msgstr "Lastnost groba"
+
+msgid "Grave Feature Level2"
+msgstr "Lastnost groba (nivo 2)"
+
+msgid "Grave Measurement Type"
+msgstr "Mera groba"
+
+msgid "Grave_Se.E62"
+msgstr "Grob, stavba, SE"
+
+msgid "Heritage Resource Type"
+msgstr "Tip podatka"
+
+msgid "Identifier.E42"
+msgstr "Identifikator"
+
+msgid "Identifier Type"
+msgstr "Tip identifikatorja"
+
+msgid "Information_Carrier.E84"
+msgstr "Nosilec informacijskega vira"
+
+msgid "Information Carrier Format Type"
+msgstr "Tip nosilca informacijskega vira"
+
+msgid "Information_Resource.E73"
+msgstr "Informacijski vir"
+
+msgid "Information_Resource_Type_Assignment.E17"
+msgstr "Določitev informacijskega vira"
+
+msgid "Keyword"
+msgstr ""
+
+msgid "Language"
+msgstr "Jezik"
+
+msgid "Location Accuracy"
+msgstr "Natančnost umestitve v prostor"
+
+msgid "Material.E57"
+msgstr "Snov"
+
+msgid "Name Type"
+msgstr "Tip imena"
+
+msgid "Object.E18"
+msgstr "Predmet"
+
+msgid "Object_Code.E42"
+msgstr "Oznaka predmeta"
+
+msgid "Object_Description.E62"
+msgstr "Opis predmeta"
+
+msgid "Object Feature"
+msgstr "Lastnost predmeta"
+
+msgid "Object Feature Level1"
+msgstr "Lastnost predmeta (nivo 1)"
+
+msgid "Object Feature Level2"
+msgstr "Lastnost predmeta (nivo 2)"
+
+msgid "Object Measurement Type"
+msgstr "Mera predmeta"
+
+msgid "Object Type"
+msgstr "Predmet"
+
+msgid "Other_Name.E48"
+msgstr "Zaselek"
+
+msgid "Place.E53"
+msgstr ""
+
+msgid "Place_Address.E45"
+msgstr ""
+
+msgid "Place_Of_Creation.E48"
+msgstr "Kraj izida"
+
+msgid "Place_Site_Location.E53"
+msgstr ""
+
+msgid "Publication_Event.E12"
+msgstr "Izdaja"
+
+msgid "Publication_Title.E41"
+msgstr "Naslov publikacije"
+
+msgid "Publisher.E39"
+msgstr ""
+
+msgid "Publisher_Appellation.E82"
+msgstr ""
+
+msgid "Resource_Creation_Event.E65"
+msgstr ""
+
+msgid "Resource_Update_Event.E65"
+msgstr ""
+
+msgid "Right_Description.E30"
+msgstr ""
+
+msgid "Right Type"
+msgstr ""
+
+msgid "Settlement.E48"
+msgstr "Naselje"
+
+msgid "Site.E18"
+msgstr "Najdišče"
+
+msgid "Site_Code.E42"
+msgstr "Oznaka najdišča"
+
+msgid "Site_Description.E62"
+msgstr "Opis najdišča"
+
+msgid "Site Measurement Type"
+msgstr ""
+
+msgid "Site_Name.E41"
+msgstr "Ime najdišča"
+
+msgid "Spatial_Coordinates_Geometry.E47"
+msgstr ""
+
+msgid "Spatial_Coverage.E53"
+msgstr ""
+
+msgid "Start_Date_Of_Existence.E49"
+msgstr ""
+
+msgid "Temporal_Coverage.E4"
+msgstr ""
+
+msgid "Temporal_Coverage_Time-Span.E52"
+msgstr ""
+
+msgid "Thumbnail.E62"
+msgstr ""
+
+msgid "Time-Span_Publication_Event.E52"
+msgstr ""
+
+msgid "Time-Span_Resource_Creation_Event.E52"
+msgstr ""
+
+msgid "Title.E41"
+msgstr "Naslov"
+
+msgid "Title Type"
+msgstr "Tip naslova"
+
+msgid "Topographical_Area.E48"
+msgstr "TP"
+
+msgid "Topographical_Unit.E48"
+msgstr "TE"
+
+msgid "Unit Of Measurement"
+msgstr "Enota mere"
+
+msgid "Value_Of_Measurement.E60"
+msgstr "Vrednost mere"
+
+msgid "Year_Of_Creation.E62"
+msgstr "Leto izida"
+
+msgid "Resource Classification"
+msgstr "Tip podatka"
+
+msgid "Site Feature"
+msgstr "Lastnost najdišča"
+
+msgid "Resource To Resource Relationship Types"
+msgstr "Relacija"
+

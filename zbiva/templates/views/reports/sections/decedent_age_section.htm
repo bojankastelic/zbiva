@@ -1,0 +1,35 @@
+{% load i18n %}
+{% if 'DECEDENT_E21' in report_info.source.graph %}	
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="">
+				<dl class="report-item-list">
+                            <dt>
+		                        <h5 id="" class="arches-report-subsection-title">{% trans "Decendent age" %}</h5>
+		                    </dt>
+				    {% for DECEDENT_E21 in report_info.source.graph.DECEDENT_E21 %}
+		                {% if 'AGE_E16' in DECEDENT_E21 %}
+				            {% for AGE_E16 in DECEDENT_E21.AGE_E16 %}
+		                        {% if 'AGE_MIN_E16' in AGE_E16 or 'AGE_MAX_E16' in AGE_E16 %}
+				                    {% for AGE_MIN_E16 in AGE_E16.AGE_MIN_E16 %}
+                                        <dd class="arches-report-subsection-item">
+                                            {{AGE_MIN_E16.AGE_MIN_E16__value}} 
+                                            <span class="arches-report-subsection-item-type">({% trans "Min" %})</span> 
+                                        </dd>
+                                    {% endfor %}
+                                    {% for AGE_MAX_E16 in AGE_E16.AGE_MAX_E16 %}
+                                        <dd class="arches-report-subsection-item">
+                                            {{AGE_MAX_E16.AGE_MAX_E16__value}} 
+                                            <span class="arches-report-subsection-item-type">({% trans "Max" %})</span> 
+                                        </dd>
+                                    {% endfor %}
+                                {% endif %}
+		                    {% endfor %}     
+                        {% endif %}
+		            {% endfor %}     
+				</dl>
+			</div>
+		</div>
+	</div>
+{% endif %}
+

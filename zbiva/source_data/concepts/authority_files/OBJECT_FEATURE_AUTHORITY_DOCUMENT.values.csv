@@ -1,0 +1,937 @@
+conceptid,Value,ValueType,Provider
+OFT:J,"jagoda",label:sl,GCI
+OFT:J,"Perle",label:de,GCI
+OFT:JDO01,"drugotno uporabljeno za obesek",label:sl,GCI
+OFT:JDO01,"Objekte in sekundärer Verwendung für Anhänger",label:de,GCI
+OFT:JBA,"barva",label:sl,GCI
+OFT:JBA,"Perlenfarbe",label:de,GCI
+OFT:JBA01,"bela, siva",label:sl,GCI
+OFT:JBA01,"weiss-grau",label:de,GCI
+OFT:JBA02,"črna",label:sl,GCI
+OFT:JBA02,"schwarz",label:de,GCI
+OFT:JBA03,"rdeča, rjava",label:sl,GCI
+OFT:JBA03,"rot-braun",label:de,GCI
+OFT:JBA04,"rumena",label:sl,GCI
+OFT:JBA04,"gelb",label:de,GCI
+OFT:JBA05,"zelena",label:sl,GCI
+OFT:JBA05,"grün",label:de,GCI
+OFT:JBA06,"modra",label:sl,GCI
+OFT:JBA06,"blau",label:de,GCI
+OFT:JBA07,"oranžna",label:sl,GCI
+OFT:JBA07,"orange",label:de,GCI
+OFT:JBA08,"brezbarvna",label:sl,GCI
+OFT:JBA08,"farblos",label:de,GCI
+OFT:JBA09,"zelenkasto-prozorna",label:sl,GCI
+OFT:JBA09,"grünlich-transluzid",label:de,GCI
+OFT:JBA10,"rumenkasto, rjavkasto-prozorna",label:sl,GCI
+OFT:JBA10,"honigfarben-transluzid",label:de,GCI
+OFT:JBA11,"modrikasto prozorna",label:sl,GCI
+OFT:JBA11,"bläulich-durchscheinend",label:de,GCI
+OFT:JBA12,"drugačna barva",label:sl,GCI
+OFT:JBA12,"andere Farben",label:de,GCI
+OFT:JBA13,"modro zelena",label:sl,GCI
+OFT:JBA13,"blau-grün",label:de,GCI
+OFT:JOK,"okras",label:sl,GCI
+OFT:JOK,"Verzierung",label:de,GCI
+OFT:JOK01,"nedoločljiv okras",label:sl,GCI
+OFT:JOK01,"unbestimmbare Verzirungsreste",label:de,GCI
+OFT:JOK02,"izbočeno dodan okras",label:sl,GCI
+OFT:JOK02,"plastische Verzierung",label:de,GCI
+OFT:JOK03,"plosk okras",label:sl,GCI
+OFT:JOK03,"glatt eingearbeitete Verzierung",label:de,GCI
+OFT:JOK04,"ena valovnica",label:sl,GCI
+OFT:JOK04,"Wellenlinie",label:de,GCI
+OFT:JOK05,"več valovnic",label:sl,GCI
+OFT:JOK05,"Wellenlinien",label:de,GCI
+OFT:JOK06,"osmičast okras",label:sl,GCI
+OFT:JOK06,"Achtermuster",label:de,GCI
+OFT:JOK07,"pike in še drugo",label:sl,GCI
+OFT:JOK07,"Punkte und Sonstiges",label:de,GCI
+OFT:JOK08,"nametane pike",label:sl,GCI
+OFT:JOK08,"unsymmetrisches Punktmuster",label:de,GCI
+OFT:JOK09,"urejene pike",label:sl,GCI
+OFT:JOK09,"symmetrisches Punktmuster",label:de,GCI
+OFT:JOK10,"očesa, koncentrični okras",label:sl,GCI
+OFT:JOK10,"konzentrische Augen",label:de,GCI
+OFT:JOK11,"cvetovi, lističi",label:sl,GCI
+OFT:JOK11,"Millefiorimuster",label:de,GCI
+OFT:JOK12,"tančice",label:sl,GCI
+OFT:JOK12,"Schlieren",label:de,GCI
+OFT:JOK13,"prevleka",label:sl,GCI
+OFT:JOK13,"Überzug",label:de,GCI
+OFT:JOK14,"srebrna folija",label:sl,GCI
+OFT:JOK14,"Silberfolie",label:de,GCI
+OFT:JOK15,"zlata folija",label:sl,GCI
+OFT:JOK15,"Goldfolie",label:de,GCI
+OFT:JOK16,"ravne proge",label:sl,GCI
+OFT:JOK16,"gerades Streifenmuster",label:de,GCI
+OFT:JOK17,"vibaste proge",label:sl,GCI
+OFT:JOK17,"Spiralstreifenmuster",label:de,GCI
+OFT:JOK18,"valovite proge",label:sl,GCI
+OFT:JOK18,"Wellenstreifenmuster",label:de,GCI
+OFT:JOK19,"drugačen okras",label:sl,GCI
+OFT:JOK19,"andere Verzierungen",label:de,GCI
+OFT:JOK20,"večbarven okras",label:sl,GCI
+OFT:JOK20,"polichrome Verzierung",label:de,GCI
+OFT:JOK21,"bel enobarven okras",label:sl,GCI
+OFT:JOK21,"uverzierte weisse Perle",label:de,GCI
+OFT:JOK22,"zelen enobarven okras",label:sl,GCI
+OFT:JOK22,"uverzierte grüne Perle",label:de,GCI
+OFT:JOK23,"rdeč enobarven okras",label:sl,GCI
+OFT:JOK23,"uverzierte rote Perle",label:de,GCI
+OFT:JOK24,"moder enobarven okras",label:sl,GCI
+OFT:JOK24,"uverzierte blaue Perle",label:de,GCI
+OFT:JOK25,"rumen enobarven okras",label:sl,GCI
+OFT:JOK25,"uverzierte gelbe Perle",label:de,GCI
+OFT:JOK26,"črn enobarven okras",label:sl,GCI
+OFT:JOK26,"uverzierte schwarze Perle",label:de,GCI
+OFT:JOK27,"brez okrasa",label:sl,GCI
+OFT:JOK27,"unverzierte Perle",label:de,GCI
+OFT:JSS,"steklo",label:sl,GCI
+OFT:JSS,"Glas",label:de,GCI
+OFT:JSS01,"neprosojno steklo",label:sl,GCI
+OFT:JSS01,"opakes Glas",label:de,GCI
+OFT:JSS02,"prosojno steklo",label:sl,GCI
+OFT:JSS02,"durchsichtiges Glas",label:de,GCI
+OFT:JSS03,"prozorno steklo",label:sl,GCI
+OFT:JSS03,"transluzides Glas",label:de,GCI
+OFT:JSS04,"mehurčkasto steklo",label:sl,GCI
+OFT:JSS04,"blasiges Glas",label:de,GCI
+OFT:JSS05,"pramenasto steklo",label:sl,GCI
+OFT:JSS05,"faseriges Glas",label:de,GCI
+OFT:JSS06,"drugačno steklo",label:sl,GCI
+OFT:JSS06,"anderes Glas",label:de,GCI
+OFT:JOP,"prerez",label:sl,GCI
+OFT:JOP,"Schnitt",label:de,GCI
+OFT:JOP01,"okrogel prerez",label:sl,GCI
+OFT:JOP01,"runder Querschnitt",label:de,GCI
+OFT:JOP02,"votel prerez",label:sl,GCI
+OFT:JOP02,"hohler Querschnitt",label:de,GCI
+OFT:JOP03,"večdelen obod",label:sl,GCI
+OFT:JOP03,"mehrteiliger Querschnitt",label:de,GCI
+OFT:JOP04,"sploščen prerez",label:sl,GCI
+OFT:JOP04,"flacher Querschnitt",label:de,GCI
+OFT:JOP05,"rombast prerez",label:sl,GCI
+OFT:JOP05,"Rautenquerschnitt",label:de,GCI
+OFT:JOP06,"četverokoten prerez",label:sl,GCI
+OFT:JOP06,"viereckiger Querschnitt",label:de,GCI
+OFT:JOP07,"šesterokoten prerez",label:sl,GCI
+OFT:JOP07,"sechseckiger Querschnitt",label:de,GCI
+OFT:JOP08,"narebren prerez",label:sl,GCI
+OFT:JOP08,"gerippter Querschnitt",label:de,GCI
+OFT:JOP09,"drugačni prerez jagode",label:sl,GCI
+OFT:JOP09,"andere Querschnitte",label:de,GCI
+OFT:JOS,"oblika",label:sl,GCI
+OFT:JOS,"Form",label:de,GCI
+OFT:JOS01,"svitkasta",label:sl,GCI
+OFT:JOS01,"gedrückt kugelförmig",label:de,GCI
+OFT:JOS02,"svaljkasta",label:sl,GCI
+OFT:JOS02,"walzenförmig",label:de,GCI
+OFT:JOS03,"kroglasta",label:sl,GCI
+OFT:JOS03,"kugelig",label:de,GCI
+OFT:JOS04,"rogljata",label:sl,GCI
+OFT:JOS04,"zahnförmig",label:de,GCI
+OFT:JOS05,"dvokonična",label:sl,GCI
+OFT:JOS05,"doppelkonisch",label:de,GCI
+OFT:JOS06,"mnogokotna",label:sl,GCI
+OFT:JOS06,"polyedrisch",label:de,GCI
+OFT:JOS07,"prizma",label:sl,GCI
+OFT:JOS07,"prismatisch",label:de,GCI
+OFT:JOS08,"makasta",label:sl,GCI
+OFT:JOS08,"mohnenkopfförmig",label:de,GCI
+OFT:JOS09,"valjasta",label:sl,GCI
+OFT:JOS09,"zylindrisch",label:de,GCI
+OFT:JOS10,"svedrasta",label:sl,GCI
+OFT:JOS10,"schraubenförmig",label:de,GCI
+OFT:JOS11,"mandljasta",label:sl,GCI
+OFT:JOS11,"mandelförmig",label:de,GCI
+OFT:JOS12,"cevčica",label:sl,GCI
+OFT:JOS12,"langzylindrisch",label:de,GCI
+OFT:JOS13,"drugačna oblika jagode",label:sl,GCI
+OFT:JOS13,"andere Perlenform",label:de,GCI
+OFT:JOS14,"vretenčasta",label:sl,GCI
+OFT:JOS14,"wirbelförmig",label:de,GCI
+OFT:LG,"lega v grobu",label:sl,GCI
+OFT:LG,"Lage im Grab",label:de,GCI
+OFT:LG001,"sredi za glavo",label:sl,GCI
+OFT:LG001,"im Scheitelbereich",label:de,GCI
+OFT:LG002,"sredi pred stopali",label:sl,GCI
+OFT:LG002,"unterhalb Fussbereich",label:de,GCI
+OFT:LG003,"za glavo levo",label:sl,GCI
+OFT:LG003,"links oberhalb des Schädels",label:de,GCI
+OFT:LG004,"za glavo desno",label:sl,GCI
+OFT:LG004,"rechts oberhalb des Schädels",label:de,GCI
+OFT:LG005,"pred stopali desno",label:sl,GCI
+OFT:LG005,"rechts unterhalb der Füsse",label:de,GCI
+OFT:LG006,"pred stopali levo",label:sl,GCI
+OFT:LG006,"links unterhalb der Füsse",label:de,GCI
+OFT:LG007,"desno od glave",label:sl,GCI
+OFT:LG007,"rechts dem Kopf",label:de,GCI
+OFT:LG008,"levo od glave",label:sl,GCI
+OFT:LG008,"links dem Kopf",label:de,GCI
+OFT:LG009,"glava",label:sl,GCI
+OFT:LG009,"Kopfbereich",label:de,GCI
+OFT:LG010,"desno od vratu",label:sl,GCI
+OFT:LG010,"rechts vom Hals",label:de,GCI
+OFT:LG011,"levo od vratu",label:sl,GCI
+OFT:LG011,"links vom Hals",label:de,GCI
+OFT:LG012,"vrat",label:sl,GCI
+OFT:LG012,"Halsbereich",label:de,GCI
+OFT:LG013,"desna rama",label:sl,GCI
+OFT:LG013,"Schulter rechts",label:de,GCI
+OFT:LG014,"leva rama",label:sl,GCI
+OFT:LG014,"Schulter links",label:de,GCI
+OFT:LG015,"desno od desne rame",label:sl,GCI
+OFT:LG015,"rechts der rechten Schulter",label:de,GCI
+OFT:LG016,"levo od leve rame",label:sl,GCI
+OFT:LG016,"links der linken Schulter",label:de,GCI
+OFT:LG017,"desno od desne nadlakti",label:sl,GCI
+OFT:LG017,"neben rechtem Oberarm",label:de,GCI
+OFT:LG018,"levo od leve nadlakti",label:sl,GCI
+OFT:LG018,"neben linkem Oberarm",label:de,GCI
+OFT:LG019,"desna nadlakt",label:sl,GCI
+OFT:LG019,"rechter Oberarm",label:de,GCI
+OFT:LG020,"leva nadlakt",label:sl,GCI
+OFT:LG020,"linker Oberarm",label:de,GCI
+OFT:LG021,"prsa",label:sl,GCI
+OFT:LG021,"Brust",label:de,GCI
+OFT:LG022,"desno od desnega komolca",label:sl,GCI
+OFT:LG022,"neben rechtem Ellbogen",label:de,GCI
+OFT:LG023,"levo od levega komolca",label:sl,GCI
+OFT:LG023,"neben linkem Ellbogen",label:de,GCI
+OFT:LG024,"desni komolec",label:sl,GCI
+OFT:LG024,"rechter Ellbogen",label:de,GCI
+OFT:LG025,"levi komolec",label:sl,GCI
+OFT:LG025,"linker Ellbogen",label:de,GCI
+OFT:LG026,"desno od desne podlakti",label:sl,GCI
+OFT:LG026,"neben rechtem Unterarm",label:de,GCI
+OFT:LG027,"levo od leve podlakti",label:sl,GCI
+OFT:LG027,"neben linkem Unterarm",label:de,GCI
+OFT:LG028,"desna podlakt",label:sl,GCI
+OFT:LG028,"rechter Unterarm",label:de,GCI
+OFT:LG029,"leva podlakt",label:sl,GCI
+OFT:LG029,"linker Unterarm",label:de,GCI
+OFT:LG030,"trebuh",label:sl,GCI
+OFT:LG030,"Bauch",label:de,GCI
+OFT:LG031,"desno od desne dlani",label:sl,GCI
+OFT:LG031,"neben rechter Hand",label:de,GCI
+OFT:LG032,"levo od leve dlani",label:sl,GCI
+OFT:LG032,"neben linker Hand",label:de,GCI
+OFT:LG033,"desna dlan",label:sl,GCI
+OFT:LG033,"rechte Hand",label:de,GCI
+OFT:LG034,"leva dlan",label:sl,GCI
+OFT:LG034,"linke Hand",label:de,GCI
+OFT:LG035,"medenica",label:sl,GCI
+OFT:LG035,"Becken",label:de,GCI
+OFT:LG036,"desno od desnega stegna",label:sl,GCI
+OFT:LG036,"neben rechtem Oberschenkel",label:de,GCI
+OFT:LG037,"levo od levega stegna",label:sl,GCI
+OFT:LG037,"neben linkem Oberschenkel",label:de,GCI
+OFT:LG038,"desno stegno",label:sl,GCI
+OFT:LG038,"rechter Oberschenkel",label:de,GCI
+OFT:LG039,"levo stegno",label:sl,GCI
+OFT:LG039,"linker Oberschenkel",label:de,GCI
+OFT:LG040,"med stegni",label:sl,GCI
+OFT:LG040,"zwischen den Oberschenkeln",label:de,GCI
+OFT:LG041,"desno od desnega kolena",label:sl,GCI
+OFT:LG041,"neben rechtem Knie",label:de,GCI
+OFT:LG042,"levo od levega kolena",label:sl,GCI
+OFT:LG042,"neben linken Knie",label:de,GCI
+OFT:LG043,"desno koleno",label:sl,GCI
+OFT:LG043,"rechtes Knie",label:de,GCI
+OFT:LG044,"levo koleno",label:sl,GCI
+OFT:LG044,"linkes Knie",label:de,GCI
+OFT:LG045,"med koleni",label:sl,GCI
+OFT:LG045,"zwischen den Knien",label:de,GCI
+OFT:LG046,"desno od desnih meč",label:sl,GCI
+OFT:LG046,"neben rechtem Unterschenkel",label:de,GCI
+OFT:LG047,"levo od levih meč",label:sl,GCI
+OFT:LG047,"neben linkem Unterschenkel",label:de,GCI
+OFT:LG048,"desna meča",label:sl,GCI
+OFT:LG048,"rechter Unterschenkel",label:de,GCI
+OFT:LG049,"leva meča",label:sl,GCI
+OFT:LG049,"linker Unterschenkel",label:de,GCI
+OFT:LG050,"med meči",label:sl,GCI
+OFT:LG050,"zwischen den Unterschenkeln",label:de,GCI
+OFT:LG051,"desno od desnega stopala",label:sl,GCI
+OFT:LG051,"neben rechtem Fuss",label:de,GCI
+OFT:LG052,"levo od levega stopala",label:sl,GCI
+OFT:LG052,"neben linkem Fuss",label:de,GCI
+OFT:LG053,"desno stopalo",label:sl,GCI
+OFT:LG053,"rechter Fuss",label:de,GCI
+OFT:LG054,"levo stopalo",label:sl,GCI
+OFT:LG054,"linker Fuss",label:de,GCI
+OFT:LG055,"med stopali",label:sl,GCI
+OFT:LG055,"zwischen den Füssen",label:de,GCI
+OFT:LG056,"desno",label:sl,GCI
+OFT:LG056,"rechts",label:de,GCI
+OFT:LG057,"levo",label:sl,GCI
+OFT:LG057,"links",label:de,GCI
+OFT:LG058,"pri glavi",label:sl,GCI
+OFT:LG058,"beim Kopf",label:de,GCI
+OFT:LG059,"pri trupu",label:sl,GCI
+OFT:LG059,"beim Oberkörper",label:de,GCI
+OFT:LG060,"pri nogah",label:sl,GCI
+OFT:LG060,"bei den Füssen",label:de,GCI
+OFT:LG061,"zasutje groba",label:sl,GCI
+OFT:LG061,"Grabverfüllung",label:de,GCI
+OFT:ME,"nož",label:sl,GCI
+OFT:ME,"Messer",label:de,GCI
+OFT:MEO01,"ostrina zavija v konico",label:sl,GCI
+OFT:MEO01,"gebogene Schneide",label:de,GCI
+OFT:MEO02,"ravna ostrina",label:sl,GCI
+OFT:MEO02,"gerade Schneide",label:de,GCI
+OFT:MEO03,"ostrina drugačne oblike",label:sl,GCI
+OFT:MEO03,"andere Schneidenform",label:de,GCI
+OFT:MED,"držaj",label:sl,GCI
+OFT:MED,"Griff",label:de,GCI
+OFT:MED01,"lesen  držaj",label:sl,GCI
+OFT:MED01,"Holzgriff",label:de,GCI
+OFT:MED02,"rožen, koščen držaj",label:sl,GCI
+OFT:MED02,"Knochen- oder Geweihgriff",label:de,GCI
+OFT:MED03,"kovinski držaj",label:sl,GCI
+OFT:MED03,"Metallgriff",label:de,GCI
+OFT:MED04,"okrašen držaj",label:sl,GCI
+OFT:MED04,"verzierter Griff",label:de,GCI
+OFT:MEH,"hrbet",label:sl,GCI
+OFT:MEH,"Rücken",label:de,GCI
+OFT:MEH01,"raven hrbet",label:sl,GCI
+OFT:MEH01,"gerader Rücken",label:de,GCI
+OFT:MEH02,"ravno zalomljen hrbet",label:sl,GCI
+OFT:MEH02,"gerader Knickrücken",label:de,GCI
+OFT:MEH03,"hrbet zavija v konico",label:sl,GCI
+OFT:MEH03,"gebogener Rücken",label:de,GCI
+OFT:MEH04,"usločeno zalomljen hrbet",label:sl,GCI
+OFT:MEH04,"konkave Spitze",label:de,GCI
+OFT:MEH05,"drugačne oblike hrbet",label:sl,GCI
+OFT:MEH05,"andere Rückenformen",label:de,GCI
+OFT:MEL,"kanal",label:sl,GCI
+OFT:MEL,"Hohlschliff",label:de,GCI
+OFT:MEL01,"enostranski kanal za kri",label:sl,GCI
+OFT:MEL01,"Hohlschliff einseitig",label:de,GCI
+OFT:MEL02,"dvostranska kanala za kri",label:sl,GCI
+OFT:MEL02,"Hohlschliff beidseitig",label:de,GCI
+OFT:MEL03,"najmaj enostranski kanal za kri",label:sl,GCI
+OFT:MEL03,"Hohlschliff nur einseitig erkennbar",label:de,GCI
+OFT:MEN,"nožnica",label:sl,GCI
+OFT:MEN,"Scheide",label:de,GCI
+OFT:MEN01,"les za nožnico",label:sl,GCI
+OFT:MEN01,"hölzerne Scheide",label:de,GCI
+OFT:MEN02,"usnje za nožnico",label:sl,GCI
+OFT:MEN02,"Lederscheide",label:de,GCI
+OFT:MEN03,"kovina za nožnico",label:sl,GCI
+OFT:MEN03,"Metallscheide",label:de,GCI
+OFT:MEN04,"okovje nožnice",label:sl,GCI
+OFT:MEN04,"Scheidenbeschläge",label:de,GCI
+OFT:MEPH,"prehod v hrbet",label:sl,GCI
+OFT:MEPH,"Dorn-Rücken Absetzung",label:de,GCI
+OFT:MEPH4,"poševen prehod v hrbet",label:sl,GCI
+OFT:MEPH4,"Dorn beim Rücken schräg abgesetzt",label:de,GCI
+OFT:MEPH5,"zaobljen prehod v hrbet",label:sl,GCI
+OFT:MEPH5,"Dorn beim Rücken konkav abgesetzt",label:de,GCI
+OFT:MEPH6,"stopničast prehod v hrbet",label:sl,GCI
+OFT:MEPH6,"Dorn beim Rücken stufenförmig abgesetzt",label:de,GCI
+OFT:MEPH7,"drugačen prehod v hrbet",label:sl,GCI
+OFT:MEPH7,"Dorn beim Rücken anders geformt",label:de,GCI
+OFT:MEPO,"prehod v ostrino",label:sl,GCI
+OFT:MEPO,"Dorn-Schneide Absetzung",label:de,GCI
+OFT:MEPO1,"poševen prehod v ostrino",label:sl,GCI
+OFT:MEPO1,"Dorn bei der Schneide schräg abgesetzt",label:de,GCI
+OFT:MEPO2,"zaobljen prehod v ostrino",label:sl,GCI
+OFT:MEPO2,"Dorn bei der Schneide konkav abgesetzt",label:de,GCI
+OFT:MEPO3,"stopničast prehod v ostrino",label:sl,GCI
+OFT:MEPO3,"Dorn bei der Schneide stufenförmig abgesetzt",label:de,GCI
+OFT:MEPO8,"drugačen prehod v ostrino",label:sl,GCI
+OFT:MEPO8,"Dorn bei der Schneide anders geformt",label:de,GCI
+OFT:MER,"rezilo",label:sl,GCI
+OFT:MER,"Klinge",label:de,GCI
+OFT:MER01,"enostranska ostrina rezila",label:sl,GCI
+OFT:MER01,"einschneidige Klinge",label:de,GCI
+OFT:MER02,"dvostranska ostrina rezila",label:sl,GCI
+OFT:MER02,"zweischneidige Klinge",label:de,GCI
+OFT:MER03,"damascirano rezilo",label:sl,GCI
+OFT:MER03,"damaszierte Klinge",label:de,GCI
+OFT:MEK,"konica",label:sl,GCI
+OFT:MEK,"Spitze",label:de,GCI
+OFT:MEK01,"konica pri hrbtu",label:sl,GCI
+OFT:MEK01,"Rückenspitze",label:de,GCI
+OFT:MEK02,"konica bliže hrbtu",label:sl,GCI
+OFT:MEK02,"Spitze oberhalb der Klingenachse",label:de,GCI
+OFT:MEK03,"konica v osi",label:sl,GCI
+OFT:MEK03,"Spitze mittig",label:de,GCI
+OFT:MEK04,"konica bliže ostrini",label:sl,GCI
+OFT:MEK04,"Spitze unterhalb der Klingenachse",label:de,GCI
+OFT:MEK05,"konica pri ostrini",label:sl,GCI
+OFT:MEK05,"Schneidenspitze",label:de,GCI
+OFT:MET,"trn",label:sl,GCI
+OFT:MET,"Dorn",label:de,GCI
+OFT:METO1,"trnast trn",label:sl,GCI
+OFT:METO1,"Spitzdorn",label:de,GCI
+OFT:METO2,"trakast trn",label:sl,GCI
+OFT:METO2,"Zungendorn",label:de,GCI
+OFT:METO3,"drugih oblik trn",label:sl,GCI
+OFT:METO3,"andere Dornform",label:de,GCI
+OFT:METO4,"enake širine trn rezilu",label:sl,GCI
+OFT:METO4,"Griffplatte",label:de,GCI
+OFT:OH,"ohranjenost",label:sl,GCI
+OFT:OH,"Erhaltungszustand",label:de,GCI
+OFT:OH001,"dobra",label:sl,GCI
+OFT:OH001,"gut",label:de,GCI
+OFT:OH002,"srednja",label:sl,GCI
+OFT:OH002,"mittel",label:de,GCI
+OFT:OH003,"slaba",label:sl,GCI
+OFT:OH003,"schlecht",label:de,GCI
+OFT:OH004,"odlomek",label:sl,GCI
+OFT:OH004,"Bruchstück",label:de,GCI
+OFT:OH005,"neohranjeno",label:sl,GCI
+OFT:OH005,"nicht erhalten",label:de,GCI
+OFT:OK,"najdba",label:sl,GCI
+OFT:OK,"Befund",label:de,GCI
+OFT:OK001,"naselbina",label:sl,GCI
+OFT:OK001,"Siedlung",label:de,GCI
+OFT:OK002,"grobišče",label:sl,GCI
+OFT:OK002,"Gräberfeld",label:de,GCI
+OFT:OK003,"zaklad",label:sl,GCI
+OFT:OK003,"Hort",label:de,GCI
+OFT:OK004,"posamična najdba",label:sl,GCI
+OFT:OK004,"Einzelfund",label:de,GCI
+OFT:PO,"posoda",label:sl,GCI
+OFT:PO,"Gefäß",label:de,GCI
+OFT:POB,"barva",label:sl,GCI
+OFT:POB,"Gefäßfarbe",label:de,GCI
+OFT:POB01,"lisasta barva zunaj",label:sl,GCI
+OFT:POB01,"geschmauchte Aussenfläche",label:de,GCI
+OFT:POB02,"svetla barva zunaj",label:sl,GCI
+OFT:POB02,"helle Aussenfläche",label:de,GCI
+OFT:POB03,"temna barva zunaj",label:sl,GCI
+OFT:POB03,"dunkle Aussenfläche",label:de,GCI
+OFT:POB04,"lisasta barva znotraj",label:sl,GCI
+OFT:POB04,"geschmauchte Innenfläche",label:de,GCI
+OFT:POB05,"svetla barva znotraj",label:sl,GCI
+OFT:POB05,"helle Innenfläche",label:de,GCI
+OFT:POB06,"temna barva znotraj",label:sl,GCI
+OFT:POB06,"dunkle Innenfläche",label:de,GCI
+OFT:POB07,"svetel enobarven prelom",label:sl,GCI
+OFT:POB07,"Bruch hell einfärbig",label:de,GCI
+OFT:POB08,"temen enobarven prelom",label:sl,GCI
+OFT:POB08,"Bruch dunkel einfärbig",label:de,GCI
+OFT:POB09,"večbarven prelom",label:sl,GCI
+OFT:POB09,"Bruch mehrfärbig",label:de,GCI
+OFT:POD,"dno",label:sl,GCI
+OFT:POD,"Boden",label:de,GCI
+OFT:POD01,"brez posebnih odtisov",label:sl,GCI
+OFT:POD01,"ebene Standfläche",label:de,GCI
+OFT:POD02,"os kolesa",label:sl,GCI
+OFT:POD02,"Achsabdruck",label:de,GCI
+OFT:POD03,"podložna ploščica brez znaka",label:sl,GCI
+OFT:POD03,"unverzierte Zwischenscheibe",label:de,GCI
+OFT:POD04,"podložna ploščica z znakom",label:sl,GCI
+OFT:POD04,"markierte Zwischenscheibe",label:de,GCI
+OFT:POD05,"samo znak",label:sl,GCI
+OFT:POD05,"nur Bodenmarke",label:de,GCI
+OFT:POD06,"krožne sledi rezanja od podlage",label:sl,GCI
+OFT:POD06,"Abgeschnittener Boden",label:de,GCI
+OFT:POD07,"sled podložne ploščice (znak?)",label:sl,GCI
+OFT:POD07,"Zwischenscheibe (Marke?)",label:de,GCI
+OFT:POH,"ohranjenost",label:sl,GCI
+OFT:POH,"beschriebener Teil",label:de,GCI
+OFT:POH01,"cela",label:sl,GCI
+OFT:POH01,"Ganzgefäss",label:de,GCI
+OFT:POH02,"ustje (in telo)",label:sl,GCI
+OFT:POH02,"Rand (und Körper)",label:de,GCI
+OFT:POH03,"vrat (in telo)",label:sl,GCI
+OFT:POH03,"Hals (und Körper)",label:de,GCI
+OFT:POH04,"telo",label:sl,GCI
+OFT:POH04,"Körper",label:de,GCI
+OFT:POH05,"dno",label:sl,GCI
+OFT:POH05,"Boden",label:de,GCI
+OFT:POH06,"ročaj, držaj",label:sl,GCI
+OFT:POH06,"Handhabe",label:de,GCI
+OFT:POH07,"noga",label:sl,GCI
+OFT:POH07,"Fuss",label:de,GCI
+OFT:POI,"izdelava",label:sl,GCI
+OFT:POI,"Beschafenheit",label:de,GCI
+OFT:POI01,"prostoročna v celoti",label:sl,GCI
+OFT:POI01,"freihandgeformt",label:de,GCI
+OFT:POI02,"hitro kolo",label:sl,GCI
+OFT:POI02,"schnelle Töpferscheibe",label:de,GCI
+OFT:POI03,"doglajeno ustje",label:sl,GCI
+OFT:POI03,"Rand nachgedreht",label:de,GCI
+OFT:POI04,"doglajeno do vključno rame",label:sl,GCI
+OFT:POI04,"Rand und Schulter nachgedreht",label:de,GCI
+OFT:POI05,"doglajeno preko rame",label:sl,GCI
+OFT:POI05,"über Rand und Schulter nachgedreht",label:de,GCI
+OFT:POI06,"doglajena cela",label:sl,GCI
+OFT:POI06,"ganznachgedreht",label:de,GCI
+OFT:POI07,"stoječa podlaga",label:sl,GCI
+OFT:POI07,"stehende Unterlage",label:de,GCI
+OFT:POI08,"odlomek doglajen",label:sl,GCI
+OFT:POI08,"Bruchstück nachgedreht",label:de,GCI
+OFT:POI09,"odlomek nedoglajen",label:sl,GCI
+OFT:POI09,"freihandgeformtes Bruchstück",label:de,GCI
+OFT:POI10,"počasno lončarsko kolo",label:sl,GCI
+OFT:POI10,"langsame Töpferscheibe",label:de,GCI
+OFT:POI16,"POI16",label:sl,GCI
+OFT:POI16,"POI16",label:de,GCI
+OFT:POO,"okras",label:sl,GCI
+OFT:POO,"Verzierung",label:de,GCI
+OFT:POO01,"ena vodoravna črta",label:sl,GCI
+OFT:POO01,"Horizontallinie",label:de,GCI
+OFT:POO02,"vbod enojni (eden ali več)",label:sl,GCI
+OFT:POO02,"Einstiche",label:de,GCI
+OFT:POO03,"kratek vrez (eden ali več)",label:sl,GCI
+OFT:POO03,"Spatelstiche",label:de,GCI
+OFT:POO04,"ena valovita črta",label:sl,GCI
+OFT:POO04,"Wellenlinie",label:de,GCI
+OFT:POO05,"en vodoraven pas črt",label:sl,GCI
+OFT:POO05,"horizintales Linienband",label:de,GCI
+OFT:POO06,"poševen pas črt (eden ali več)",label:sl,GCI
+OFT:POO06,"schräges Linienband",label:de,GCI
+OFT:POO07,"en valovit pas črt",label:sl,GCI
+OFT:POO07,"Wellenband",label:de,GCI
+OFT:POO08,"vbodi z glavnikom (eden ali več)",label:sl,GCI
+OFT:POO08,"Kammeinstiche",label:de,GCI
+OFT:POO09,"glavničenje",label:sl,GCI
+OFT:POO09,"Kammstrichmuster",label:de,GCI
+OFT:POO10,"žigosanje",label:sl,GCI
+OFT:POO10,"Stempelverzierung",label:de,GCI
+OFT:POO11,"rebro eno ali več",label:sl,GCI
+OFT:POO11,"plastische Leiste",label:de,GCI
+OFT:POO12,"poslikava",label:sl,GCI
+OFT:POO12,"Bemalung",label:de,GCI
+OFT:POO13,"engoba",label:sl,GCI
+OFT:POO13,"Engobe",label:de,GCI
+OFT:POO14,"glajen okras",label:sl,GCI
+OFT:POO14,"Einglättverzierung",label:de,GCI
+OFT:POO15,"grafitiranje",label:sl,GCI
+OFT:POO15,"Graffitierung",label:de,GCI
+OFT:POO16,"jamice",label:sl,GCI
+OFT:POO16,"Fingerhutmuster",label:de,GCI
+OFT:POO17,"odtisi prstov",label:sl,GCI
+OFT:POO17,"Fingerabdrücke",label:de,GCI
+OFT:POO18,"lega okrasa  zunaj",label:sl,GCI
+OFT:POO18,"Aussenfläche verziert",label:de,GCI
+OFT:POO19,"lega okrasa znotraj",label:sl,GCI
+OFT:POO19,"Innenfläche verziert",label:de,GCI
+OFT:POO20,"več vodoravnih črt",label:sl,GCI
+OFT:POO20,"mehrfache Horizontallinien",label:de,GCI
+OFT:POO21,"več valovitih črt",label:sl,GCI
+OFT:POO21,"mehrfache Wellenlinien",label:de,GCI
+OFT:POO22,"več vodoravnih pasov",label:sl,GCI
+OFT:POO22,"mehrfache horizontale Linienbänder",label:de,GCI
+OFT:POO23,"več valovitih pasov",label:sl,GCI
+OFT:POO23,"mehrfache Wellenbänder",label:de,GCI
+OFT:POO24,"križno glavničenje vodor.-navpič.",label:sl,GCI
+OFT:POO24,"gekreuzte Kammstrichmuster",label:de,GCI
+OFT:POO25,"neokrašeno",label:sl,GCI
+OFT:POO25,"unverziert",label:de,GCI
+OFT:POO26,"žlebljenje",label:sl,GCI
+OFT:POO26,"Rillen",label:de,GCI
+OFT:POO27,"metličenje enosmerno",label:sl,GCI
+OFT:POO27,"paraleller Besenstrich",label:de,GCI
+OFT:POO28,"metličenje križno",label:sl,GCI
+OFT:POO28,"gekreuzter Besenstrich",label:de,GCI
+OFT:POO29,"gubanje",label:sl,GCI
+OFT:POO29,"Falten",label:de,GCI
+OFT:POO30,"pas",label:sl,GCI
+OFT:POO30,"Band",label:de,GCI
+OFT:POO31,"svetleča površina",label:sl,GCI
+OFT:POO31,"glänzenale Oberfläche",label:de,GCI
+OFT:POP,"pustilo",label:sl,GCI
+OFT:POP,"Magerung",label:de,GCI
+OFT:POP01,"organsko pustilo",label:sl,GCI
+OFT:POP01,"organische Magerung",label:de,GCI
+OFT:POP02,"brez pustila",label:sl,GCI
+OFT:POP02,"ohne Magerung",label:de,GCI
+OFT:POP03,"kremen (pustilo)",label:sl,GCI
+OFT:POP03,"Quarzstein (Magerung)",label:de,GCI
+OFT:POP04,"apnenec (pustilo)",label:sl,GCI
+OFT:POP04,"Kalkstein (Magerung)",label:de,GCI
+OFT:POP05,"srebrna sljuda (pustilo)",label:sl,GCI
+OFT:POP05,"Silberglimmer (Magerung)",label:de,GCI
+OFT:POP06,"zlata sljuda (pustilo)",label:sl,GCI
+OFT:POP06,"Goldglimmer (Magerung)",label:de,GCI
+OFT:POP07,"grafit (pustilo)",label:sl,GCI
+OFT:POP07,"Graphit (Magerung)",label:de,GCI
+OFT:POP08,"enakomerna velikost pustila",label:sl,GCI
+OFT:POP08,"Magerung gleicher Korngrösse",label:de,GCI
+OFT:POP09,"neenakomerna velikost pustila",label:sl,GCI
+OFT:POP09,"Magerung unterschiedlicher Korngrösse",label:de,GCI
+OFT:POP10,"majhna vsebnost pustila",label:sl,GCI
+OFT:POP10,"geringe Magerung",label:de,GCI
+OFT:POP11,"srednja vsebnost pustila",label:sl,GCI
+OFT:POP11,"mäßig gemagert",label:de,GCI
+OFT:POP12,"velika vsebnost pustila",label:sl,GCI
+OFT:POP12,"stark gemagert",label:de,GCI
+OFT:POP13,"drugo pustilo",label:sl,GCI
+OFT:POP13,"andere Magerung",label:de,GCI
+OFT:POP14,"opeka (pustilo)",label:sl,GCI
+OFT:POP14,"Ziegel (Magerung)",label:de,GCI
+OFT:POS,"prismojeni ostanki",label:sl,GCI
+OFT:POS,"anhaftende Ablagerung",label:de,GCI
+OFT:POSOH,"prismojeni ostanki",label:sl,GCI
+OFT:POSOH,"angelegte Ablagerung",label:de,GCI
+OFT:POV,"vrsta",label:sl,GCI
+OFT:POV,"Gefäßart",label:de,GCI
+OFT:POV01,"pekač, pladenj",label:sl,GCI
+OFT:POV01,"Teller und Platten",label:de,GCI
+OFT:POV02,"skleda, skodela",label:sl,GCI
+OFT:POV02,"Schüssel und Schallen",label:de,GCI
+OFT:POV03,"posodica, čaša",label:sl,GCI
+OFT:POV03,"Töpfchen und Becher",label:de,GCI
+OFT:POV04,"lonec",label:sl,GCI
+OFT:POV04,"Topf",label:de,GCI
+OFT:POV05,"vrč, steklenica",label:sl,GCI
+OFT:POV05,"Kannen und Flaschen",label:de,GCI
+OFT:POV06,"pražnica",label:sl,GCI
+OFT:POV06,"Backglocke",label:de,GCI
+OFT:POV07,"pokrov",label:sl,GCI
+OFT:POV07,"Deckel",label:de,GCI
+OFT:POV08,"pečnica",label:sl,GCI
+OFT:POV08,"Ofenkachel",label:de,GCI
+OFT:POV09,"vedro, kotel",label:sl,GCI
+OFT:POV09,"Eimer und Kessel",label:de,GCI
+OFT:POV10,"pekva",label:sl,GCI
+OFT:POV10,"Backhaube",label:de,GCI
+OFT:POU,"tip ustja",label:sl,GCI
+OFT:POU,"Randform",label:de,GCI
+OFT:PO0A0,"PO0A0",label:sl,GCI
+OFT:PO0A0,"PO0A0",label:de,GCI
+OFT:PO0A1,"PO0A1",label:sl,GCI
+OFT:PO0A1,"PO0A1",label:de,GCI
+OFT:PO0A2,"PO0A2",label:sl,GCI
+OFT:PO0A2,"PO0A2",label:de,GCI
+OFT:PO0A3,"PO0A3",label:sl,GCI
+OFT:PO0A3,"PO0A3",label:de,GCI
+OFT:PO0A4,"PO0A4",label:sl,GCI
+OFT:PO0A4,"PO0A4",label:de,GCI
+OFT:PO0A5,"PO0A5",label:sl,GCI
+OFT:PO0A5,"PO0A5",label:de,GCI
+OFT:PO0A6,"PO0A6",label:sl,GCI
+OFT:PO0A6,"PO0A6",label:de,GCI
+OFT:PO0A7,"PO0A7",label:sl,GCI
+OFT:PO0A7,"PO0A7",label:de,GCI
+OFT:PO0A8,"PO0A8",label:sl,GCI
+OFT:PO0A8,"PO0A8",label:de,GCI
+OFT:PO0A9,"PO0A9",label:sl,GCI
+OFT:PO0A9,"PO0A9",label:de,GCI
+OFT:PO0B0,"PO0B0",label:sl,GCI
+OFT:PO0B0,"PO0B0",label:de,GCI
+OFT:PO0B1,"PO0B1",label:sl,GCI
+OFT:PO0B1,"PO0B1",label:de,GCI
+OFT:PO0B2,"PO0B2",label:sl,GCI
+OFT:PO0B2,"PO0B2",label:de,GCI
+OFT:PO0B3,"PO0B3",label:sl,GCI
+OFT:PO0B3,"PO0B3",label:de,GCI
+OFT:PO0B4,"PO0B4",label:sl,GCI
+OFT:PO0B4,"PO0B4",label:de,GCI
+OFT:PO0B5,"PO0B5",label:sl,GCI
+OFT:PO0B5,"PO0B5",label:de,GCI
+OFT:PO0B6,"PO0B6",label:sl,GCI
+OFT:PO0B6,"PO0B6",label:de,GCI
+OFT:PO0B7,"PO0B7",label:sl,GCI
+OFT:PO0B7,"PO0B7",label:de,GCI
+OFT:PO0B8,"PO0B8",label:sl,GCI
+OFT:PO0B8,"PO0B8",label:de,GCI
+OFT:PO0B9,"PO0B9",label:sl,GCI
+OFT:PO0B9,"PO0B9",label:de,GCI
+OFT:PO0C0,"PO0C0",label:sl,GCI
+OFT:PO0C0,"PO0C0",label:de,GCI
+OFT:PO0C1,"PO0C1",label:sl,GCI
+OFT:PO0C1,"PO0C1",label:de,GCI
+OFT:PO0C2,"PO0C2",label:sl,GCI
+OFT:PO0C2,"PO0C2",label:de,GCI
+OFT:PO0C3,"PO0C3",label:sl,GCI
+OFT:PO0C3,"PO0C3",label:de,GCI
+OFT:PO0C4,"PO0C4",label:sl,GCI
+OFT:PO0C4,"PO0C4",label:de,GCI
+OFT:PO0C5,"PO0C5",label:sl,GCI
+OFT:PO0C5,"PO0C5",label:de,GCI
+OFT:PO0C6,"PO0C6",label:sl,GCI
+OFT:PO0C6,"PO0C6",label:de,GCI
+OFT:PO0C7,"PO0C7",label:sl,GCI
+OFT:PO0C7,"PO0C7",label:de,GCI
+OFT:PO0C8,"PO0C8",label:sl,GCI
+OFT:PO0C8,"PO0C8",label:de,GCI
+OFT:PO0C9,"PO0C9",label:sl,GCI
+OFT:PO0C9,"PO0C9",label:de,GCI
+OFT:PO0D0,"PO0D0",label:sl,GCI
+OFT:PO0D0,"PO0D0",label:de,GCI
+OFT:PO0D1,"PO0D1",label:sl,GCI
+OFT:PO0D1,"PO0D1",label:de,GCI
+OFT:PO0D2,"PO0D2",label:sl,GCI
+OFT:PO0D2,"PO0D2",label:de,GCI
+OFT:PO0D3,"PO0D3",label:sl,GCI
+OFT:PO0D3,"PO0D3",label:de,GCI
+OFT:PO0D4,"PO0D4",label:sl,GCI
+OFT:PO0D4,"PO0D4",label:de,GCI
+OFT:PO0D5,"PO0D5",label:sl,GCI
+OFT:PO0D5,"PO0D5",label:de,GCI
+OFT:PO0D6,"PO0D6",label:sl,GCI
+OFT:PO0D6,"PO0D6",label:de,GCI
+OFT:PO0D7,"PO0D7",label:sl,GCI
+OFT:PO0D7,"PO0D7",label:de,GCI
+OFT:PO0D8,"PO0D8",label:sl,GCI
+OFT:PO0D8,"PO0D8",label:de,GCI
+OFT:PO0D9,"PO0D9",label:sl,GCI
+OFT:PO0D9,"PO0D9",label:de,GCI
+OFT:PO0E0,"PO0E0",label:sl,GCI
+OFT:PO0E0,"PO0E0",label:de,GCI
+OFT:PO0E1,"PO0E1",label:sl,GCI
+OFT:PO0E1,"PO0E1",label:de,GCI
+OFT:PO0E2,"PO0E2",label:sl,GCI
+OFT:PO0E2,"PO0E2",label:de,GCI
+OFT:PO0E3,"PO0E3",label:sl,GCI
+OFT:PO0E3,"PO0E3",label:de,GCI
+OFT:PO0E4,"PO0E4",label:sl,GCI
+OFT:PO0E4,"PO0E4",label:de,GCI
+OFT:PO0E5,"PO0E5",label:sl,GCI
+OFT:PO0E5,"PO0E5",label:de,GCI
+OFT:PO0E6,"PO0E6",label:sl,GCI
+OFT:PO0E6,"PO0E6",label:de,GCI
+OFT:PO0E7,"PO0E7",label:sl,GCI
+OFT:PO0E7,"PO0E7",label:de,GCI
+OFT:PO0E8,"PO0E8",label:sl,GCI
+OFT:PO0E8,"PO0E8",label:de,GCI
+OFT:PO0E9,"PO0E9",label:sl,GCI
+OFT:PO0E9,"PO0E9",label:de,GCI
+OFT:PO0F1,"PO0F1",label:sl,GCI
+OFT:PO0F1,"PO0F1",label:de,GCI
+OFT:PO0F2,"PO0F2",label:sl,GCI
+OFT:PO0F2,"PO0F2",label:de,GCI
+OFT:PO0F3,"PO0F3",label:sl,GCI
+OFT:PO0F3,"PO0F3",label:de,GCI
+OFT:PO0F4,"PO0F4",label:sl,GCI
+OFT:PO0F4,"PO0F4",label:de,GCI
+OFT:PO0F5,"PO0F5",label:sl,GCI
+OFT:PO0F5,"PO0F5",label:de,GCI
+OFT:PO0F6,"PO0F6",label:sl,GCI
+OFT:PO0F6,"PO0F6",label:de,GCI
+OFT:PO0F7,"PO0F7",label:sl,GCI
+OFT:PO0F7,"PO0F7",label:de,GCI
+OFT:PO1A1,"PO1A1",label:sl,GCI
+OFT:PO1A1,"PO1A1",label:de,GCI
+OFT:PO1B1,"PO1B1",label:sl,GCI
+OFT:PO1B1,"PO1B1",label:de,GCI
+OFT:PO1C1,"PO1C1",label:sl,GCI
+OFT:PO1C1,"PO1C1",label:de,GCI
+OFT:PO1D1,"PO1D1",label:sl,GCI
+OFT:PO1D1,"PO1D1",label:de,GCI
+OFT:PO1E1,"PO1E1",label:sl,GCI
+OFT:PO1E1,"PO1E1",label:de,GCI
+OFT:PO1F1,"PO1F1",label:sl,GCI
+OFT:PO1F1,"PO1F1",label:de,GCI
+OFT:PO2A1,"PO2A1",label:sl,GCI
+OFT:PO2A1,"PO2A1",label:de,GCI
+OFT:PO2A2,"PO2A2",label:sl,GCI
+OFT:PO2A2,"PO2A2",label:de,GCI
+OFT:PO2A3,"PO2A3",label:sl,GCI
+OFT:PO2A3,"PO2A3",label:de,GCI
+OFT:PO2A4,"PO2A4",label:sl,GCI
+OFT:PO2A4,"PO2A4",label:de,GCI
+OFT:PO2A5,"PO2A5",label:sl,GCI
+OFT:PO2A5,"PO2A5",label:de,GCI
+OFT:PO2A6,"PO2A6",label:sl,GCI
+OFT:PO2A6,"PO2A6",label:de,GCI
+OFT:PO2A7,"PO2A7",label:sl,GCI
+OFT:PO2A7,"PO2A7",label:de,GCI
+OFT:PO2A8,"PO2A8",label:sl,GCI
+OFT:PO2A8,"PO2A8",label:de,GCI
+OFT:PO2A9,"PO2A9",label:sl,GCI
+OFT:PO2A9,"PO2A9",label:de,GCI
+OFT:PO2B1,"PO2B1",label:sl,GCI
+OFT:PO2B1,"PO2B1",label:de,GCI
+OFT:PO2B2,"PO2B2",label:sl,GCI
+OFT:PO2B2,"PO2B2",label:de,GCI
+OFT:PO2B3,"PO2B3",label:sl,GCI
+OFT:PO2B3,"PO2B3",label:de,GCI
+OFT:PO2B4,"PO2B4",label:sl,GCI
+OFT:PO2B4,"PO2B4",label:de,GCI
+OFT:PO2B5,"PO2B5",label:sl,GCI
+OFT:PO2B5,"PO2B5",label:de,GCI
+OFT:PO2B6,"PO2B6",label:sl,GCI
+OFT:PO2B6,"PO2B6",label:de,GCI
+OFT:PO2B7,"PO2B7",label:sl,GCI
+OFT:PO2B7,"PO2B7",label:de,GCI
+OFT:PO2B8,"PO2B8",label:sl,GCI
+OFT:PO2B8,"PO2B8",label:de,GCI
+OFT:PO2B9,"PO2B9",label:sl,GCI
+OFT:PO2B9,"PO2B9",label:de,GCI
+OFT:PO2C1,"PO2C1",label:sl,GCI
+OFT:PO2C1,"PO2C1",label:de,GCI
+OFT:PO2C2,"PO2C2",label:sl,GCI
+OFT:PO2C2,"PO2C2",label:de,GCI
+OFT:PO2C3,"PO2C3",label:sl,GCI
+OFT:PO2C3,"PO2C3",label:de,GCI
+OFT:PO2C4,"PO2C4",label:sl,GCI
+OFT:PO2C4,"PO2C4",label:de,GCI
+OFT:PO2C5,"PO2C5",label:sl,GCI
+OFT:PO2C5,"PO2C5",label:de,GCI
+OFT:PO2C6,"PO2C6",label:sl,GCI
+OFT:PO2C6,"PO2C6",label:de,GCI
+OFT:PO2C7,"PO2C7",label:sl,GCI
+OFT:PO2C7,"PO2C7",label:de,GCI
+OFT:PO2C8,"PO2C8",label:sl,GCI
+OFT:PO2C8,"PO2C8",label:de,GCI
+OFT:PO2C9,"PO2C9",label:sl,GCI
+OFT:PO2C9,"PO2C9",label:de,GCI
+OFT:PO2D1,"PO2D1",label:sl,GCI
+OFT:PO2D1,"PO2D1",label:de,GCI
+OFT:PO2D2,"PO2D2",label:sl,GCI
+OFT:PO2D2,"PO2D2",label:de,GCI
+OFT:PO2D3,"PO2D3",label:sl,GCI
+OFT:PO2D3,"PO2D3",label:de,GCI
+OFT:PO2D4,"PO2D4",label:sl,GCI
+OFT:PO2D4,"PO2D4",label:de,GCI
+OFT:PO2D5,"PO2D5",label:sl,GCI
+OFT:PO2D5,"PO2D5",label:de,GCI
+OFT:PO2D6,"PO2D6",label:sl,GCI
+OFT:PO2D6,"PO2D6",label:de,GCI
+OFT:PO2D7,"PO2D7",label:sl,GCI
+OFT:PO2D7,"PO2D7",label:de,GCI
+OFT:PO2E1,"PO2E1",label:sl,GCI
+OFT:PO2E1,"PO2E1",label:de,GCI
+OFT:PO2F1,"PO2F1",label:sl,GCI
+OFT:PO2F1,"PO2F1",label:de,GCI
+OFT:PO3A1,"PO3A1",label:sl,GCI
+OFT:PO3A1,"PO3A1",label:de,GCI
+OFT:PO3B1,"PO3B1",label:sl,GCI
+OFT:PO3B1,"PO3B1",label:de,GCI
+OFT:PO3C1,"PO3C1",label:sl,GCI
+OFT:PO3C1,"PO3C1",label:de,GCI
+OFT:PO3D1,"PO3D1",label:sl,GCI
+OFT:PO3D1,"PO3D1",label:de,GCI
+OFT:PO3E1,"PO3E1",label:sl,GCI
+OFT:PO3E1,"PO3E1",label:de,GCI
+OFT:PO3F1,"PO3F1",label:sl,GCI
+OFT:PO3F1,"PO3F1",label:de,GCI
+OFT:PO4A1,"PO4A1",label:sl,GCI
+OFT:PO4A1,"PO4A1",label:de,GCI
+OFT:PO4B1,"PO4B1",label:sl,GCI
+OFT:PO4B1,"PO4B1",label:de,GCI
+OFT:PO4C1,"PO4C1",label:sl,GCI
+OFT:PO4C1,"PO4C1",label:de,GCI
+OFT:PO4D1,"PO4D1",label:sl,GCI
+OFT:PO4D1,"PO4D1",label:de,GCI
+OFT:PO4E1,"PO4E1",label:sl,GCI
+OFT:PO4E1,"PO4E1",label:de,GCI
+OFT:PO4F1,"PO4F1",label:sl,GCI
+OFT:PO4F1,"PO4F1",label:de,GCI
+OFT:PO5A1,"PO5A1",label:sl,GCI
+OFT:PO5A1,"PO5A1",label:de,GCI
+OFT:PO5B1,"PO5B1",label:sl,GCI
+OFT:PO5B1,"PO5B1",label:de,GCI
+OFT:PO5C1,"PO5C1",label:sl,GCI
+OFT:PO5C1,"PO5C1",label:de,GCI
+OFT:PO5D1,"PO5D1",label:sl,GCI
+OFT:PO5D1,"PO5D1",label:de,GCI
+OFT:PO5E1,"PO5E1",label:sl,GCI
+OFT:PO5E1,"PO5E1",label:de,GCI
+OFT:PO5F1,"PO5F1",label:sl,GCI
+OFT:PO5F1,"PO5F1",label:de,GCI
+OFT:PO5G1,"PO5G1",label:sl,GCI
+OFT:PO5G1,"PO5G1",label:de,GCI
+OFT:PO6A1,"PO6A1",label:sl,GCI
+OFT:PO6A1,"PO6A1",label:de,GCI
+OFT:PO6B1,"PO6B1",label:sl,GCI
+OFT:PO6B1,"PO6B1",label:de,GCI
+OFT:PO6C1,"PO6C1",label:sl,GCI
+OFT:PO6C1,"PO6C1",label:de,GCI
+OFT:PO6D1,"PO6D1",label:sl,GCI
+OFT:PO6D1,"PO6D1",label:de,GCI
+OFT:PO6E1,"PO6E1",label:sl,GCI
+OFT:PO6E1,"PO6E1",label:de,GCI
+OFT:PO6F1,"PO6F1",label:sl,GCI
+OFT:PO6F1,"PO6F1",label:de,GCI
+OFT:PO6G1,"PO6G1",label:sl,GCI
+OFT:PO6G1,"PO6G1",label:de,GCI
+OFT:PO7A1,"PO7A1",label:sl,GCI
+OFT:PO7A1,"PO7A1",label:de,GCI
+OFT:PO7B1,"PO7B1",label:sl,GCI
+OFT:PO7B1,"PO7B1",label:de,GCI
+OFT:PO7C1,"PO7C1",label:sl,GCI
+OFT:PO7C1,"PO7C1",label:de,GCI
+OFT:PO7D1,"PO7D1",label:sl,GCI
+OFT:PO7D1,"PO7D1",label:de,GCI
+OFT:PO7E1,"PO7E1",label:sl,GCI
+OFT:PO7E1,"PO7E1",label:de,GCI
+OFT:PO7F1,"PO7F1",label:sl,GCI
+OFT:PO7F1,"PO7F1",label:de,GCI
+OFT:PO8A1,"PO8A1",label:sl,GCI
+OFT:PO8A1,"PO8A1",label:de,GCI
+OFT:PO8B1,"PO8B1",label:sl,GCI
+OFT:PO8B1,"PO8B1",label:de,GCI
+OFT:PO9A1,"PO9A1",label:sl,GCI
+OFT:PO9A1,"PO9A1",label:de,GCI
+OFT:PO9B1,"PO9B1",label:sl,GCI
+OFT:PO9B1,"PO9B1",label:de,GCI
+OFT:PO9C1,"PO9C1",label:sl,GCI
+OFT:PO9C1,"PO9C1",label:de,GCI
+OFT:PO9D1,"PO9D1",label:sl,GCI
+OFT:PO9D1,"PO9D1",label:de,GCI
+OFT:POTNT,"nedoločljiv tip ustja posode",label:sl,GCI
+OFT:POTNT,"unbestimmbare Randform",label:de,GCI
+OFT:POTXTU,"drug tip ustja posode",label:sl,GCI
+OFT:POTXTU,"andere Randform",label:de,GCI
+OFT:NO,"naglavni obroček",label:sl,GCI
+OFT:NO,"Kopfschmuckring",label:de,GCI
+OFT:NO0100_0201,"zanka in kaveljček",label:sl,GCI
+OFT:NO0100_0201,"aken und Öse",label:de,GCI
+OFT:NO0100_0501,"kovana S zanka",label:sl,GCI
+OFT:NO0100_0501,"geschmiedete S-Schlaufe",label:de,GCI
+OFT:NO0100_0606,"ravna konca",label:sl,GCI
+OFT:NO0100_0606,"stumpfe Enden",label:de,GCI
+OFT:NO0100_0608,"enojna odebelitev enostransko",label:sl,GCI
+OFT:NO0100_0608,"ein Knöpfchen an einem Ende",label:de,GCI
+OFT:NO0100_0709,"več odebelitev enostransko",label:sl,GCI
+OFT:NO0100_0709,"mehrere Knöpfchen an einem Ende",label:de,GCI
+OFT:NO0100_0808,"enojna odebelitev dvostransko",label:sl,GCI
+OFT:NO0100_0808,"ein Knöpfchen an beiden Enden",label:de,GCI
+OFT:NO0100_0909,"več odebelitev obojestransko",label:sl,GCI
+OFT:NO0100_0909,"mehrere Knöpfchen an beiden Enden",label:de,GCI
+OFT:NO0205_0201,"zanke na locnu",label:sl,GCI
+OFT:NO0205_0201,"Ringkörper mit Schlaufen",label:de,GCI
+OFT:NO0300_0201,"dolga zanka na locnu",label:sl,GCI
+OFT:NO0300_0201,"Ringkörper mit Langschlaufe",label:de,GCI
+OFT:NO0500_0610,"kovan polmesec",label:sl,GCI
+OFT:NO0500_0610,"Mondsichel geschmiedet",label:de,GCI
+OFT:NO0600_0610,"vlit polmesec",label:sl,GCI
+OFT:NO0600_0610,"Mondsichel gegossen",label:de,GCI
+OFT:NO0700_0810,"astragalne odebelitve",label:sl,GCI
+OFT:NO0700_0810,"mehrfach profilierter Ringkörper",label:de,GCI
+OFT:UH000,"druga oblika uhana ali obsenčnika",label:sl,GCI
+OFT:UH000,"Kopfschmuckring anderer Form",label:de,GCI
+OFT:UH001,"UHO01",label:sl,GCI
+OFT:UH001,"UHO01",label:de,GCI
+OFT:UH002,"UHO02",label:sl,GCI
+OFT:UH002,"UHO02",label:de,GCI
+OFT:UH003,"UH003",label:sl,GCI
+OFT:UH003,"UH003",label:de,GCI
+OFT:UH006,"UHO06",label:sl,GCI
+OFT:UH006,"UHO06",label:de,GCI
+OFT:UH007,"UHO07",label:sl,GCI
+OFT:UH007,"UHO07",label:de,GCI
+OFT:UH008,"UH008",label:sl,GCI
+OFT:UH008,"UH008",label:de,GCI
+OFT:UH010,"UHO10",label:sl,GCI
+OFT:UH010,"UHO10",label:de,GCI
+OFT:UH013,"UHO13",label:sl,GCI
+OFT:UH013,"UHO13",label:de,GCI
+OFT:UH015,"UH015",label:sl,GCI
+OFT:UH015,"UH015",label:de,GCI
+OFT:UH020,"UHO20",label:sl,GCI
+OFT:UH020,"UHO20",label:de,GCI
+OFT:UH034,"UHO34",label:sl,GCI
+OFT:UH034,"UHO34",label:de,GCI
+OFT:UH035,"UHO35",label:sl,GCI
+OFT:UH035,"UHO35",label:de,GCI
+OFT:ZA,"zaponka",label:sl,GCI
+OFT:ZA,"Fibel",label:de,GCI
+OFT:ZA001,"druga oblika zaponke",label:sl,GCI
+OFT:ZA001,"Fibel anderer Form",label:de,GCI
+OFT:ZA002,"ZA002",label:sl,GCI
+OFT:ZA002,"ZA002",label:de,GCI
+OFT:ZA003,"ZA003",label:sl,GCI
+OFT:ZA003,"ZA003",label:de,GCI
+OFT:ZA004,"ZA004",label:sl,GCI
+OFT:ZA004,"ZA004",label:de,GCI

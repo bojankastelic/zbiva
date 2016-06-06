@@ -1,0 +1,9 @@
+conceptid,Value,ValueType,Provider
+CNT:1,Avstrija,label:sl,GCI
+CNT:1,Oesterreich,label:de,GCI
+CNT:2,Hrvaška,label:sl,GCI
+CNT:2,Croatien,label:de,GCI
+CNT:3,Italija,label:sl,GCI
+CNT:3,Italien,label:de,GCI
+CNT:4,Slovenija,label:sl,GCI
+CNT:4,Slowenien,label:de,GCI

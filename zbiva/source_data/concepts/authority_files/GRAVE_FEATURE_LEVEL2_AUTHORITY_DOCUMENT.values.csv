@@ -1,0 +1,11 @@
+conceptid,Value,ValueType,Provider
+GF2:1,"odnos groba",label:sl,GCI
+GF2:1,"stratigraphisches Verhältnis (Grab)",label:de,GCI
+GF2:2,"gradba groba",label:sl,GCI
+GF2:2,"Grabeinbauten",label:de,GCI
+GF2:3,"grobna vsebina",label:sl,GCI
+GF2:3,"Bestattungsart",label:de,GCI
+GF2:4,"zasutje",label:sl,GCI
+GF2:4,"Einfüllung",label:de,GCI
+GF2:5,"znaki groba",label:sl,GCI
+GF2:5,"Grabmarkierung",label:de,GCI

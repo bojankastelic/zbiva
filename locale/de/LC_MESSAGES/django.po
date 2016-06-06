@@ -623,7 +623,7 @@ msgstr "Material"
 
 #: zbiva/templates/views/reports/sections/SITE_FEATURE.E55.htm:6
 msgid "Site features"
-msgstr ""
+msgstr "Eigenschaften"
 
 #: zbiva/templates/views/reports/sections/GRAVE_CODE.E42.htm:8
 msgid "Grave code"

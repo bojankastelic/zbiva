@@ -16,4 +16,4 @@ You can install this app just like any other arches app; it is a modified versio
 
 Now continue with the installation instructions, substituting `zbiva` for `my_hip_app` wherever the latter occurs, because "zbiva" is now the name of your app.
 
-Questions, feedback: zbiva@zrc-sazu.si
+Questions, feedback: bojan.kastelic.d64@gmail.com, zbiva@zrc-sazu.si

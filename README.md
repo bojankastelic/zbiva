@@ -12,7 +12,7 @@ The test version provides site data with the literature concerning each site (ac
 
 You can install this app just like any other arches app; it is a modified version of the HIP app used for historicplacesla.org.  Begin by following the normal Arches HIP installation [instructions](http://arches-hip.readthedocs.org/en/latest/getting-started/#installating-arches-hip).  At step #5, where you must create a new app, clone this repository instead, using the following command (you may need to install git first):
 
-        git clone https://github.com/Zbiva/Zbiva.git
+        git clone https://github.com/bojankastelic/zbiva.git
 
 Now continue with the installation instructions, substituting `zbiva` for `my_hip_app` wherever the latter occurs, because "zbiva" is now the name of your app.
 

@@ -4,7 +4,7 @@ Zbiva is an archaeological database for eastern Alps and its surrounding regions
 It consists of three large parts (which together form a concise unit):
 - Sites database
 - Graves database
-- Objects (goods) database
+- Artefacts (goods) database
 
 The test version provides site data with the literature concerning each site (accessible by click in the field "Literature"), based on Libera, a database for literature on early Middle Ages.
 
